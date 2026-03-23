@@ -51,7 +51,7 @@ for e in events:
 events_text = '\n'.join(event_list) if event_list else 'No events today'
 
 # --- Google Sheets: Justin's Tasks ---
-SPREADSHEET_ID = '1bsSVsruXVZE4zhWDFgXIHJqL5EKhPLw0'
+SPREADSHEET_ID = '1DNwTNuNhs79onm1Ds7TXddEPbkObw23hLXkYQiKUoNA'
 TARGET_GID = 913147250
 
 sheets_service = build('sheets', 'v4', credentials=creds)
