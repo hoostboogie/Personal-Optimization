@@ -1,8 +1,18 @@
 {
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "The first era of corporate sustainability is collapsing under its own contradictions.",
+      "author": "IMD Business School",
+      "date": "2026-05-18"
+    }
+  ],
   "jokes": [
     {
       "text": "I told my wife she was drawing her eyebrows too high. She looked surprised.\n\n---\n\nMonday, 18 May 2026",
+      "date": "2026-05-18"
+    },
+    {
+      "text": "I'm reading a book about anti-gravity. It's impossible to put down.\n\n---\n\nMonday, 18 May 2026",
       "date": "2026-05-18"
     }
   ],
@@ -10,9 +20,39 @@
     {
       "text": "The shortest war in recorded history lasted 38 to 45 minutes. It was fought between Britain and Zanzibar on 27 August 1896, ending when the Sultanate surrendered after the Royal Navy shelled the palac",
       "date": "2026-05-18"
+    },
+    {
+      "text": "Octopuses have three hearts: two pump blood to the gills, while a third pumps it to the rest of the body. When they swim, the heart that delivers blood to the body stops beating \u2014 which is why octopus",
+      "date": "2026-05-18"
     }
   ],
-  "envNews": [],
-  "newConcepts": [],
-  "keepInMindHistory": []
+  "envNews": [
+    {
+      "summary": "Jannik Sinner became the first Italian man to win the Rome tennis tournament in 50 years, completing a Career Golden Masters \u2014 and notably, Rome's Foro Italico has been powered by 100% renewable energ",
+      "date": "2026-05-18"
+    }
+  ],
+  "newConcepts": [
+    {
+      "term": "Double Materiality Assessment (DMA)",
+      "date": "2026-05-18"
+    }
+  ],
+  "keepInMindHistory": [
+    {
+      "item": "**Yankees rotation concerns** \u2014 Max Fried is out with a bone bruise in his left elbow, and Gerrit Cole hit 99.6 mph in his rehab start \u2014 could return soon.",
+      "daysShown": 1,
+      "lastChanged": "2026-05-18"
+    },
+    {
+      "item": "**Arsenal's title race is heating up** \u2014 they ground out a 1-0 win at West Ham. Every point matters now with the season winding down.",
+      "daysShown": 1,
+      "lastChanged": "2026-05-18"
+    },
+    {
+      "item": "**Tonight's Conduit event** aligns well with your sustainability focus. Good networking opportunity and content relevant to physical climate risk conversations.",
+      "daysShown": 1,
+      "lastChanged": "2026-05-18"
+    }
+  ]
 }
