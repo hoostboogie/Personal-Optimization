@@ -2,7 +2,8 @@ name: Daily Digest
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '45 4 * * *'  # 5:45am BST (summer, UTC+1)
+    - cron: '45 5 * * *'  # 5:45am GMT (winter, UTC+0)
   workflow_dispatch:
 
 permissions:
@@ -12,17 +13,28 @@ jobs:
   send_digest:
     runs-on: ubuntu-latest
     steps:
+      - name: Check London time
+        id: time_check
+        run: |
+          LONDON_HOUR=$(TZ="Europe/London" date +%H)
+          echo "london_hour=$LONDON_HOUR" >> $GITHUB_OUTPUT
+          echo "London time: $(TZ='Europe/London' date +'%H:%M %Z')"
+
       - uses: actions/checkout@v4
+        if: steps.time_check.outputs.london_hour == '05'
 
       - name: Set up Python
+        if: steps.time_check.outputs.london_hour == '05'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
+        if: steps.time_check.outputs.london_hour == '05'
         run: pip install anthropic google-api-python-client google-auth-oauthlib
 
       - name: Run daily digest
+        if: steps.time_check.outputs.london_hour == '05'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_TOKEN: ${{ secrets.GOOGLE_TOKEN }}
