@@ -1,14 +1,20 @@
 import os
+import sys
 import json
 import re
+import base64
 import anthropic
 from datetime import datetime, timedelta
+from email.utils import parsedate_to_datetime
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
-import base64
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+
+# Add scripts/ to path so gmail_aliases imports cleanly in GHA
+sys.path.insert(0, os.path.dirname(__file__))
+import gmail_aliases as ga
 
 # ── Dedup history ─────────────────────────────────────────────────────────────
 HISTORY_FILE = "data/digest_history.json"
@@ -71,26 +77,24 @@ Keep In Mind items to SUPPRESS entirely (shown 5+ consecutive days — omit thes
 # ── Rotating 5th sport topic by season ───────────────────────────────────────
 _month = datetime.now().month
 if _month in (1, 5, 6, 7, 8, 9):
-    # Jan = Australian Open; May-Jun = French Open; Jul = Wimbledon; Aug-Sep = US Open
     sport5_query = "tennis latest news today"
     sport5_label = "tennis"
 elif _month in (4,):
     sport5_query = "NBA playoffs latest news today"
     sport5_label = "NBA playoffs"
 else:
-    # Oct-Mar, Dec: NBA regular season
     sport5_query = "NBA latest news today"
     sport5_label = "NBA"
 
 # ── Weekday concept theme ─────────────────────────────────────────────────────
 CONCEPT_THEMES = {
-    0: "sustainability methodology",   # Monday
-    1: "AI or machine learning",       # Tuesday
-    2: "media or adtech",              # Wednesday
-    3: "finance or M&A",              # Thursday
-    4: "philosophy or systems thinking", # Friday
-    5: "climate science",              # Saturday
-    6: "environmental policy",         # Sunday
+    0: "sustainability methodology",
+    1: "AI or machine learning",
+    2: "media or adtech",
+    3: "finance or M&A",
+    4: "philosophy or systems thinking",
+    5: "climate science",
+    6: "environmental policy",
 }
 concept_theme = CONCEPT_THEMES[datetime.now().weekday()]
 
@@ -134,6 +138,200 @@ for e in events_result.get("items", []):
 
 events_text = "\n".join(event_list) if event_list else "No events today"
 
+# ── Gmail helpers ─────────────────────────────────────────────────────────────
+gmail_service = build("gmail", "v1", credentials=creds)
+
+def _days_since(date_str: str) -> int:
+    try:
+        dt = parsedate_to_datetime(date_str)
+        return max(0, (datetime.now(dt.tzinfo) - dt).days)
+    except Exception:
+        return 0
+
+def _extract_first_url(msg: dict) -> str:
+    """Recursively walk MIME parts to find the first non-tracking URL."""
+    skip_patterns = ('unsubscribe', 'track', 'pixel', 'open.php', 'click.',
+                     'mailchimp', 'sendgrid', 'mandrillapp', 'list-manage')
+
+    def _walk(part):
+        data = part.get('body', {}).get('data', '')
+        if data:
+            try:
+                text = base64.urlsafe_b64decode(data + '==').decode('utf-8', errors='replace')
+                mime = part.get('mimeType', '')
+                if 'html' in mime:
+                    candidates = re.findall(r'href=["\']([^"\']*https?://[^"\']+)["\']', text)
+                else:
+                    candidates = re.findall(r'https?://\S+', text)
+                for url in candidates:
+                    url = url.rstrip('.,;)')
+                    if not any(s in url.lower() for s in skip_patterns):
+                        return url
+            except Exception:
+                pass
+        for subpart in part.get('parts', []):
+            result = _walk(subpart)
+            if result:
+                return result
+        return ''
+
+    return _walk(msg.get('payload', {}))
+
+def _headers(msg: dict) -> dict:
+    return {h['name']: h['value'] for h in msg.get('payload', {}).get('headers', [])}
+
+def _thread_url(thread_id: str, folder: str = 'inbox') -> str:
+    return f"https://mail.google.com/mail/u/0/#{folder}/{thread_id}"
+
+# ── Newsletter Recap (3a) ─────────────────────────────────────────────────────
+def get_newsletters() -> tuple[list[dict], list[str]]:
+    """
+    Fetch newsletters from Newsletters/* sub-labels received in last 24h.
+    Returns (newsletter_list, message_ids_to_mark_read).
+    """
+    results = gmail_service.users().messages().list(
+        userId='me',
+        q='label:Newsletters newer_than:1d',
+        maxResults=20,
+    ).execute()
+
+    newsletters = []
+    msg_ids = []
+    for ref in results.get('messages', []):
+        msg = gmail_service.users().messages().get(
+            userId='me', id=ref['id'], format='full',
+        ).execute()
+        h = _headers(msg)
+        subject = h.get('Subject', '(no subject)')
+        sender  = h.get('From', '')
+        name, _ = ga.parse_from_header(sender)
+        url     = _extract_first_url(msg)
+        snippet = msg.get('snippet', '')[:150]
+        newsletters.append({
+            'subject': subject,
+            'sender':  name,
+            'snippet': snippet,
+            'url':     url,
+        })
+        msg_ids.append(ref['id'])
+    return newsletters, msg_ids
+
+# ── Emails to Respond To (3b) ─────────────────────────────────────────────────
+def get_unanswered_threads() -> list[dict]:
+    """
+    Threads in inbox where the last message is NOT from Justin.
+    Filtered, scored, sorted — returns up to 10 candidates for Claude to trim to 5.
+    """
+    results = gmail_service.users().threads().list(
+        userId='me',
+        q='in:inbox -from:me -category:promotions newer_than:14d',
+        maxResults=30,
+    ).execute()
+
+    threads = []
+    for ref in results.get('threads', []):
+        thread = gmail_service.users().threads().get(
+            userId='me', id=ref['id'], format='metadata',
+            metadataHeaders=['Subject', 'From', 'To', 'Date'],
+        ).execute()
+        messages = thread.get('messages', [])
+        if not messages:
+            continue
+        # Only surface if last message is from someone else
+        if ga.last_sender_is_me(messages):
+            continue
+        last_h  = _headers(messages[-1])
+        subject = last_h.get('Subject', '(no subject)')
+        sender  = last_h.get('From', '')
+        name, _ = ga.parse_from_header(sender)
+        days    = _days_since(last_h.get('Date', ''))
+        snippet = messages[-1].get('snippet', '')[:100]
+        score   = ga.score_thread(messages, subject)
+        threads.append({
+            'sender':  name,
+            'subject': subject,
+            'days':    days,
+            'snippet': snippet,
+            'score':   score,
+            'url':     _thread_url(ref['id'], 'inbox'),
+        })
+
+    threads.sort(key=lambda t: (-t['score'], -t['days']))
+    return threads[:10]
+
+# ── Follow-Ups (3c) ───────────────────────────────────────────────────────────
+def get_pending_followups() -> list[dict]:
+    """
+    Sent threads (5-30 days old) where the last message is still from Justin —
+    meaning no reply has come back.
+    """
+    results = gmail_service.users().threads().list(
+        userId='me',
+        q='in:sent older_than:5d newer_than:30d',
+        maxResults=30,
+    ).execute()
+
+    followups = []
+    for ref in results.get('threads', []):
+        thread = gmail_service.users().threads().get(
+            userId='me', id=ref['id'], format='metadata',
+            metadataHeaders=['Subject', 'From', 'To', 'Date'],
+        ).execute()
+        messages = thread.get('messages', [])
+        if not messages:
+            continue
+        # Only surface if last message is still from me (no reply yet)
+        if not ga.last_sender_is_me(messages):
+            continue
+        last_h    = _headers(messages[-1])
+        subject   = last_h.get('Subject', '(no subject)')
+        recipient = last_h.get('To', '')
+        rec_name, _ = ga.parse_from_header(recipient)
+        days   = _days_since(last_h.get('Date', ''))
+        snippet = messages[-1].get('snippet', '')[:100]
+        score   = ga.score_thread(messages, subject)
+        followups.append({
+            'recipient': rec_name,
+            'subject':   subject,
+            'days':      days,
+            'snippet':   snippet,
+            'score':     score,
+            'url':       _thread_url(ref['id'], 'sent'),
+        })
+
+    followups.sort(key=lambda t: (-t['score'], -t['days']))
+    return followups[:10]
+
+# ── Fetch Gmail data ──────────────────────────────────────────────────────────
+newsletters, newsletter_msg_ids = get_newsletters()
+unanswered   = get_unanswered_threads()
+followups    = get_pending_followups()
+
+def _fmt_newsletter(n: dict) -> str:
+    url_part = f" | [link]({n['url']})" if n['url'] else ''
+    return f"  From: {n['sender']} | Subject: {n['subject']}\n  Preview: {n['snippet']}{url_part}"
+
+def _fmt_thread(t: dict) -> str:
+    return (f"  From: {t['sender']} | {t['subject']} | {t['days']}d ago | "
+            f"score={t['score']} | {t['snippet']} | [thread]({t['url']})")
+
+def _fmt_followup(t: dict) -> str:
+    return (f"  To: {t['recipient']} | {t['subject']} | {t['days']}d ago | "
+            f"score={t['score']} | {t['snippet']} | [thread]({t['url']})")
+
+newsletter_block = (
+    "\n\n".join(_fmt_newsletter(n) for n in newsletters)
+    if newsletters else "  (no newsletters received in last 24h)"
+)
+unanswered_block = (
+    "\n".join(_fmt_thread(t) for t in unanswered)
+    if unanswered else "  (no unanswered threads)"
+)
+followups_block = (
+    "\n".join(_fmt_followup(t) for t in followups)
+    if followups else "  (no pending follow-ups)"
+)
+
 # ── Generate digest ───────────────────────────────────────────────────────────
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 today  = datetime.now().strftime("%A, %d %B %Y")
@@ -173,6 +371,29 @@ For each calendar event listed above:
 - Time and title
 - 1-2 lines of useful context: who's likely involved, what the goal probably is, or any relevant background
 
+📬 EMAILS TO RESPOND TO
+
+From the threads below, surface the top 5 most important that need a response. Rank by score (higher = more urgent), then by age (older first). For each:
+- **Sender Name** | Subject (truncated if long) | X days ago | 1-line preview | [Open](url)
+
+Threads data:
+{unanswered_block}
+
+📤 FOLLOW-UPS
+
+From the threads below, surface the top 5 most worth chasing. Rank by score then age. For each:
+- **Recipient Name** | Subject | X days ago | 1-line context | [Open](url)
+
+Threads data:
+{followups_block}
+
+📧 NEWSLETTER RECAP
+
+From the newsletters below, write one bullet per newsletter: sender, subject, key point, and primary link. Then add a "Themes" line at the end if 2+ newsletters share a common topic (e.g. "Theme: AI regulation — covered by X, Y").
+
+Newsletters data:
+{newsletter_block}
+
 🧠 KEEP IN MIND
 
 2-3 reminders for things not on the calendar worth keeping front of mind. Draw from context about Justin's life: Cedara role, Propagation Nation, personal goals, Arsenal season, open financial decisions. Use bullet points. Skip any items listed under "Keep In Mind items to SUPPRESS" above.
@@ -203,19 +424,18 @@ One short, actually funny joke. Dry wit preferred.
 
 message = client.messages.create(
     model="claude-opus-4-5",
-    max_tokens=2500,
+    max_tokens=3000,
     tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
     messages=[{"role": "user", "content": prompt}],
 )
 
-# With tool use, the final answer is always the last text block in content
 digest_content = next(
     (block.text for block in reversed(message.content) if hasattr(block, "text")),
     "",
 )
 
 # ── Extract items from digest for history ─────────────────────────────────────
-_SECTION_RE = r"(?:📰|📅|🧠|🧩|🌍|💡|😄|✨)"
+_SECTION_RE = r"(?:📰|📅|📬|📤|📧|🧠|🧩|🌍|💡|😄|✨)"
 
 def _extract_section(text, emoji):
     pattern = rf"{re.escape(emoji)}[^\n]*\n+(.*?)(?=\n{_SECTION_RE}|\Z)"
@@ -244,13 +464,11 @@ if fact_text:
 if env_text:
     history["envNews"].append({"summary": env_text[:200], "date": TODAY})
 
-# Extract concept term (first **bold** word or first line as fallback)
 if concept_text:
     term_match = re.search(r"\*\*([^*]+)\*\*", concept_text)
     term = term_match.group(1).strip() if term_match else concept_text.splitlines()[0][:60]
     history["newConcepts"].append({"term": term, "date": TODAY})
 
-# Keep In Mind: track consecutive days shown; prune items missing from today's output
 today_items = {
     re.sub(r"^[-•*·]\s*", "", line).strip()
     for line in kim_text.splitlines()
@@ -265,8 +483,6 @@ for entry in history["keepInMindHistory"]:
         entry["daysShown"] = entry.get("daysShown", 0) + 1
         seen.add(entry["item"])
         updated_kim.append(entry)
-    # items absent from today's output are dropped (pruned or naturally cycled out)
-
 for item in today_items - seen:
     updated_kim.append({"item": item, "daysShown": 1, "lastChanged": TODAY})
 
@@ -274,23 +490,31 @@ history["keepInMindHistory"] = updated_kim
 save_history(history)
 
 # ── Send email ────────────────────────────────────────────────────────────────
-gmail_service = build("gmail", "v1", credentials=creds)
 msg = MIMEMultipart("alternative")
 msg["Subject"] = f"Daily Digest - {today}"
 msg["From"]    = "justin.bogdanski@cedara.io"
 msg["To"]      = "jbbogdanski@gmail.com, justin.bogdanski@cedara.io"
 
-# Convert markdown links [text](url) to HTML anchors for the HTML part
 def md_links_to_html(text):
     return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', text)
 
-html_body = md_links_to_html(digest_content)
+html_body    = md_links_to_html(digest_content)
 html_content = f"<pre style='font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6;'>{html_body}</pre>"
 msg.attach(MIMEText(digest_content, "plain"))
 msg.attach(MIMEText(html_content, "html"))
 
 raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
-gmail_service.users().messages().send(userId="me", body={"raw": raw}).execute()
+gmail_service.users().messages().send(userId='me', body={'raw': raw}).execute()
+
+# Mark newsletters as read now that digest has sent successfully
+for msg_id in newsletter_msg_ids:
+    try:
+        gmail_service.users().messages().modify(
+            userId='me', id=msg_id,
+            body={'removeLabelIds': ['UNREAD']},
+        ).execute()
+    except Exception:
+        pass  # non-fatal if mark-as-read fails
 
 # ── Create calendar event ─────────────────────────────────────────────────────
 event = {
