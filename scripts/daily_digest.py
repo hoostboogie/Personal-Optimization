@@ -429,10 +429,9 @@ message = client.messages.create(
     messages=[{"role": "user", "content": prompt}],
 )
 
-digest_content = next(
-    (block.text for block in reversed(message.content) if hasattr(block, "text")),
-    "",
-)
+digest_content = "".join(
+    block.text for block in message.content if hasattr(block, "text")
+).strip()
 
 # ── Extract items from digest for history ─────────────────────────────────────
 _SECTION_RE = r"(?:📰|📅|📬|📤|📧|🧠|🧩|🌍|💡|😄|✨)"
