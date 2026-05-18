@@ -366,67 +366,54 @@ Use the web_search tool to ground the TOP NEWS and TODAY'S NEW CONCEPT sections.
 
 For TODAY'S NEW CONCEPT run 1 search: "{concept_theme} concept worth knowing today"
 
-Format exactly as below. Section headers are lowercase. No parenthetical notes in headers.
+Format exactly as below. Section headers are lowercase. No parenthetical notes in headers. No blank lines between a section header and its first bullet or line of content — they must be immediately adjacent.
 
 <<<DIGEST>>>
-[A short cheeky one-liner greeting — vary it daily, keep it warm and casual, like "g'morn bud, have a great breakday —" or "rise and shine mate —"] here's a quote:
+[A short cheeky one-liner greeting — vary it daily, keep it warm and casual] here's your **quote ✨**
 *"quote text" — Author Name* (non-cliché, nothing LinkedIn-sounding)
 
-✨ quote
-
 📰 top news
-
-One bullet per topic (UK politics, US politics, Arsenal, Yankees, {sport5_label}). Format: - [Headline](source_url)
+- [Headline](source_url) — one per topic: UK politics, US politics, Arsenal, Yankees, {sport5_label}
 
 📅 today's agenda
-
-For each calendar event:
-- **Time - Event title**
+- **HH:MM - Event title**
   Context: 1-2 lines. Know Justin is American living in London, celebrates US holidays with US family. Keep comments specific and useful.
 
 📬 emails to respond to
-
 From the thread data below, surface between 5 and 15 human email threads that genuinely need Justin's response. Exclude newsletters, notifications, bots, listserves, and automated emails. Prioritise threads Justin has participated in before, threads from known contacts, and anything with a question or request. Scale the count to the actual backlog size.
-For each: - **Sender** | Subject | Xd ago | one-line context | [Open](url)
+- **Sender** | Subject | Xd ago | one-line context | [Open](url)
 
 Threads:
 {unanswered_block}
 
 📤 follow-ups
-
 From the data below, surface between 5 and 15 human threads where Justin sent something and hasn't heard back. Exclude automated recipients. Scale count to backlog.
-For each: - **Recipient** | Subject | Xd ago | one-line context | [Open](url)
+- **Recipient** | Subject | Xd ago | one-line context | [Open](url)
 
 Threads:
 {followups_block}
 
 📧 newsletter recap
-
 One bullet per newsletter: sender, subject, key point, [link](url). Add a Themes line if 2+ share a topic.
+- Sender | Subject | key point | [link](url)
 
 Newsletters:
 {newsletter_block}
 
 🧠 keep in mind
-
-2-3 bullets. Things not on the calendar worth front-of-mind. Context: Cedara role, Props To You, Arsenal season, personal goals. Skip suppressed items above.
+- 2-3 bullets. Things not on the calendar worth front-of-mind. Context: Cedara role, Props To You, Arsenal season, personal goals. Skip suppressed items above.
 
 🧩 today's new concept
-
 Theme: {concept_theme}. Pick one term NOT already in covered list.
-**Term**: ~3 sentence explanation.
-[Source](url)
+**Term**: ~3 sentence explanation. [Source](url)
 
 🌍 good environmental news
-
 One real, specific positive story from past 48h.
 
 💡 fun fact
-
 One genuinely interesting fact. Rotate topics widely.
 
 😄 joke
-
 One short funny joke. Dry wit preferred.
 
 ---
@@ -446,6 +433,11 @@ digest_content = "".join(
 # Strip anything before the sentinel (Claude's reasoning/narration)
 if '<<<DIGEST>>>' in digest_content:
     digest_content = digest_content.split('<<<DIGEST>>>')[-1].strip()
+
+# Remove any stray standalone "✨ quote" section header lines
+digest_content = re.sub(r'\n+✨\s*quote\s*\n+', '\n', digest_content)
+# Collapse 3+ consecutive blank lines down to 1
+digest_content = re.sub(r'\n{3,}', '\n\n', digest_content).strip()
 
 # ── Extract items from digest for history ─────────────────────────────────────
 _SECTION_RE = r"(?:📰|📅|📬|📤|📧|🧠|🧩|🌍|💡|😄|✨)"
@@ -513,6 +505,7 @@ def digest_to_html(text: str) -> str:
     lines = text.splitlines()
     html_lines = []
     in_list = False
+    prev_blank = False
 
     for line in lines:
         # Markdown links
@@ -524,35 +517,39 @@ def digest_to_html(text: str) -> str:
 
         stripped = line.strip()
 
+        # Collapse consecutive blank lines to a single small spacer
+        if not stripped:
+            if not prev_blank:
+                html_lines.append('<div style="height:6px;"></div>')
+                prev_blank = True
+            continue
+        prev_blank = False
+
         # Bullet lines
         if re.match(r'^- ', stripped):
             if not in_list:
-                html_lines.append('<ul style="margin:4px 0 8px 0; padding-left:20px;">')
+                html_lines.append('<ul style="margin:0; padding-left:18px;">')
                 in_list = True
             content = stripped[2:]
-            # Sub-bullet (indented)
             if line.startswith('  '):
-                html_lines.append(f'  <li style="margin:2px 0; color:#555;">{content}</li>')
+                html_lines.append(f'  <li style="margin:1px 0; color:#555;">{content}</li>')
             else:
-                html_lines.append(f'<li style="margin:3px 0;">{content}</li>')
+                html_lines.append(f'<li style="margin:1px 0;">{content}</li>')
         else:
             if in_list:
                 html_lines.append('</ul>')
                 in_list = False
 
-            if not stripped:
-                html_lines.append('<br>')
-            elif re.match(r'^[📰📅📬📤📧🧠🧩🌍💡😄✨]', stripped):
-                # Section header with emoji
+            if re.match(r'^[📰📅📬📤📧🧠🧩🌍💡😄]', stripped):
                 html_lines.append(
-                    f'<h3 style="margin:20px 0 6px 0; font-size:15px; '
-                    f'color:#333; border-bottom:1px solid #eee; padding-bottom:4px;">'
+                    f'<h3 style="margin:10px 0 2px 0; font-size:14px; '
+                    f'color:#333; border-bottom:1px solid #eee; padding-bottom:2px;">'
                     f'{stripped}</h3>'
                 )
             elif stripped == '---':
-                html_lines.append('<hr style="border:none; border-top:1px solid #ddd; margin:16px 0;">')
+                html_lines.append('<hr style="border:none; border-top:1px solid #ddd; margin:10px 0;">')
             else:
-                html_lines.append(f'<p style="margin:4px 0;">{stripped}</p>')
+                html_lines.append(f'<p style="margin:1px 0;">{stripped}</p>')
 
     if in_list:
         html_lines.append('</ul>')
@@ -560,7 +557,7 @@ def digest_to_html(text: str) -> str:
     body = '\n'.join(html_lines)
     return (
         '<div style="font-family: Arial, sans-serif; font-size: 14px; '
-        'line-height: 1.6; max-width: 680px; color: #222;">'
+        'line-height: 1.5; max-width: 680px; color: #222;">'
         f'{body}</div>'
     )
 
