@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from zoneinfo import ZoneInfo
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
@@ -113,9 +114,11 @@ if creds.expired and creds.refresh_token:
 
 # ── Google Calendar ───────────────────────────────────────────────────────────
 calendar_service = build("calendar", "v3", credentials=creds)
-now   = datetime.utcnow()
-start = now.replace(hour=0, minute=0, second=0).isoformat() + "Z"
-end   = now.replace(hour=23, minute=59, second=59).isoformat() + "Z"
+london_tz    = ZoneInfo("Europe/London")
+now_london   = datetime.now(london_tz)
+now          = datetime.utcnow()
+start        = now_london.replace(hour=0, minute=0, second=0, microsecond=0).isoformat()
+end          = now_london.replace(hour=23, minute=59, second=59, microsecond=0).isoformat()
 events_result = calendar_service.events().list(
     calendarId="primary",
     timeMin=start,
@@ -126,10 +129,12 @@ events_result = calendar_service.events().list(
 
 event_list = []
 for e in events_result.get("items", []):
+    if e.get("summary", "") == "Daily Digest":
+        continue  # skip self-created events
     start_time = e["start"].get("dateTime", e["start"].get("date", ""))
     if "T" in start_time:
         dt = datetime.fromisoformat(start_time.replace("Z", "+00:00"))
-        time_str = dt.strftime("%H:%M GMT")
+        time_str = dt.astimezone(london_tz).strftime("%H:%M BST")
     else:
         time_str = "All day"
     event_list.append(
@@ -243,7 +248,9 @@ def get_unanswered_threads() -> list[dict]:
         last_h  = _headers(messages[-1])
         subject = last_h.get('Subject', '(no subject)')
         sender  = last_h.get('From', '')
-        name, _ = ga.parse_from_header(sender)
+        name, email = ga.parse_from_header(sender)
+        if not ga.is_human_sender(email, name):
+            continue
         days    = _days_since(last_h.get('Date', ''))
         snippet = messages[-1].get('snippet', '')[:100]
         score   = ga.score_thread(messages, subject)
@@ -257,7 +264,7 @@ def get_unanswered_threads() -> list[dict]:
         })
 
     threads.sort(key=lambda t: (-t['score'], -t['days']))
-    return threads[:10]
+    return threads[:15]
 
 # ── Follow-Ups (3c) ───────────────────────────────────────────────────────────
 def get_pending_followups() -> list[dict]:
@@ -286,7 +293,9 @@ def get_pending_followups() -> list[dict]:
         last_h    = _headers(messages[-1])
         subject   = last_h.get('Subject', '(no subject)')
         recipient = last_h.get('To', '')
-        rec_name, _ = ga.parse_from_header(recipient)
+        rec_name, rec_email = ga.parse_from_header(recipient)
+        if not ga.is_human_sender(rec_email, rec_name):
+            continue
         days   = _days_since(last_h.get('Date', ''))
         snippet = messages[-1].get('snippet', '')[:100]
         score   = ga.score_thread(messages, subject)
@@ -300,7 +309,7 @@ def get_pending_followups() -> list[dict]:
         })
 
     followups.sort(key=lambda t: (-t['score'], -t['days']))
-    return followups[:10]
+    return followups[:15]
 
 # ── Fetch Gmail data ──────────────────────────────────────────────────────────
 newsletters, newsletter_msg_ids = get_newsletters()
@@ -333,93 +342,94 @@ followups_block = (
 )
 
 # ── Generate digest ───────────────────────────────────────────────────────────
-client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-today  = datetime.now().strftime("%A, %d %B %Y")
+client  = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+today   = now_london.strftime("%A, %d %B %Y")
+subject_date = now_london.strftime("%a, %d/%b").lower()  # e.g. "mon, 18/may"
 
-prompt = f"""Generate a daily digest email for Justin Bogdanski for {today}.
+prompt = f"""You are generating Justin Bogdanski's daily morning digest for {today}.
 
-Today's calendar events:
+IMPORTANT: Start your response with exactly the line <<<DIGEST>>> and nothing before it. No preamble, no search summaries, no narration. The very first thing you output must be <<<DIGEST>>>.
+
+Justin is American, living in Islington, London. He celebrates US holidays with his US family (dad Ted, brother Teddy, mom). He works at Cedara (sustainability/carbon). He's a big Arsenal fan. He and his girlfriend Steph moved to London in September 2025. Father's Day references = US Father's Day (third Sunday June), cards go to dad Ted in NJ.
+
+Today's calendar events (London time):
 {events_text}
 
 {dedup_block}
 
-Use the web_search tool to ground the TOP NEWS and TODAY'S NEW CONCEPT sections with real, current information before writing them. For TOP NEWS, run these 5 searches:
+Use the web_search tool to ground the TOP NEWS and TODAY'S NEW CONCEPT sections. For top news run these 5 searches:
 1. "UK politics news today"
 2. "US politics news today"
 3. "Arsenal FC latest"
 4. "New York Yankees latest"
 5. "{sport5_query}"
 
-For TODAY'S NEW CONCEPT, run 1 search: "{concept_theme} concept worth knowing today"
+For TODAY'S NEW CONCEPT run 1 search: "{concept_theme} concept worth knowing today"
 
-Format the email exactly as follows. Do not add extra sections or change the order.
+Format exactly as below. Section headers are lowercase. No parenthetical notes in headers.
 
-GOOD MORNING, JUSTIN
+<<<DIGEST>>>
+[A short cheeky one-liner greeting — vary it daily, keep it warm and casual, like "g'morn bud, have a great breakday —" or "rise and shine mate —"] here's a quote:
+*"quote text" — Author Name* (non-cliché, nothing LinkedIn-sounding)
 
-✨ QUOTE
+✨ quote
 
-One short, non-cliché quote with attribution. Nothing that sounds like LinkedIn.
-Format: "quote text" — Author Name
+📰 top news
 
-📰 TOP NEWS (5 bullets max)
+One bullet per topic (UK politics, US politics, Arsenal, Yankees, {sport5_label}). Format: - [Headline](source_url)
 
-Based on your web searches above, write one specific, current headline per topic: UK politics, US politics, Arsenal FC, New York Yankees, {sport5_label}. Format each bullet as: - [Headline summary](source_url)
+📅 today's agenda
 
-📅 TODAY'S AGENDA
+For each calendar event:
+- **Time - Event title**
+  Context: 1-2 lines. Know Justin is American living in London, celebrates US holidays with US family. Keep comments specific and useful.
 
-For each calendar event listed above:
-- Time and title
-- 1-2 lines of useful context: who's likely involved, what the goal probably is, or any relevant background
+📬 emails to respond to
 
-📬 EMAILS TO RESPOND TO
+From the thread data below, surface between 5 and 15 human email threads that genuinely need Justin's response. Exclude newsletters, notifications, bots, listserves, and automated emails. Prioritise threads Justin has participated in before, threads from known contacts, and anything with a question or request. Scale the count to the actual backlog size.
+For each: - **Sender** | Subject | Xd ago | one-line context | [Open](url)
 
-From the threads below, surface the top 5 most important that need a response. Rank by score (higher = more urgent), then by age (older first). For each:
-- **Sender Name** | Subject (truncated if long) | X days ago | 1-line preview | [Open](url)
-
-Threads data:
+Threads:
 {unanswered_block}
 
-📤 FOLLOW-UPS
+📤 follow-ups
 
-From the threads below, surface the top 5 most worth chasing. Rank by score then age. For each:
-- **Recipient Name** | Subject | X days ago | 1-line context | [Open](url)
+From the data below, surface between 5 and 15 human threads where Justin sent something and hasn't heard back. Exclude automated recipients. Scale count to backlog.
+For each: - **Recipient** | Subject | Xd ago | one-line context | [Open](url)
 
-Threads data:
+Threads:
 {followups_block}
 
-📧 NEWSLETTER RECAP
+📧 newsletter recap
 
-From the newsletters below, write one bullet per newsletter: sender, subject, key point, and primary link. Then add a "Themes" line at the end if 2+ newsletters share a common topic (e.g. "Theme: AI regulation — covered by X, Y").
+One bullet per newsletter: sender, subject, key point, [link](url). Add a Themes line if 2+ share a topic.
 
-Newsletters data:
+Newsletters:
 {newsletter_block}
 
-🧠 KEEP IN MIND
+🧠 keep in mind
 
-2-3 reminders for things not on the calendar worth keeping front of mind. Draw from context about Justin's life: Cedara role, Propagation Nation, personal goals, Arsenal season, open financial decisions. Use bullet points. Skip any items listed under "Keep In Mind items to SUPPRESS" above.
+2-3 bullets. Things not on the calendar worth front-of-mind. Context: Cedara role, Props To You, Arsenal season, personal goals. Skip suppressed items above.
 
-🧩 TODAY'S NEW CONCEPT
+🧩 today's new concept
 
-Theme today: {concept_theme}
-Based on your web search, pick one term or concept in this area that is genuinely worth knowing. It must NOT be any term already in the "New concepts already covered" list above.
-Format:
-**Term**: ~3 sentence explanation of what it is and why it matters.
-[Source title](source_url)
+Theme: {concept_theme}. Pick one term NOT already in covered list.
+**Term**: ~3 sentence explanation.
+[Source](url)
 
-🌍 GOOD ENVIRONMENTAL NEWS
+🌍 good environmental news
 
-One piece of genuinely positive environmental news from the past 48 hours. Real and specific.
+One real, specific positive story from past 48h.
 
-💡 FUN FACT
+💡 fun fact
 
 One genuinely interesting fact. Rotate topics widely.
 
-😄 JOKE
+😄 joke
 
-One short, actually funny joke. Dry wit preferred.
+One short funny joke. Dry wit preferred.
 
 ---
-
 {today}"""
 
 message = client.messages.create(
@@ -432,6 +442,10 @@ message = client.messages.create(
 digest_content = "".join(
     block.text for block in message.content if hasattr(block, "text")
 ).strip()
+
+# Strip anything before the sentinel (Claude's reasoning/narration)
+if '<<<DIGEST>>>' in digest_content:
+    digest_content = digest_content.split('<<<DIGEST>>>')[-1].strip()
 
 # ── Extract items from digest for history ─────────────────────────────────────
 _SECTION_RE = r"(?:📰|📅|📬|📤|📧|🧠|🧩|🌍|💡|😄|✨)"
@@ -490,15 +504,67 @@ save_history(history)
 
 # ── Send email ────────────────────────────────────────────────────────────────
 msg = MIMEMultipart("alternative")
-msg["Subject"] = f"Daily Digest - {today}"
+msg["Subject"] = f"{subject_date} - boog brekkie breakdown"
 msg["From"]    = "justin.bogdanski@cedara.io"
 msg["To"]      = "jbbogdanski@gmail.com, justin.bogdanski@cedara.io"
 
-def md_links_to_html(text):
-    return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', text)
+def digest_to_html(text: str) -> str:
+    """Convert markdown digest to styled HTML."""
+    lines = text.splitlines()
+    html_lines = []
+    in_list = False
 
-html_body    = md_links_to_html(digest_content)
-html_content = f"<pre style='font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6;'>{html_body}</pre>"
+    for line in lines:
+        # Markdown links
+        line = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', line)
+        # Bold
+        line = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
+        # Italic (but not bold-italic)
+        line = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', line)
+
+        stripped = line.strip()
+
+        # Bullet lines
+        if re.match(r'^- ', stripped):
+            if not in_list:
+                html_lines.append('<ul style="margin:4px 0 8px 0; padding-left:20px;">')
+                in_list = True
+            content = stripped[2:]
+            # Sub-bullet (indented)
+            if line.startswith('  '):
+                html_lines.append(f'  <li style="margin:2px 0; color:#555;">{content}</li>')
+            else:
+                html_lines.append(f'<li style="margin:3px 0;">{content}</li>')
+        else:
+            if in_list:
+                html_lines.append('</ul>')
+                in_list = False
+
+            if not stripped:
+                html_lines.append('<br>')
+            elif re.match(r'^[📰📅📬📤📧🧠🧩🌍💡😄✨]', stripped):
+                # Section header with emoji
+                html_lines.append(
+                    f'<h3 style="margin:20px 0 6px 0; font-size:15px; '
+                    f'color:#333; border-bottom:1px solid #eee; padding-bottom:4px;">'
+                    f'{stripped}</h3>'
+                )
+            elif stripped == '---':
+                html_lines.append('<hr style="border:none; border-top:1px solid #ddd; margin:16px 0;">')
+            else:
+                html_lines.append(f'<p style="margin:4px 0;">{stripped}</p>')
+
+    if in_list:
+        html_lines.append('</ul>')
+
+    body = '\n'.join(html_lines)
+    return (
+        '<div style="font-family: Arial, sans-serif; font-size: 14px; '
+        'line-height: 1.6; max-width: 680px; color: #222;">'
+        f'{body}</div>'
+    )
+
+html_content = digest_to_html(digest_content)
 msg.attach(MIMEText(digest_content, "plain"))
 msg.attach(MIMEText(html_content, "html"))
 

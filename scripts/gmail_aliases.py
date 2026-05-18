@@ -12,6 +12,31 @@ MY_ADDRESSES = {
     'justin.bogdanski@cedara.io',
 }
 
+# Patterns in email address or display name that indicate non-human senders
+_SKIP_EMAIL = (
+    'noreply', 'no-reply', 'donotreply', 'do-not-reply',
+    'notification', 'newsletter', 'updates@', 'alerts@', 'mailer',
+    'mailchimp', 'sendgrid', 'campaigns', 'bounce', 'unsubscribe',
+    'github.com', 'venmo.com', 'auraframes.com', 'linkedin.com',
+)
+_SKIP_NAME = (
+    'ctvc', 'programme team', 'impact programme', 'listserve',
+    'linkedin', 'twitter', 'facebook', 'github actions', 'venmo',
+    'aura frame', 'newsletter', 'daily digest', 'hoostboogie',
+    'fin ai agent', 'no reply', 'noreply',
+)
+
+
+def is_human_sender(email: str, display_name: str = '') -> bool:
+    """Return True if the sender looks like a real human, not a bot/newsletter/notification."""
+    el = email.lower()
+    nl = display_name.lower()
+    if any(p in el for p in _SKIP_EMAIL):
+        return False
+    if any(p in nl for p in _SKIP_NAME):
+        return False
+    return True
+
 
 def normalize_name(display_name: str) -> str:
     """Lowercase, strip punctuation, collapse whitespace."""
