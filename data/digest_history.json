@@ -22,6 +22,10 @@
     {
       "text": "I told my suitcase there will be no holiday this year. Now I'm dealing with emotional baggage.\n\n---\nMonday, 18 May 2026",
       "date": "2026-05-18"
+    },
+    {
+      "text": "I used to hate facial hair, but then it grew on me.\n\n---\nTuesday, 19 May 2026",
+      "date": "2026-05-19"
     }
   ],
   "funFacts": [
@@ -40,6 +44,10 @@
     {
       "text": "A group of flamingos is called a \"flamboyance.\" The word comes from the Spanish *flamenco*, meaning flame \u2014 fitting given their bright pink plumage.",
       "date": "2026-05-18"
+    },
+    {
+      "text": "The Vatican City has the highest crime rate per capita in the world \u2014 mostly petty theft by tourists. With only about 800 residents and millions of visitors annually, even a handful of pickpocket inci",
+      "date": "2026-05-19"
     }
   ],
   "envNews": [
@@ -54,6 +62,10 @@
     {
       "summary": "Texas A&M secured their second NCAA women's tennis title \u2014 but closer to home, the Italian Open wrapped up its greenest edition yet, with Sinner's victory highlighting Rome's commitment to sustainable",
       "date": "2026-05-18"
+    },
+    {
+      "summary": "From labor shortages to environmental impacts, farmers are looking to AI to help revolutionize agriculture. One California startup, Farm-ng, is tapping into AI and robotics to perform tasks including ",
+      "date": "2026-05-19"
     }
   ],
   "newConcepts": [
@@ -68,23 +80,28 @@
     {
       "term": "Soft Systems Methodology (SSM)",
       "date": "2026-05-18"
+    },
+    {
+      "term": "Agentic AI",
+      "date": "2026-05-19"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "Arsenal's title race is entering the final stretch \u2014 Burnley at home this weekend could be massive. Keep an eye on Man City's results.",
+      "item": "Champions League final approaching: PSG away looming if Arsenal advance. Worth tracking PSG injury news.",
       "daysShown": 1,
-      "lastChanged": "2026-05-18"
+      "lastChanged": "2026-05-19"
     },
     {
-      "item": "Props To You: if summer wedding season is approaching, consider content planning or outreach soon.",
+      "item": "The GlobeLab AI deck idea from your 14:30 brainstorm could tie into Props To You thinking on recognizing human work in an AI world.",
       "daysShown": 1,
-      "lastChanged": "2026-05-18"
+      "lastChanged": "2026-05-19"
     },
     {
-      "item": "Azores trip with Steph looks like it's being booked \u2014 might need to sort time off at Cedara.",
+      "item": "Arsenal vs Burnley tonight \u2014 massive title race implications. Keep an eye on how Palace results could impact things too.",
       "daysShown": 1,
-      "lastChanged": "2026-05-18"
+      "lastChanged": "2026-05-19"
     }
-  ]
+  ],
+  "lastSentDate": "2026-05-19"
 }
