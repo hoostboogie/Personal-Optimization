@@ -48,6 +48,11 @@ def save_history(h):
 
 history = load_history()
 
+# Guard: bail out if we already sent today (prevents double-send when both crons fire)
+if history.get("lastSentDate") == TODAY and not os.environ.get("FORCE_DIGEST"):
+    print(f"Digest already sent today ({TODAY}). Skipping.")
+    sys.exit(0)
+
 suppressed_keep_in_mind = [
     e["item"] for e in history["keepInMindHistory"] if e.get("daysShown", 0) >= 5
 ]
@@ -492,6 +497,7 @@ for item in today_items - seen:
     updated_kim.append({"item": item, "daysShown": 1, "lastChanged": TODAY})
 
 history["keepInMindHistory"] = updated_kim
+history["lastSentDate"] = TODAY
 save_history(history)
 
 # ── Send email ────────────────────────────────────────────────────────────────

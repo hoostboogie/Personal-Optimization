@@ -17,31 +17,37 @@ jobs:
         id: time_check
         run: |
           LONDON_HOUR=$(TZ="Europe/London" date +%H)
-          echo "london_hour=$LONDON_HOUR" >> $GITHUB_OUTPUT
-          echo "London time: $(TZ='Europe/London' date +'%H:%M %Z')"
+          # Allow up to 10am London to absorb GHA schedule delays (typically 3-5h late)
+          # Python script guards against double-sends using digest_history.json
+          if [ "$LONDON_HOUR" -lt "10" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          fi
+          echo "London time: $(TZ='Europe/London' date +'%H:%M %Z') — should_run: $(cat $GITHUB_OUTPUT | grep should_run | cut -d= -f2)"
 
       - uses: actions/checkout@v4
-        if: steps.time_check.outputs.london_hour == '05' || github.event_name == 'workflow_dispatch'
+        if: steps.time_check.outputs.should_run == 'true'
 
       - name: Set up Python
-        if: steps.time_check.outputs.london_hour == '05' || github.event_name == 'workflow_dispatch'
+        if: steps.time_check.outputs.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        if: steps.time_check.outputs.london_hour == '05' || github.event_name == 'workflow_dispatch'
+        if: steps.time_check.outputs.should_run == 'true'
         run: pip install anthropic google-api-python-client google-auth-oauthlib
 
       - name: Run daily digest
-        if: steps.time_check.outputs.london_hour == '05' || github.event_name == 'workflow_dispatch'
+        if: steps.time_check.outputs.should_run == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_TOKEN: ${{ secrets.GOOGLE_TOKEN }}
         run: python scripts/daily_digest.py
 
       - name: Commit digest history
-        if: steps.time_check.outputs.london_hour == '05' || github.event_name == 'workflow_dispatch'
+        if: steps.time_check.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
