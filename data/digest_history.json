@@ -26,6 +26,10 @@
     {
       "text": "I used to hate facial hair, but then it grew on me.\n\n---\nTuesday, 19 May 2026",
       "date": "2026-05-19"
+    },
+    {
+      "text": "I asked my date to meet me at the gym, but she never showed. I guess the two of us aren't going to work out.\n\n---\nWednesday, 20 May 2026",
+      "date": "2026-05-20"
     }
   ],
   "funFacts": [
@@ -48,6 +52,10 @@
     {
       "text": "The Vatican City has the highest crime rate per capita in the world \u2014 mostly petty theft by tourists. With only about 800 residents and millions of visitors annually, even a handful of pickpocket inci",
       "date": "2026-05-19"
+    },
+    {
+      "text": "The inventor of the Pringles can, Fredric Baur, was so proud of his creation that he requested part of his ashes be buried in one. His family honoured the wish when he died in 2008.",
+      "date": "2026-05-20"
     }
   ],
   "envNews": [
@@ -66,6 +74,10 @@
     {
       "summary": "From labor shortages to environmental impacts, farmers are looking to AI to help revolutionize agriculture. One California startup, Farm-ng, is tapping into AI and robotics to perform tasks including ",
       "date": "2026-05-19"
+    },
+    {
+      "summary": "Sustainability is becoming a genuine business metric in adtech: \"Carbon footprint, ethical AI use, brand safety\u2026 they're converging into what some call Responsible Media.\" The insight? High-emission a",
+      "date": "2026-05-20"
     }
   ],
   "newConcepts": [
@@ -84,24 +96,28 @@
     {
       "term": "Agentic AI",
       "date": "2026-05-19"
+    },
+    {
+      "term": "Data Clean Room",
+      "date": "2026-05-20"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "Champions League final approaching: PSG away looming if Arsenal advance. Worth tracking PSG injury news.",
+      "item": "Arsenal vs Burnley tonight at 20:00 BST \u2014 could go top with a win. Big evening.",
       "daysShown": 1,
-      "lastChanged": "2026-05-19"
+      "lastChanged": "2026-05-20"
     },
     {
-      "item": "The GlobeLab AI deck idea from your 14:30 brainstorm could tie into Props To You thinking on recognizing human work in an AI world.",
+      "item": "The jeweller timeline is urgent if you're planning what I think you're planning. Consider a phone follow-up if no email by Thursday.",
       "daysShown": 1,
-      "lastChanged": "2026-05-19"
+      "lastChanged": "2026-05-20"
     },
     {
-      "item": "Arsenal vs Burnley tonight \u2014 massive title race implications. Keep an eye on how Palace results could impact things too.",
+      "item": "Post-review might be a good moment to reflect on Props To You progress and whether the Cedara role is still the right fit.",
       "daysShown": 1,
-      "lastChanged": "2026-05-19"
+      "lastChanged": "2026-05-20"
     }
   ],
-  "lastSentDate": "2026-05-19"
+  "lastSentDate": "2026-05-20"
 }
