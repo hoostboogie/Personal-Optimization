@@ -30,6 +30,10 @@
     {
       "text": "I asked my date to meet me at the gym, but she never showed. I guess the two of us aren't going to work out.\n\n---\nWednesday, 20 May 2026",
       "date": "2026-05-20"
+    },
+    {
+      "text": "I told my doctor I broke my arm in two places. He told me to stop going to those places.\n\n---\nThursday, 21 May 2026",
+      "date": "2026-05-21"
     }
   ],
   "funFacts": [
@@ -56,6 +60,10 @@
     {
       "text": "The inventor of the Pringles can, Fredric Baur, was so proud of his creation that he requested part of his ashes be buried in one. His family honoured the wish when he died in 2008.",
       "date": "2026-05-20"
+    },
+    {
+      "text": "The shortest commercial flight in the world connects two Scottish islands (Westray to Papa Westray) and takes about 90 seconds \u2014 barely enough time to unbuckle your seatbelt.",
+      "date": "2026-05-21"
     }
   ],
   "envNews": [
@@ -78,6 +86,10 @@
     {
       "summary": "Sustainability is becoming a genuine business metric in adtech: \"Carbon footprint, ethical AI use, brand safety\u2026 they're converging into what some call Responsible Media.\" The insight? High-emission a",
       "date": "2026-05-20"
+    },
+    {
+      "summary": "Arsenal's 1-0 win helped keep spirits high, but here's something greener: Arsenal Women have written another historic chapter after becoming the first-ever winners of the FIFA Women's Champions Cup. N",
+      "date": "2026-05-21"
     }
   ],
   "newConcepts": [
@@ -100,24 +112,28 @@
     {
       "term": "Data Clean Room",
       "date": "2026-05-20"
+    },
+    {
+      "term": "Reverse Termination Fee (RTF)",
+      "date": "2026-05-21"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "Arsenal vs Burnley tonight at 20:00 BST \u2014 could go top with a win. Big evening.",
+      "item": "Arsenal 5 points clear at the top with 3 matches left \u2014 Palace away Sunday is huge. Don't let the annual review run long if you want to enjoy the TreoHouse event stress-free.",
       "daysShown": 1,
-      "lastChanged": "2026-05-20"
+      "lastChanged": "2026-05-21"
     },
     {
-      "item": "The jeweller timeline is urgent if you're planning what I think you're planning. Consider a phone follow-up if no email by Thursday.",
+      "item": "Multiple job applications in motion (Rainforest Alliance, BSR, Normative) \u2014 keep a tracking doc so nothing falls through.",
       "daysShown": 1,
-      "lastChanged": "2026-05-20"
+      "lastChanged": "2026-05-21"
     },
     {
-      "item": "Post-review might be a good moment to reflect on Props To You progress and whether the Cedara role is still the right fit.",
+      "item": "The engagement ring search continues \u2014 Heirloom's out, so time to explore other bespoke jewellers who can set a client-supplied stone.",
       "daysShown": 1,
-      "lastChanged": "2026-05-20"
+      "lastChanged": "2026-05-21"
     }
   ],
-  "lastSentDate": "2026-05-20"
+  "lastSentDate": "2026-05-21"
 }
