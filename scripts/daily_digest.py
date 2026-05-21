@@ -350,6 +350,7 @@ followups_block = (
 client  = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 today   = now_london.strftime("%A, %d %B %Y")
 subject_date = now_london.strftime("%a, %d/%b").lower()  # e.g. "mon, 18/may"
+subject_suffix = "boogie brekkie breakdown"
 
 prompt = f"""You are generating Justin Bogdanski's daily morning digest for {today}.
 
@@ -378,7 +379,7 @@ Format exactly as below. Section headers are lowercase. No parenthetical notes i
 *"quote text" — Author Name* (non-cliché, nothing LinkedIn-sounding)
 
 📰 top news
-- [Headline](source_url) — one per topic: UK politics, US politics, Arsenal, Yankees, {sport5_label}
+- [Headline](source_url) — one bullet per topic. For sports, include relevant context on the same line: for Arsenal include current league position, points, and W/D/L record; for Yankees include W/L record; for {sport5_label} include whatever standing/record is most relevant. Topics: UK politics, US politics, Arsenal, Yankees, {sport5_label}
 
 📅 today's agenda
 - **HH:MM - Event title**
@@ -386,14 +387,14 @@ Format exactly as below. Section headers are lowercase. No parenthetical notes i
 
 📬 emails to respond to
 From the thread data below, surface between 5 and 15 human email threads that genuinely need Justin's response. Exclude newsletters, notifications, bots, listserves, and automated emails. Prioritise threads Justin has participated in before, threads from known contacts, and anything with a question or request. Scale the count to the actual backlog size.
-- **Sender** | Subject | Xd ago | one-line context | [Open](url)
+- **Sender** | *_Subject_* | Xd ago | one-line context
 
 Threads:
 {unanswered_block}
 
 📤 follow-ups
 From the data below, surface between 5 and 15 human threads where Justin sent something and hasn't heard back. Exclude automated recipients. Scale count to backlog.
-- **Recipient** | Subject | Xd ago | one-line context | [Open](url)
+- **Recipient** | *_Subject_* | Xd ago | one-line context
 
 Threads:
 {followups_block}
@@ -502,7 +503,7 @@ save_history(history)
 
 # ── Send email ────────────────────────────────────────────────────────────────
 msg = MIMEMultipart("alternative")
-msg["Subject"] = f"{subject_date} - boog brekkie breakdown"
+msg["Subject"] = f"{subject_date} - {subject_suffix}"
 msg["From"]    = "justin.bogdanski@cedara.io"
 msg["To"]      = "jbbogdanski@gmail.com, justin.bogdanski@cedara.io"
 
@@ -518,6 +519,8 @@ def digest_to_html(text: str) -> str:
         line = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', line)
         # Bold
         line = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
+        # Italic+underline: *_text_*
+        line = re.sub(r'\*_(.+?)_\*', r'<em><u>\1</u></em>', line)
         # Italic (but not bold-italic)
         line = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', line)
 
