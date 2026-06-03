@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/digest_history.json
+          git add data/digest_history.json data/config.json
           git diff --staged --quiet || git commit -m "chore: update digest history [skip ci]"
           git push

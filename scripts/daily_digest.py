@@ -16,6 +16,7 @@ from googleapiclient.discovery import build
 # Add scripts/ to path so gmail_aliases imports cleanly in GHA
 sys.path.insert(0, os.path.dirname(__file__))
 import gmail_aliases as ga
+import model_utils as mu
 
 # ── Dedup history ─────────────────────────────────────────────────────────────
 HISTORY_FILE = "data/digest_history.json"
@@ -47,6 +48,7 @@ def save_history(h):
         json.dump(h, f, indent=2)
 
 history = load_history()
+history.setdefault("last_model_upgrade", None)
 
 # Guard: bail out if we already sent today (prevents double-send when both crons fire)
 if history.get("lastSentDate") == TODAY and not os.environ.get("FORCE_DIGEST"):
@@ -348,6 +350,7 @@ followups_block = (
 
 # ── Generate digest ───────────────────────────────────────────────────────────
 client  = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+active_model, model_was_upgraded, prev_model = mu.get_working_model(client)
 today   = now_london.strftime("%A, %d %B %Y")
 subject_date = now_london.strftime("%a, %d/%b").lower()  # e.g. "mon, 18/may"
 subject_suffix = "boogie brekkie breakdown"
@@ -426,7 +429,7 @@ One short funny joke. Dry wit preferred.
 {today}"""
 
 message = client.messages.create(
-    model="claude-opus-4-5",
+    model=active_model,
     max_tokens=3000,
     tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
     messages=[{"role": "user", "content": prompt}],
@@ -444,6 +447,31 @@ if '<<<DIGEST>>>' in digest_content:
 digest_content = re.sub(r'\n+✨\s*quote\s*\n+', '\n', digest_content)
 # Collapse 3+ consecutive blank lines down to 1
 digest_content = re.sub(r'\n{3,}', '\n\n', digest_content).strip()
+
+# ── Model upgrade notice ──────────────────────────────────────────────────────
+# If we auto-upgraded today, record it; also show a footer for 7 days after any upgrade.
+if model_was_upgraded and prev_model:
+    history["last_model_upgrade"] = {
+        "date": TODAY,
+        "from": prev_model,
+        "to": active_model,
+    }
+
+upgrade_footer = ""
+if history.get("last_model_upgrade"):
+    upg = history["last_model_upgrade"]
+    days_since_upgrade = (
+        datetime.strptime(TODAY, "%Y-%m-%d")
+        - datetime.strptime(upg["date"], "%Y-%m-%d")
+    ).days
+    if days_since_upgrade < 7:
+        upgrade_footer = (
+            f"\n\n---\n⚙️ *Auto-upgrade notice ({upg['date']}): "
+            f"The digest switched from `{upg['from']}` to `{upg['to']}` "
+            f"because the previous model was retired. No action needed.*"
+        )
+
+digest_content = digest_content + upgrade_footer
 
 # ── Extract items from digest for history ─────────────────────────────────────
 _SECTION_RE = r"(?:📰|📅|📬|📤|📧|🧠|🧩|🌍|💡|😄|✨)"
@@ -601,5 +629,26 @@ event = {
     },
 }
 calendar_service.events().insert(calendarId="primary", body=event).execute()
+
+# If the model was auto-upgraded today, also add a 4pm reminder
+if model_was_upgraded and prev_model:
+    reminder_event = {
+        "summary": "⚙️ AI model auto-upgraded — check digest",
+        "description": (
+            f"The daily digest automatically switched from {prev_model} to "
+            f"{active_model} because the previous model was retired.\n\n"
+            "No action required unless you want to pin a different model."
+        ),
+        "start": {
+            "dateTime": now.replace(hour=16, minute=0, second=0).isoformat() + "Z",
+            "timeZone": "Europe/London",
+        },
+        "end": {
+            "dateTime": now.replace(hour=16, minute=15, second=0).isoformat() + "Z",
+            "timeZone": "Europe/London",
+        },
+        "reminders": {"useDefault": False, "overrides": [{"method": "popup", "minutes": 0}]},
+    }
+    calendar_service.events().insert(calendarId="primary", body=reminder_event).execute()
 
 print(f"Digest sent and calendar event created for {today}")
