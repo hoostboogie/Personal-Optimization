@@ -107,17 +107,27 @@ CONCEPT_THEMES = {
 concept_theme = CONCEPT_THEMES[datetime.now().weekday()]
 
 # ── Auth ──────────────────────────────────────────────────────────────────────
-token_data = json.loads(os.environ["GOOGLE_TOKEN"])
-creds = Credentials(
-    token=token_data["token"],
-    refresh_token=token_data["refresh_token"],
-    token_uri=token_data["token_uri"],
-    client_id=token_data["client_id"],
-    client_secret=token_data["client_secret"],
-    scopes=token_data["scopes"],
-)
-if creds.expired and creds.refresh_token:
-    creds.refresh(Request())
+try:
+    token_data = json.loads(os.environ["GOOGLE_TOKEN"])
+    creds = Credentials(
+        token=token_data["token"],
+        refresh_token=token_data["refresh_token"],
+        token_uri=token_data["token_uri"],
+        client_id=token_data["client_id"],
+        client_secret=token_data["client_secret"],
+        scopes=token_data["scopes"],
+    )
+    if creds.expired and creds.refresh_token:
+        creds.refresh(Request())
+except Exception as e:
+    print(
+        f"GOOGLE_AUTH_FAILED: {e}\n\n"
+        "To fix: run `python3 scripts/auth_setup.py` locally, then update the\n"
+        "GOOGLE_TOKEN secret at:\n"
+        "  github.com/hoostboogie/Personal-Optimization/settings/secrets/actions\n"
+        "with the contents of scripts/token.json"
+    )
+    sys.exit(2)  # exit code 2 = auth failure (distinct from generic exit 1)
 
 # ── Google Calendar ───────────────────────────────────────────────────────────
 calendar_service = build("calendar", "v3", credentials=creds)
