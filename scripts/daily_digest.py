@@ -117,8 +117,7 @@ try:
         client_secret=token_data["client_secret"],
         scopes=token_data["scopes"],
     )
-    if creds.expired and creds.refresh_token:
-        creds.refresh(Request())
+    creds.refresh(Request())  # always refresh at startup to catch revoked tokens early
 except Exception as e:
     print(
         f"GOOGLE_AUTH_FAILED: {e}\n\n"
