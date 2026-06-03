@@ -9,6 +9,11 @@
       "text": "I am because we are.",
       "author": "Ubuntu proverb*",
       "date": "2026-05-22"
+    },
+    {
+      "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+      "author": "James Baldwin*",
+      "date": "2026-06-03"
     }
   ],
   "jokes": [
@@ -43,6 +48,10 @@
     {
       "text": "I'm reading a horror story in Braille. Something bad is about to happen \u2014 I can feel it.\n\n---\nFriday, 22 May 2026",
       "date": "2026-05-22"
+    },
+    {
+      "text": "I tried to write a joke about sustainability, but all my good material was recycled.\n\n---\nWednesday, 03 June 2026",
+      "date": "2026-06-03"
     }
   ],
   "funFacts": [
@@ -77,6 +86,10 @@
     {
       "text": "Stan Wawrinka requested his final Roland Garros appearance this year, making it his farewell to the tournament where he won his first major in 2015. He'll be 41 in March 2027.",
       "date": "2026-05-22"
+    },
+    {
+      "text": "The electric eel isn't actually an eel \u2014 it's more closely related to carp and catfish. It can generate electric shocks of up to 860 volts, making it the most powerful bioelectric generator of any kno",
+      "date": "2026-06-03"
     }
   ],
   "envNews": [
@@ -107,6 +120,10 @@
     {
       "summary": "NASA's Psyche spacecraft is doing a Mars flyby today as it continues its journey to study a rare metal-rich asteroid \u2014 missions like this help us understand how planets form and could inform future su",
       "date": "2026-05-22"
+    },
+    {
+      "summary": "New York and six other states sued over the Trump administration's deal to end an offshore wind project \u2014 a sign that state-level climate advocacy is alive and punching, even when federal policy backt",
+      "date": "2026-06-03"
     }
   ],
   "newConcepts": [
@@ -137,24 +154,29 @@
     {
       "term": "Ubuntu",
       "date": "2026-05-22"
+    },
+    {
+      "term": "Attention Metrics (Attention-Based Media Buying)",
+      "date": "2026-06-03"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "Arsenal at Crystal Palace on Sunday \u2014 could clinch the title with a win depending on other results. Big one.",
+      "item": "**Father's Day is June 21** \u2014 that's just over 2.5 weeks away. If you're sending a card or gift to Ted in NJ, now's the time to sort shipping from London \u2014 international post can take 7\u201314 days.",
       "daysShown": 1,
-      "lastChanged": "2026-05-22"
+      "lastChanged": "2026-06-03"
     },
     {
-      "item": "Ring/jewelry logistics in motion \u2014 the Heirloom thread went cold but you may have other options brewing",
+      "item": "**The Heirloom/David Law ring project is live** \u2014 you sent images to David Law yesterday; with no response from Heirloom London after 16 days, David may now be your best path forward. Keep the momentum going.",
       "daysShown": 1,
-      "lastChanged": "2026-05-22"
+      "lastChanged": "2026-06-03"
     },
     {
-      "item": "Gerrit Cole makes his 2026 return today \u2014 worth keeping an eye on that Yankees game",
+      "item": "**London Climate Action Week briefing is tomorrow (Thu 4 June, 1pm)** \u2014 given Cedara's focus, this could be a useful room to be in; decide today whether you're attending.",
       "daysShown": 1,
-      "lastChanged": "2026-05-22"
+      "lastChanged": "2026-06-03"
     }
   ],
-  "lastSentDate": "2026-05-22"
+  "lastSentDate": "2026-06-03",
+  "last_model_upgrade": null
 }
