@@ -19,6 +19,11 @@
       "text": "The world always seems brighter when you've just made something that wasn't there before.",
       "author": "Neil Gaiman*",
       "date": "2026-06-04"
+    },
+    {
+      "text": "In the middle of every difficulty lies opportunity.",
+      "author": "Albert Einstein*",
+      "date": "2026-06-06"
     }
   ],
   "jokes": [
@@ -61,6 +66,10 @@
     {
       "text": "I tried to come up with a joke about time \u2014 but I didn't want to waste yours.\n\n---\nThursday, 04 June 2026",
       "date": "2026-06-04"
+    },
+    {
+      "text": "I used to be indecisive. Now I'm not so sure.\n\n---\nSaturday, 06 June 2026",
+      "date": "2026-06-06"
     }
   ],
   "funFacts": [
@@ -103,6 +112,10 @@
     {
       "text": "Competitive tennis balls have a lifespan of just 7\u20139 games in professional play before they're swapped out \u2014 meaning a single French Open final can go through upwards of 50 balls. Used balls are typic",
       "date": "2026-06-04"
+    },
+    {
+      "text": "A day on Venus is longer than a year on Venus \u2014 it takes about 243 Earth days to rotate once on its axis, but only 225 Earth days to complete a full orbit around the sun. It also spins backwards relat",
+      "date": "2026-06-06"
     }
   ],
   "envNews": [
@@ -145,6 +158,10 @@
     {
       "summary": "Arsenal are reportedly willing to break their transfer record again \u2014 but more importantly on the green side: the UK climate industry's",
       "date": "2026-06-05"
+    },
+    {
+      "summary": "In 2025, wind and solar energy provided 30% of EU electricity, surpassing fossil power (29%) for the first time, and generating more power than fossil sources in 14 of 27 EU countries \u2014 a milestone co",
+      "date": "2026-06-06"
     }
   ],
   "newConcepts": [
@@ -187,25 +204,29 @@
     {
       "term": "Epistemic Humility",
       "date": "2026-06-05"
+    },
+    {
+      "term": "Planetary Energy Imbalance (PEI)",
+      "date": "2026-06-06"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Props To You login** \u2014 you received a magic link today (code: 352093, expiring soon). If you were trying to access the platform, grab that while it's valid.",
+      "item": "**Climate Week prep** \u2014 you've got a dedicated slot at 09:30 today. Given the Champions League final just happened and Arsenal are entering a big transfer window, it's also worth thinking about how sustainability storytelling intersects with major cultural moments \u2014 always a useful angle at Cedara.",
       "daysShown": 1,
-      "lastChanged": "2026-06-05"
+      "lastChanged": "2026-06-06"
     },
     {
-      "item": "**Cedara / Greenly positioning** \u2014 with the Michael Guimond forward still unanswered and today's Greenly message on the calendar, it's a good morning to align your narrative across both threads before you send anything.",
+      "item": "**Father's Day is Sunday, 21 June** \u2014 two weeks out. Time to sort a card (or something more) for Ted in NJ. If you're posting from London, get it in the mail this week to be safe.",
       "daysShown": 1,
-      "lastChanged": "2026-06-05"
+      "lastChanged": "2026-06-06"
     },
     {
-      "item": "**US Father's Day is June 21** \u2014 that's two Sundays away. If you want a card or gift to reach Ted in NJ on time, order or post it this weekend at the latest. A personal note from London will land well.",
+      "item": "**Props To You** \u2014 the \"test 3\" email in your inbox suggests something's being tested in the platform. Worth a quick check of what's live and what state the product is in, especially if external contacts might be touching it soon.",
       "daysShown": 1,
-      "lastChanged": "2026-06-05"
+      "lastChanged": "2026-06-06"
     }
   ],
-  "lastSentDate": "2026-06-05",
+  "lastSentDate": "2026-06-06",
   "last_model_upgrade": null
 }
