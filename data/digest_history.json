@@ -70,6 +70,10 @@
     {
       "text": "I used to be indecisive. Now I'm not so sure.\n\n---\nSaturday, 06 June 2026",
       "date": "2026-06-06"
+    },
+    {
+      "text": "I signed up for a gardening club. The membership fees were steep, but the perks really grew on me.\n\n---\nSunday, 07 June 2026",
+      "date": "2026-06-07"
     }
   ],
   "funFacts": [
@@ -116,6 +120,10 @@
     {
       "text": "A day on Venus is longer than a year on Venus \u2014 it takes about 243 Earth days to rotate once on its axis, but only 225 Earth days to complete a full orbit around the sun. It also spins backwards relat",
       "date": "2026-06-06"
+    },
+    {
+      "text": "The French Open's Roland-Garros clay courts are made with a very specific recipe: crushed red brick (from Champagne, naturally) layered over limestone, cinder, and white limestone gravel \u2014 the distinc",
+      "date": "2026-06-07"
     }
   ],
   "envNews": [
@@ -162,6 +170,10 @@
     {
       "summary": "In 2025, wind and solar energy provided 30% of EU electricity, surpassing fossil power (29%) for the first time, and generating more power than fossil sources in 14 of 27 EU countries \u2014 a milestone co",
       "date": "2026-06-06"
+    },
+    {
+      "summary": "The introduction of the EU's CBAM has created a meaningful incentive for other countries to adopt carbon pricing \u2014 researchers have found that countries worldwide have increased their use of carbon pr",
+      "date": "2026-06-07"
     }
   ],
   "newConcepts": [
@@ -208,25 +220,29 @@
     {
       "term": "Planetary Energy Imbalance (PEI)",
       "date": "2026-06-06"
+    },
+    {
+      "term": "Carbon Border Adjustment Mechanism (CBAM)",
+      "date": "2026-06-07"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Climate Week prep** \u2014 you've got a dedicated slot at 09:30 today. Given the Champions League final just happened and Arsenal are entering a big transfer window, it's also worth thinking about how sustainability storytelling intersects with major cultural moments \u2014 always a useful angle at Cedara.",
+      "item": "**Father's Day is next Sunday, 21 June** \u2014 that's the US third Sunday in June, so Ted in NJ gets a card (and a call). If you're sending something physical, post it this week from London to be safe.",
       "daysShown": 1,
-      "lastChanged": "2026-06-06"
+      "lastChanged": "2026-06-07"
     },
     {
-      "item": "**Father's Day is Sunday, 21 June** \u2014 two weeks out. Time to sort a card (or something more) for Ted in NJ. If you're posting from London, get it in the mail this week to be safe.",
+      "item": "**Props To You is clearly in active testing** \u2014 you've been firing test emails from JBogs/PTY. If the system is solid, this week might be a good moment to loop in a first real external user or draft a proper onboarding email.",
       "daysShown": 1,
-      "lastChanged": "2026-06-06"
+      "lastChanged": "2026-06-07"
     },
     {
-      "item": "**Props To You** \u2014 the \"test 3\" email in your inbox suggests something's being tested in the platform. Worth a quick check of what's live and what state the product is in, especially if external contacts might be touching it soon.",
+      "item": "**Arsenal's summer transfer window opens June 15** \u2014 only a week away. With the Champions League final heartbreak still fresh and 3\u20135 players potentially available for transfer, it'll be a big window to watch.",
       "daysShown": 1,
-      "lastChanged": "2026-06-06"
+      "lastChanged": "2026-06-07"
     }
   ],
-  "lastSentDate": "2026-06-06",
+  "lastSentDate": "2026-06-07",
   "last_model_upgrade": null
 }
