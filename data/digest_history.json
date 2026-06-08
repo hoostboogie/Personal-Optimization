@@ -24,6 +24,11 @@
       "text": "In the middle of every difficulty lies opportunity.",
       "author": "Albert Einstein*",
       "date": "2026-06-06"
+    },
+    {
+      "text": "If I lost this final, I maybe would have never won a Slam.",
+      "author": "Alexander Zverev, Roland-Garros trophy ceremony, 7 June 2026* (fresh off the press, not a LinkedIn graphic in sight)",
+      "date": "2026-06-08"
     }
   ],
   "jokes": [
@@ -174,6 +179,10 @@
     {
       "summary": "The introduction of the EU's CBAM has created a meaningful incentive for other countries to adopt carbon pricing \u2014 researchers have found that countries worldwide have increased their use of carbon pr",
       "date": "2026-06-07"
+    },
+    {
+      "summary": "The HSBC Championships at Queen's Club \u2014 a combined WTA and ATP 500 event \u2014 is underway in London through 21 June, and the tennis world is buzzing after four British players, including Katie Boulter, ",
+      "date": "2026-06-08"
     }
   ],
   "newConcepts": [
@@ -224,25 +233,29 @@
     {
       "term": "Carbon Border Adjustment Mechanism (CBAM)",
       "date": "2026-06-07"
+    },
+    {
+      "term": "Science-Based Targets initiative (SBTi)",
+      "date": "2026-06-08"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Father's Day is next Sunday, 21 June** \u2014 that's the US third Sunday in June, so Ted in NJ gets a card (and a call). If you're sending something physical, post it this week from London to be safe.",
+      "item": "**Content momentum window** \u2014 your 14:30 block today is the rare dedicated creative session. The GlobeLab AI idea, your Substack thinking, and the positive AI futures piece all overlap with your Cedara sustainability-meets-AI vantage point; use the session to pick one and actually start, even if imperfect.",
       "daysShown": 1,
-      "lastChanged": "2026-06-07"
+      "lastChanged": "2026-06-08"
     },
     {
-      "item": "**Props To You is clearly in active testing** \u2014 you've been firing test emails from JBogs/PTY. If the system is solid, this week might be a good moment to loop in a first real external user or draft a proper onboarding email.",
+      "item": "**Father's Day is Sunday, June 21** \u2014 that's 13 days away. Ted's Switzerland/Italy itinerary is sitting in your inbox and he's clearly pumped for the trip; this is also a natural moment to get a card or note in the post to NJ before the trip overlaps with the date (check the timing).",
       "daysShown": 1,
-      "lastChanged": "2026-06-07"
+      "lastChanged": "2026-06-08"
     },
     {
-      "item": "**Arsenal's summer transfer window opens June 15** \u2014 only a week away. With the Champions League final heartbreak still fresh and 3\u20135 players potentially available for transfer, it'll be a big window to watch.",
+      "item": "**Queen's Club tennis is on your doorstep** \u2014 the HSBC Championships run 6\u201321 June in London; with your tennis morning today and Steph around, this could be a fun mid-week outing if tickets are available. Riding the post-Roland-Garros energy.",
       "daysShown": 1,
-      "lastChanged": "2026-06-07"
+      "lastChanged": "2026-06-08"
     }
   ],
-  "lastSentDate": "2026-06-07",
+  "lastSentDate": "2026-06-08",
   "last_model_upgrade": null
 }
