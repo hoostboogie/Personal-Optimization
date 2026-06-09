@@ -29,6 +29,11 @@
       "text": "If I lost this final, I maybe would have never won a Slam.",
       "author": "Alexander Zverev, Roland-Garros trophy ceremony, 7 June 2026* (fresh off the press, not a LinkedIn graphic in sight)",
       "date": "2026-06-08"
+    },
+    {
+      "text": "Freedom comes next.",
+      "author": "Alexander Zverev, Roland-Garros, June 2026* (said after winning his first Grand Slam \u2014 earned, not recycled)",
+      "date": "2026-06-09"
     }
   ],
   "jokes": [
@@ -79,6 +84,10 @@
     {
       "text": "I signed up for a gardening club. The membership fees were steep, but the perks really grew on me.\n\n---\nSunday, 07 June 2026",
       "date": "2026-06-07"
+    },
+    {
+      "text": "I tried to organise a surprise party for my calendar. It didn't work \u2014 it already knew all the dates.\n\n---\nTuesday, 09 June 2026",
+      "date": "2026-06-09"
     }
   ],
   "funFacts": [
@@ -129,6 +138,10 @@
     {
       "text": "The French Open's Roland-Garros clay courts are made with a very specific recipe: crushed red brick (from Champagne, naturally) layered over limestone, cinder, and white limestone gravel \u2014 the distinc",
       "date": "2026-06-07"
+    },
+    {
+      "text": "Mirra Andreeva, at 19, is the youngest woman to lift the Coupe Suzanne Lenglen since Monica Seles in 1992 \u2014 meaning it took 34 years for anyone younger to claim that title. Tennis generations are long",
+      "date": "2026-06-09"
     }
   ],
   "envNews": [
@@ -183,6 +196,10 @@
     {
       "summary": "The HSBC Championships at Queen's Club \u2014 a combined WTA and ATP 500 event \u2014 is underway in London through 21 June, and the tennis world is buzzing after four British players, including Katie Boulter, ",
       "date": "2026-06-08"
+    },
+    {
+      "summary": "Russian teenager Mirra Andreeva won the women's singles trophy at Roland-Garros on Saturday \u2014 and the tournament itself made sustainability headlines: Roland-Garros's clay courts are one of the few ma",
+      "date": "2026-06-09"
     }
   ],
   "newConcepts": [
@@ -237,25 +254,29 @@
     {
       "term": "Science-Based Targets initiative (SBTi)",
       "date": "2026-06-08"
+    },
+    {
+      "term": "Retrieval-Augmented Generation (RAG)",
+      "date": "2026-06-09"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Content momentum window** \u2014 your 14:30 block today is the rare dedicated creative session. The GlobeLab AI idea, your Substack thinking, and the positive AI futures piece all overlap with your Cedara sustainability-meets-AI vantage point; use the session to pick one and actually start, even if imperfect.",
+      "item": "**Props To You login** \u2014 you received a magic link code (540584) two days ago; if you were trying to log in to catch up on the platform, worth doing that today before the code expires (it may already have \u2014 check if you need a new one).",
       "daysShown": 1,
-      "lastChanged": "2026-06-08"
+      "lastChanged": "2026-06-09"
     },
     {
-      "item": "**Father's Day is Sunday, June 21** \u2014 that's 13 days away. Ted's Switzerland/Italy itinerary is sitting in your inbox and he's clearly pumped for the trip; this is also a natural moment to get a card or note in the post to NJ before the trip overlaps with the date (check the timing).",
+      "item": "**Transfer window is open and Arsenal are busy** \u2014 Arsenal are reportedly in talks to sell a Premier League winner as Mikel Arteta's four-player clearout begins, while signings are also reportedly in motion. Good water-cooler fodder while the Champions League heartbreak is still fresh.",
       "daysShown": 1,
-      "lastChanged": "2026-06-08"
+      "lastChanged": "2026-06-09"
     },
     {
-      "item": "**Queen's Club tennis is on your doorstep** \u2014 the HSBC Championships run 6\u201321 June in London; with your tennis morning today and Steph around, this could be a fun mid-week outing if tickets are available. Riding the post-Roland-Garros energy.",
+      "item": "**Father's Day is Sunday, June 21** \u2014 that's less than two weeks away. A card to Ted in NJ should go in the post this week to make it on time from London; consider whether you want to sort something for Teddy too.",
       "daysShown": 1,
-      "lastChanged": "2026-06-08"
+      "lastChanged": "2026-06-09"
     }
   ],
-  "lastSentDate": "2026-06-08",
+  "lastSentDate": "2026-06-09",
   "last_model_upgrade": null
 }
