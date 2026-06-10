@@ -34,6 +34,11 @@
       "text": "Freedom comes next.",
       "author": "Alexander Zverev, Roland-Garros, June 2026* (said after winning his first Grand Slam \u2014 earned, not recycled)",
       "date": "2026-06-09"
+    },
+    {
+      "text": "The world is not to be put in order; the world is order itself. It is for us to harmonize with it.",
+      "author": "Henry Miller*",
+      "date": "2026-06-10"
     }
   ],
   "jokes": [
@@ -88,6 +93,10 @@
     {
       "text": "I tried to organise a surprise party for my calendar. It didn't work \u2014 it already knew all the dates.\n\n---\nTuesday, 09 June 2026",
       "date": "2026-06-09"
+    },
+    {
+      "text": "I tried to make a reservation at the library. They were fully booked.\n\n---\nWednesday, 10 June 2026",
+      "date": "2026-06-10"
     }
   ],
   "funFacts": [
@@ -142,6 +151,10 @@
     {
       "text": "Mirra Andreeva, at 19, is the youngest woman to lift the Coupe Suzanne Lenglen since Monica Seles in 1992 \u2014 meaning it took 34 years for anyone younger to claim that title. Tennis generations are long",
       "date": "2026-06-09"
+    },
+    {
+      "text": "Cleopatra lived closer in time to the Moon landing (1969) than to the construction of the Great Pyramid of Giza (~2560 BC) \u2014 she was born around 69 BC, roughly 2,500 years after the pyramid was built,",
+      "date": "2026-06-10"
     }
   ],
   "envNews": [
@@ -200,6 +213,10 @@
     {
       "summary": "Russian teenager Mirra Andreeva won the women's singles trophy at Roland-Garros on Saturday \u2014 and the tournament itself made sustainability headlines: Roland-Garros's clay courts are one of the few ma",
       "date": "2026-06-09"
+    },
+    {
+      "summary": "Sustainability is becoming a cross-cutting trend in programmatic advertising \u2014 in 2026, the industry is moving toward more efficient models that reduce ad waste and unnecessary resource consumption. S",
+      "date": "2026-06-10"
     }
   ],
   "newConcepts": [
@@ -258,25 +275,29 @@
     {
       "term": "Retrieval-Augmented Generation (RAG)",
       "date": "2026-06-09"
+    },
+    {
+      "term": "Ad Context Protocol (AdCP)",
+      "date": "2026-06-10"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Props To You login** \u2014 you received a magic link code (540584) two days ago; if you were trying to log in to catch up on the platform, worth doing that today before the code expires (it may already have \u2014 check if you need a new one).",
+      "item": "**UCL Final hangover** \u2014 Arsenal lost on penalties to PSG in Budapest. The 21:00 IG post is a chance to channel the emotion into something authentic rather than purely promotional. Your London-life narrative still holds.",
       "daysShown": 1,
-      "lastChanged": "2026-06-09"
+      "lastChanged": "2026-06-10"
     },
     {
-      "item": "**Transfer window is open and Arsenal are busy** \u2014 Arsenal are reportedly in talks to sell a Premier League winner as Mikel Arteta's four-player clearout begins, while signings are also reportedly in motion. Good water-cooler fodder while the Champions League heartbreak is still fresh.",
+      "item": "**Father's Day is Sunday, June 21** \u2014 that's 11 days away. If you're sending a card to Ted in NJ, post it this week from London; standard international post can take 7\u201310 days. If you're going digital, a handwritten note photo goes a long way.",
       "daysShown": 1,
-      "lastChanged": "2026-06-09"
+      "lastChanged": "2026-06-10"
     },
     {
-      "item": "**Father's Day is Sunday, June 21** \u2014 that's less than two weeks away. A card to Ted in NJ should go in the post this week to make it on time from London; consider whether you want to sort something for Teddy too.",
+      "item": "**Props To You** \u2014 a login code landed 3 days ago, suggesting you may have started something on the platform. Worth revisiting what you were building before it goes cold.",
       "daysShown": 1,
-      "lastChanged": "2026-06-09"
+      "lastChanged": "2026-06-10"
     }
   ],
-  "lastSentDate": "2026-06-09",
+  "lastSentDate": "2026-06-10",
   "last_model_upgrade": null
 }
