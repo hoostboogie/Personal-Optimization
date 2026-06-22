@@ -97,6 +97,10 @@
     {
       "text": "I tried to make a reservation at the library. They were fully booked.\n\n---\nWednesday, 10 June 2026",
       "date": "2026-06-10"
+    },
+    {
+      "text": "I tried to start a business selling calendars. It only lasted a year.\n\n---\nMonday, 22 June 2026",
+      "date": "2026-06-22"
     }
   ],
   "funFacts": [
@@ -155,6 +159,10 @@
     {
       "text": "Cleopatra lived closer in time to the Moon landing (1969) than to the construction of the Great Pyramid of Giza (~2560 BC) \u2014 she was born around 69 BC, roughly 2,500 years after the pyramid was built,",
       "date": "2026-06-10"
+    },
+    {
+      "text": "The longest road tunnel in the world \u2014 the L\u00e6rdal Tunnel in Norway \u2014 is 24.5 km long and takes about 20 minutes to drive through. To prevent driver fatigue and disorientation, it was designed with thr",
+      "date": "2026-06-22"
     }
   ],
   "envNews": [
@@ -217,6 +225,10 @@
     {
       "summary": "Sustainability is becoming a cross-cutting trend in programmatic advertising \u2014 in 2026, the industry is moving toward more efficient models that reduce ad waste and unnecessary resource consumption. S",
       "date": "2026-06-10"
+    },
+    {
+      "summary": "Britain's Harriet Dart and Maia Lumsden were crowned women's doubles champions at the Lexus Nottingham Open, securing a straight-sets victory in the final \u2014 a home win on grass just as Wimbledon prep ",
+      "date": "2026-06-22"
     }
   ],
   "newConcepts": [
@@ -279,25 +291,29 @@
     {
       "term": "Ad Context Protocol (AdCP)",
       "date": "2026-06-10"
+    },
+    {
+      "term": "GHG Protocol Scope 3 Value Chain Accounting",
+      "date": "2026-06-22"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**UCL Final hangover** \u2014 Arsenal lost on penalties to PSG in Budapest. The 21:00 IG post is a chance to channel the emotion into something authentic rather than purely promotional. Your London-life narrative still holds.",
+      "item": "**Arsenal transfer window:** The summer window opened June 15 \u2014 15 players leave at end of June. Arsenal have emerged as one of several clubs monitoring Mason Greenwood and are also named in the race for Brentford's 22-goal Brazilian striker, while Rogers has been told he can \"go to the very top.\" Big summer incoming.",
       "daysShown": 1,
-      "lastChanged": "2026-06-10"
+      "lastChanged": "2026-06-22"
     },
     {
-      "item": "**Father's Day is Sunday, June 21** \u2014 that's 11 days away. If you're sending a card to Ted in NJ, post it this week from London; standard international post can take 7\u201310 days. If you're going digital, a handwritten note photo goes a long way.",
+      "item": "**Climate Week London (all week):** You're in a strong position to represent Cedara at fringe events \u2014 check the schedule at [londonclimateactionweek.org/events](http://londonclimateactionweek.org/events) for anything worth dropping into this week.",
       "daysShown": 1,
-      "lastChanged": "2026-06-10"
+      "lastChanged": "2026-06-22"
     },
     {
-      "item": "**Props To You** \u2014 a login code landed 3 days ago, suggesting you may have started something on the platform. Worth revisiting what you were building before it goes cold.",
+      "item": "**Props To You / patio project:** Two nurseries replied today (Lily Laflin + Burncoose) \u2014 this is the moment to consolidate your plant shortlist and make decisions before availability changes. Steph will probably have opinions on the acers.",
       "daysShown": 1,
-      "lastChanged": "2026-06-10"
+      "lastChanged": "2026-06-22"
     }
   ],
-  "lastSentDate": "2026-06-10",
+  "lastSentDate": "2026-06-22",
   "last_model_upgrade": null
 }
