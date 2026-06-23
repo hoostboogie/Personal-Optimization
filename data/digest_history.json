@@ -39,6 +39,11 @@
       "text": "The world is not to be put in order; the world is order itself. It is for us to harmonize with it.",
       "author": "Henry Miller*",
       "date": "2026-06-10"
+    },
+    {
+      "text": "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails.",
+      "author": "William Arthur Ward*",
+      "date": "2026-06-23"
     }
   ],
   "jokes": [
@@ -163,6 +168,10 @@
     {
       "text": "The longest road tunnel in the world \u2014 the L\u00e6rdal Tunnel in Norway \u2014 is 24.5 km long and takes about 20 minutes to drive through. To prevent driver fatigue and disorientation, it was designed with thr",
       "date": "2026-06-22"
+    },
+    {
+      "text": "The women's singles field at Wim",
+      "date": "2026-06-23"
     }
   ],
   "envNews": [
@@ -229,6 +238,10 @@
     {
       "summary": "Britain's Harriet Dart and Maia Lumsden were crowned women's doubles champions at the Lexus Nottingham Open, securing a straight-sets victory in the final \u2014 a home win on grass just as Wimbledon prep ",
       "date": "2026-06-22"
+    },
+    {
+      "summary": "Arsenal Women have written another historic chapter after becoming the first-ever winners of the FIFA Women's Champions Cup \u2014 and the wider story: the 2025/26 women's football season saw record attend",
+      "date": "2026-06-23"
     }
   ],
   "newConcepts": [
@@ -295,25 +308,29 @@
     {
       "term": "GHG Protocol Scope 3 Value Chain Accounting",
       "date": "2026-06-22"
+    },
+    {
+      "term": "Federated Learning",
+      "date": "2026-06-23"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Arsenal transfer window:** The summer window opened June 15 \u2014 15 players leave at end of June. Arsenal have emerged as one of several clubs monitoring Mason Greenwood and are also named in the race for Brentford's 22-goal Brazilian striker, while Rogers has been told he can \"go to the very top.\" Big summer incoming.",
+      "item": "**Cedara + Climate Week London:** Today's the 8th edition of Climate Week London \u2014 even if you can't attend events in person, the conversations happening across the city today are directly relevant to Cedara's positioning. Worth scanning the [events page](http://londonclimateactionweek.org/events) for names and organisations you should know.",
       "daysShown": 1,
-      "lastChanged": "2026-06-22"
+      "lastChanged": "2026-06-23"
     },
     {
-      "item": "**Climate Week London (all week):** You're in a strong position to represent Cedara at fringe events \u2014 check the schedule at [londonclimateactionweek.org/events](http://londonclimateactionweek.org/events) for anything worth dropping into this week.",
+      "item": "**Arsenal transfer window:** With the window barely two weeks old, Arsenal are already linked with Brentford's top striker and reportedly could move on a midfielder \u2014 the next few weeks will be defining for next season's squad. Keep an eye on the summer transfer news.",
       "daysShown": 1,
-      "lastChanged": "2026-06-22"
+      "lastChanged": "2026-06-23"
     },
     {
-      "item": "**Props To You / patio project:** Two nurseries replied today (Lily Laflin + Burncoose) \u2014 this is the moment to consolidate your plant shortlist and make decisions before availability changes. Steph will probably have opinions on the acers.",
+      "item": "**Props To You:** A Magic Link login code was sent to you 1d ago \u2014 if you were testing something on the platform, follow up to make sure the integration or account action you needed is complete.",
       "daysShown": 1,
-      "lastChanged": "2026-06-22"
+      "lastChanged": "2026-06-23"
     }
   ],
-  "lastSentDate": "2026-06-22",
+  "lastSentDate": "2026-06-23",
   "last_model_upgrade": null
 }
