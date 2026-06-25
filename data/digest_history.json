@@ -115,6 +115,10 @@
     {
       "text": "I tried to win an argument with a calendar. It had too many dates on me.\n\n---\nWednesday, 24 June",
       "date": "2026-06-24"
+    },
+    {
+      "text": "I started a business selling",
+      "date": "2026-06-25"
     }
   ],
   "funFacts": [
@@ -185,6 +189,10 @@
     {
       "text": "The world's largest living organism isn't a whale or a sequoia \u2014 it's a fungal network in Oregon's Malheur National Forest. The honey fungus (*Armillaria ostoyae*) spans approximately 2,385 acres (nea",
       "date": "2026-06-24"
+    },
+    {
+      "text": "The Wimbledon grass courts are mowed to exactly 8mm \u2014 but here's the stranger one: the grass used is 100% perennial ryegrass, chosen specifically because it grows upright rather than spreading, giving",
+      "date": "2026-06-25"
     }
   ],
   "envNews": [
@@ -259,6 +267,10 @@
     {
       "summary": "The environmental impact of digital advertising is coming into sharper focus in 2026 \u2014 more advertisers and publishers are now prioritising \"Green AdTech\" initiatives to reduce the industry's carbon i",
       "date": "2026-06-24"
+    },
+    {
+      "summary": "Donna Vekic became the new women's singles champion at the WTA 500 HSBC Championships after an impressive final victory over Britain's Emma Raducanu \u2014 but the better green news: the Environmental Audi",
+      "date": "2026-06-25"
     }
   ],
   "newConcepts": [
@@ -333,25 +345,29 @@
     {
       "term": "MadTech (Marketing + AdTech Convergence)",
       "date": "2026-06-24"
+    },
+    {
+      "term": "Earnout Structure",
+      "date": "2026-06-25"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Content queue building up:** You've got three distinct post ideas brewing (GlobeLab AI, OpenAI ethics, positive AI futures) plus the LCAW week is giving you live material. Consider keeping a running note today so the writing comes easier when you sit down at 5pm.",
+      "item": "**LCAW ends Friday.** Today and tomorrow are your last chances to attend events, make connections, or identify Cedara-relevant opportunities from the week. The 13:00 review block is your window \u2014 use it.",
       "daysShown": 1,
-      "lastChanged": "2026-06-24"
+      "lastChanged": "2026-06-25"
     },
     {
-      "item": "**LCAW extreme heat advisory:** With multiple in-person events today across London, check the LCAW secretariat email before heading out \u2014 dress accordingly and hydrate. London hitting 30\u00b0C+ is no joke.",
+      "item": "**Empire of the Sun follow-up.** You've got a promoter connection via Guimond \u2014 this has been on the calendar with no action logged. Worth a quick message today while it's front of mind.",
       "daysShown": 1,
-      "lastChanged": "2026-06-24"
+      "lastChanged": "2026-06-25"
     },
     {
-      "item": "**Empire of the Sun \u2014 check with Guimond:** Still flagged on your calendar as a question mark. If there's a show coming up, today's a good day to ping Guimond and get the answer while the week is still fresh.",
+      "item": "**Contract signatures are time-sensitive.** Two Adobe Acrobat Sign requests from Lorraine Barker landed today \u2014 the fixed-term contract and offer letter. Don't let these sit past end of business.",
       "daysShown": 1,
-      "lastChanged": "2026-06-24"
+      "lastChanged": "2026-06-25"
     }
   ],
-  "lastSentDate": "2026-06-24",
+  "lastSentDate": "2026-06-25",
   "last_model_upgrade": null
 }
