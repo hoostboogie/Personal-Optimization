@@ -351,23 +351,7 @@
       "date": "2026-06-25"
     }
   ],
-  "keepInMindHistory": [
-    {
-      "item": "**LCAW ends Friday.** Today and tomorrow are your last chances to attend events, make connections, or identify Cedara-relevant opportunities from the week. The 13:00 review block is your window \u2014 use it.",
-      "daysShown": 1,
-      "lastChanged": "2026-06-25"
-    },
-    {
-      "item": "**Empire of the Sun follow-up.** You've got a promoter connection via Guimond \u2014 this has been on the calendar with no action logged. Worth a quick message today while it's front of mind.",
-      "daysShown": 1,
-      "lastChanged": "2026-06-25"
-    },
-    {
-      "item": "**Contract signatures are time-sensitive.** Two Adobe Acrobat Sign requests from Lorraine Barker landed today \u2014 the fixed-term contract and offer letter. Don't let these sit past end of business.",
-      "daysShown": 1,
-      "lastChanged": "2026-06-25"
-    }
-  ],
-  "lastSentDate": "2026-06-25",
+  "keepInMindHistory": [],
+  "lastSentDate": "2026-06-26",
   "last_model_upgrade": null
 }
