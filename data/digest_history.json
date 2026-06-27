@@ -49,6 +49,11 @@
       "text": "Do not wait to strike till the iron is hot; but make it hot by striking.",
       "author": "William Butler Yeats*",
       "date": "2026-06-24"
+    },
+    {
+      "text": "Knowing trees, I understand the meaning of patience. Knowing grass, I can appreciate persistence.",
+      "author": "Hal Borland*",
+      "date": "2026-06-27"
     }
   ],
   "jokes": [
@@ -351,7 +356,13 @@
       "date": "2026-06-25"
     }
   ],
-  "keepInMindHistory": [],
-  "lastSentDate": "2026-06-26",
+  "keepInMindHistory": [
+    {
+      "item": "**Arsenal transfer window is heating up:**",
+      "daysShown": 1,
+      "lastChanged": "2026-06-27"
+    }
+  ],
+  "lastSentDate": "2026-06-27",
   "last_model_upgrade": null
 }
