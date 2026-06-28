@@ -354,15 +354,29 @@
     {
       "term": "Earnout Structure",
       "date": "2026-06-25"
+    },
+    {
+      "term": "Article 6.4 (Paris Agreement Carbon Crediting Mechanism)",
+      "date": "2026-06-28"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Arsenal transfer window is heating up:**",
+      "item": "**Father's Day, US** \u2014 It's today. Ted is in NJ. The 21:00 Mum & Pop call is your moment \u2014 make sure it's not just a catch-up but a proper Father's Day call. If you didn't send a card, a voice note or a heartfelt message before the call would go a long way.",
       "daysShown": 1,
-      "lastChanged": "2026-06-27"
+      "lastChanged": "2026-06-28"
+    },
+    {
+      "item": "**GlobeLab AI post timing** \u2014 With Climate Action Week wrapping today and Wimbledon starting tomorrow, the news cycle resets. If you want to publish the LinkedIn post in a meaningful news window, this week is well-timed. Use today's 14:30 session to get it to \"good enough\" \u2014 done is better than perfect here.",
+      "daysShown": 1,
+      "lastChanged": "2026-06-28"
+    },
+    {
+      "item": "**Contract signature pending** \u2014 Lorraine Barker's OOO until July 14. Clarify before then whether the signature can go through another contact or if there's a deadline attached. Don't let this drift.",
+      "daysShown": 1,
+      "lastChanged": "2026-06-28"
     }
   ],
-  "lastSentDate": "2026-06-27",
+  "lastSentDate": "2026-06-28",
   "last_model_upgrade": null
 }
