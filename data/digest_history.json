@@ -54,6 +54,11 @@
       "text": "Knowing trees, I understand the meaning of patience. Knowing grass, I can appreciate persistence.",
       "author": "Hal Borland*",
       "date": "2026-06-27"
+    },
+    {
+      "text": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt*",
+      "date": "2026-06-30"
     }
   ],
   "jokes": [
@@ -198,6 +203,10 @@
     {
       "text": "The Wimbledon grass courts are mowed to exactly 8mm \u2014 but here's the stranger one: the grass used is 100% perennial ryegrass, chosen specifically because it grows upright rather than spreading, giving",
       "date": "2026-06-25"
+    },
+    {
+      "text": "The game of tennis",
+      "date": "2026-06-30"
     }
   ],
   "envNews": [
@@ -276,6 +285,10 @@
     {
       "summary": "Donna Vekic became the new women's singles champion at the WTA 500 HSBC Championships after an impressive final victory over Britain's Emma Raducanu \u2014 but the better green news: the Environmental Audi",
       "date": "2026-06-25"
+    },
+    {
+      "summary": "Madison Keys won the Lexus Eastbourne Open for a third time in her career \u2014 great for tennis, but the real green note: the Eastbourne tournament has been running on 100% renewable energy this year as ",
+      "date": "2026-06-30"
     }
   ],
   "newConcepts": [
@@ -362,25 +375,29 @@
     {
       "term": "Extended Producer Responsibility (EPR):",
       "date": "2026-06-29"
+    },
+    {
+      "term": "Causal Representation Learning",
+      "date": "2026-06-30"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Patio tree hunt:** You've got six nurseries in various states of non-reply. N1 Garden Centre is walking distance \u2014 worth just popping in rather than emailing again. The patio dream is alive; don't let it wither.",
+      "item": "**Props To You / side-project bandwidth** \u2014 your calendar notes on GlobeLab reference other side-projects and \"life things\" as reasons not to go deep on it. Worth keeping an eye on that tension \u2014 Cedara VP role + London life + props + content creation is a full plate. You don't have to do everything today; you just have to do the next right thing.",
       "daysShown": 1,
-      "lastChanged": "2026-06-29"
+      "lastChanged": "2026-06-30"
     },
     {
-      "item": "**Cedara / ANZ onboarding momentum:** With Lorraine Barker OOO until July 14, your HR/onboarding thread is paused \u2014 use the time to get ahead on relationship-building with the core ANZ team (today's 14:00 call is a live opportunity).",
+      "item": "**Content creation window at 16:45** \u2014 you've got three genuinely distinct post ideas queued. Worth a 5-minute pre-session triage: which one is most publish-ready today vs. which needs more baking? The GlobeLab LinkedIn post is probably the most time-sensitive (before someone else names it); the AI ethics Substack piece is more of a slow-burn.",
       "daysShown": 1,
-      "lastChanged": "2026-06-29"
+      "lastChanged": "2026-06-30"
     },
     {
-      "item": "**Arsenal summer window:** The Gunners won the PL title and went to the Champions League final \u2014 this is a big transfer summer. Arteta is reportedly protecting key players while the club weighs ambitious signings. Keep tabs; great conversation fodder with Conway and Nick tonight.",
+      "item": "**Patio tree situation** \u2014 you've been chasing five nurseries for over a week with patchy responses. Today might be the day to either consolidate on the fastest responder or walk into a local place (Cally Garden Centre is literally in Islington). The choppping sessions this morning will make you want those trees in situ sooner rather than later.",
       "daysShown": 1,
-      "lastChanged": "2026-06-29"
+      "lastChanged": "2026-06-30"
     }
   ],
-  "lastSentDate": "2026-06-29",
+  "lastSentDate": "2026-06-30",
   "last_model_upgrade": null
 }
