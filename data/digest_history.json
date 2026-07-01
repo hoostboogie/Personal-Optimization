@@ -207,6 +207,10 @@
     {
       "text": "The game of tennis",
       "date": "2026-06-30"
+    },
+    {
+      "text": "July 1st is the first day of the second half of the year \u2014 but here's the kicker: because of leap years and calendar quirks, today is almost never the exact midpoint. In a non-leap year, the true midp",
+      "date": "2026-07-01"
     }
   ],
   "envNews": [
@@ -289,6 +293,10 @@
     {
       "summary": "Madison Keys won the Lexus Eastbourne Open for a third time in her career \u2014 great for tennis, but the real green note: the Eastbourne tournament has been running on 100% renewable energy this year as ",
       "date": "2026-06-30"
+    },
+    {
+      "summary": "In 2026, more advertisers and publishers are prioritising \"Green AdTech\" initiatives to reduce carbon impact, with agencies beginning to include carbon metrics in campaign reports \u2014 and industry coali",
+      "date": "2026-07-01"
     }
   ],
   "newConcepts": [
@@ -379,25 +387,29 @@
     {
       "term": "Causal Representation Learning",
       "date": "2026-06-30"
+    },
+    {
+      "term": "Supply Path Optimization (SPO)",
+      "date": "2026-07-01"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Props To You / side-project bandwidth** \u2014 your calendar notes on GlobeLab reference other side-projects and \"life things\" as reasons not to go deep on it. Worth keeping an eye on that tension \u2014 Cedara VP role + London life + props + content creation is a full plate. You don't have to do everything today; you just have to do the next right thing.",
+      "item": "**Fricker Cup, 11\u201312 Sep** \u2014 registration is open; check the dates don't clash with anything before committing. It's a September weekend, which also lands close to your London move anniversary with Steph.",
       "daysShown": 1,
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
-      "item": "**Content creation window at 16:45** \u2014 you've got three genuinely distinct post ideas queued. Worth a 5-minute pre-session triage: which one is most publish-ready today vs. which needs more baking? The GlobeLab LinkedIn post is probably the most time-sensitive (before someone else names it); the AI ethics Substack piece is more of a slow-burn.",
+      "item": "**Ad Net Zero onboarding** \u2014 two documents need signatures today (contract + BYOD), and a team lunch to acknowledge. You're going into the office for the first time on July 2nd \u2014 tomorrow. Make sure you're prepped.",
       "daysShown": 1,
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     },
     {
-      "item": "**Patio tree situation** \u2014 you've been chasing five nurseries for over a week with patchy responses. Today might be the day to either consolidate on the fastest responder or walk into a local place (Cally Garden Centre is literally in Islington). The choppping sessions this morning will make you want those trees in situ sooner rather than later.",
+      "item": "**August 1st party venue** \u2014 you have live responses from The Regent, The Crown, Chapel Market Tavern, and Bellanger all today. They won't all wait \u2014 shortlist and reply before end of day or you risk losing availability.",
       "daysShown": 1,
-      "lastChanged": "2026-06-30"
+      "lastChanged": "2026-07-01"
     }
   ],
-  "lastSentDate": "2026-06-30",
+  "lastSentDate": "2026-07-01",
   "last_model_upgrade": null
 }
