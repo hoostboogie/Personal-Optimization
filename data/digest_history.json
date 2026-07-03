@@ -64,6 +64,11 @@
       "text": "Not the load, but how you carry it.",
       "author": "Lena Horne* (said it once, meant it always)",
       "date": "2026-07-02"
+    },
+    {
+      "text": "In theory, theory and practice are the same. In practice, they are not.",
+      "author": "Yogi Berra*",
+      "date": "2026-07-03"
     }
   ],
   "jokes": [
@@ -224,6 +229,10 @@
     {
       "text": "The All England Club's famous strawberries-and-cream tradition at Wimbledon dates to the 1800s \u2014 but here's the number that's harder to believe: the tournament gets through approximately 28,000 kg of ",
       "date": "2026-07-02"
+    },
+    {
+      "text": "The World Cup is currently being played across three countries simultaneously \u2014 the USA, Canada, and Mexico \u2014 making the 2026 edition the first tournament in history to span an entire continent and th",
+      "date": "2026-07-03"
     }
   ],
   "envNews": [
@@ -314,6 +323,10 @@
     {
       "summary": "The next wave of clean-energy M&A opportunity is increasingly centred on data centres, power, grid infrastructure, and digital connectivity \u2014 and backing that up concretely: the UK government confirme",
       "date": "2026-07-02"
+    },
+    {
+      "summary": "Burial plots, lobbying transparency, and nature's rights are on the agenda in the first round of Lords debates today on 3 July \u2014 the nature legal personhood debate in Parliament is gathering real mome",
+      "date": "2026-07-03"
     }
   ],
   "newConcepts": [
@@ -412,25 +425,29 @@
     {
       "term": "Unitranche Debt",
       "date": "2026-07-02"
+    },
+    {
+      "term": "Second-Order Thinking",
+      "date": "2026-07-03"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Three patio tree nurseries are ghosting you** \u2014 Crocus, Finchley, and Cally Garden Center have all been slow to respond. Consider calling Cally directly today or widening the search; summer is the best planting window and it's closing.",
+      "item": "**Wimbledon is live all week** \u2014 You're on the doorstep in London; tickets or fan zones are worth a look if you want to go, especially as the tournament heads into the second week. Sinner, Sabalenka, and Djokovic are all still in.",
       "daysShown": 1,
-      "lastChanged": "2026-07-02"
+      "lastChanged": "2026-07-03"
     },
     {
-      "item": "**Today is your first day in the Ad Net Zero office** \u2014 the BYOD Policy signature and the bio you sent Lorraine will likely come up. Have your Mac charged and bring a notebook. First impressions are the whole game.",
+      "item": "**Fourth of July weekend** \u2014 It's the 4th tomorrow. Great moment to call dad Ted in NJ \u2014 it's Father's Day-adjacent energy (his day is always worth a second ring). Family check-in across the pond costs nothing and means a lot.",
       "daysShown": 1,
-      "lastChanged": "2026-07-02"
+      "lastChanged": "2026-07-03"
     },
     {
-      "item": "**Kingham Plough cancelled** \u2014 check if that was a reservation you needed to rebook elsewhere. With Cecilia still around and evening plans in motion, it could matter for upcoming weekend plans.",
+      "item": "**Ad Net Zero onboarding** \u2014 You came into the office for the first time July 2nd. Your fixed-term contract DocuSign has expired and still needs re-signing (see follow-ups above) \u2014 get that resolved before it slips further into the holiday weekend.",
       "daysShown": 1,
-      "lastChanged": "2026-07-02"
+      "lastChanged": "2026-07-03"
     }
   ],
-  "lastSentDate": "2026-07-02",
+  "lastSentDate": "2026-07-03",
   "last_model_upgrade": null
 }
