@@ -69,6 +69,11 @@
       "text": "In theory, theory and practice are the same. In practice, they are not.",
       "author": "Yogi Berra*",
       "date": "2026-07-03"
+    },
+    {
+      "text": "I am not afraid of storms, for I am learning how to sail my ship.",
+      "author": "Louisa May Alcott*",
+      "date": "2026-07-04"
     }
   ],
   "jokes": [
@@ -429,25 +434,29 @@
     {
       "term": "Second-Order Thinking",
       "date": "2026-07-03"
+    },
+    {
+      "term": "Ocean Deoxygenation",
+      "date": "2026-07-04"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Wimbledon is live all week** \u2014 You're on the doorstep in London; tickets or fan zones are worth a look if you want to go, especially as the tournament heads into the second week. Sinner, Sabalenka, and Djokovic are all still in.",
+      "item": "**London Climate Action Week feedback** \u2014 LCAW 2026 just wrapped and the secretariat wants your input. Take five minutes to respond \u2014 your voice matters and it's good relationship maintenance heading into Climate Week NY.",
       "daysShown": 1,
-      "lastChanged": "2026-07-03"
+      "lastChanged": "2026-07-04"
     },
     {
-      "item": "**Fourth of July weekend** \u2014 It's the 4th tomorrow. Great moment to call dad Ted in NJ \u2014 it's Father's Day-adjacent energy (his day is always worth a second ring). Family check-in across the pond costs nothing and means a lot.",
+      "item": "**Mike is in Tbilisi and Kazakhstan** \u2014 Keep in mind if anything comes up that you'd normally loop him in on; he's traveling and may be patchy on comms.",
       "daysShown": 1,
-      "lastChanged": "2026-07-03"
+      "lastChanged": "2026-07-04"
     },
     {
-      "item": "**Ad Net Zero onboarding** \u2014 You came into the office for the first time July 2nd. Your fixed-term contract DocuSign has expired and still needs re-signing (see follow-ups above) \u2014 get that resolved before it slips further into the holiday weekend.",
+      "item": "**Ad Net Zero onboarding** \u2014 You're newly in at ANZ as Development Director. Stephen Woodford has welcomed you warmly and Jemma's involvement is paused until Climate Week. Use the holiday weekend to get mentally prepped for the weeks ahead.",
       "daysShown": 1,
-      "lastChanged": "2026-07-03"
+      "lastChanged": "2026-07-04"
     }
   ],
-  "lastSentDate": "2026-07-03",
+  "lastSentDate": "2026-07-04",
   "last_model_upgrade": null
 }
