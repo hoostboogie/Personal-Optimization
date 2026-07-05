@@ -148,6 +148,10 @@
     {
       "text": "I told my boss it was my first day and I was nervous. He said, \"Don't worry \u2014 just be yourself.\" I've never felt less prepared.\n\n---\nThursday, 02 July 2026",
       "date": "2026-07-02"
+    },
+    {
+      "text": "I tried to watch the F1 race without making a noise. I just couldn't keep a straight face.\n\n---\nSunday, 05 July 2026",
+      "date": "2026-07-05"
     }
   ],
   "funFacts": [
@@ -238,6 +242,10 @@
     {
       "text": "The World Cup is currently being played across three countries simultaneously \u2014 the USA, Canada, and Mexico \u2014 making the 2026 edition the first tournament in history to span an entire continent and th",
       "date": "2026-07-03"
+    },
+    {
+      "text": "The Crooked Billet pub in Stoke Newington \u2014 one of London's oldest \u2014 reportedly dates to the 17th century and takes its name from the crooked wooden staff traditionally hung outside alehouses to signa",
+      "date": "2026-07-05"
     }
   ],
   "envNews": [
@@ -332,6 +340,10 @@
     {
       "summary": "Burial plots, lobbying transparency, and nature's rights are on the agenda in the first round of Lords debates today on 3 July \u2014 the nature legal personhood debate in Parliament is gathering real mome",
       "date": "2026-07-03"
+    },
+    {
+      "summary": "The EU has committed to dedicating 10% of its budget to supporting actions and investments that address biodiversity protection and restoration in 2026 and 2027, and to doubling funding for external b",
+      "date": "2026-07-05"
     }
   ],
   "newConcepts": [
@@ -438,25 +450,29 @@
     {
       "term": "Ocean Deoxygenation",
       "date": "2026-07-04"
+    },
+    {
+      "term": "Biodiversity Credits",
+      "date": "2026-07-05"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**London Climate Action Week feedback** \u2014 LCAW 2026 just wrapped and the secretariat wants your input. Take five minutes to respond \u2014 your voice matters and it's good relationship maintenance heading into Climate Week NY.",
+      "item": "**Party venue for 1 Aug is still unresolved** \u2014 Bellanger needs a card on file, The Crown still has a competing enquiry, and Wenlock Arms hasn't replied. You've got maybe a week before things slip. Treat Monday as the day to close this out.",
       "daysShown": 1,
-      "lastChanged": "2026-07-04"
+      "lastChanged": "2026-07-05"
     },
     {
-      "item": "**Mike is in Tbilisi and Kazakhstan** \u2014 Keep in mind if anything comes up that you'd normally loop him in on; he's traveling and may be patchy on comms.",
+      "item": "**Mike is in Tbilisi and Kazakhstan** \u2014 he's properly off the grid this week. File away anything good from the WC R16 tonight to share when he surfaces.",
       "daysShown": 1,
-      "lastChanged": "2026-07-04"
+      "lastChanged": "2026-07-05"
     },
     {
-      "item": "**Ad Net Zero onboarding** \u2014 You're newly in at ANZ as Development Director. Stephen Woodford has welcomed you warmly and Jemma's involvement is paused until Climate Week. Use the holiday weekend to get mentally prepped for the weeks ahead.",
+      "item": "**Ad Net Zero onboarding** \u2014 Elle Chartres is OOO until 14 July; Danielle Wilson is the contract point of contact, and Lorraine Barker holds the HR threads. Good week to make sure nothing is stalled while the office is in summer-Friday mode.",
       "daysShown": 1,
-      "lastChanged": "2026-07-04"
+      "lastChanged": "2026-07-05"
     }
   ],
-  "lastSentDate": "2026-07-04",
+  "lastSentDate": "2026-07-05",
   "last_model_upgrade": null
 }
