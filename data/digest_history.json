@@ -74,6 +74,11 @@
       "text": "I am not afraid of storms, for I am learning how to sail my ship.",
       "author": "Louisa May Alcott*",
       "date": "2026-07-04"
+    },
+    {
+      "text": "It is only when we are no longer fearful that we begin to create.",
+      "author": "J.M.W. Turner*",
+      "date": "2026-07-06"
     }
   ],
   "jokes": [
@@ -454,25 +459,29 @@
     {
       "term": "Biodiversity Credits",
       "date": "2026-07-05"
+    },
+    {
+      "term": "Life Cycle Assessment (LCA)",
+      "date": "2026-07-06"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Party venue for 1 Aug is still unresolved** \u2014 Bellanger needs a card on file, The Crown still has a competing enquiry, and Wenlock Arms hasn't replied. You've got maybe a week before things slip. Treat Monday as the day to close this out.",
+      "item": "**New role onboarding:** With Elle Chartres OOO until 14 July and the BYOD policy still unsigned, use this first week to get the admin baseline clean \u2014 contracts confirmed, policies signed, and intro reading done. The Ad Net Zero / CIMA call today is a good anchoring rhythm.",
       "daysShown": 1,
-      "lastChanged": "2026-07-05"
+      "lastChanged": "2026-07-06"
     },
     {
-      "item": "**Mike is in Tbilisi and Kazakhstan** \u2014 he's properly off the grid this week. File away anything good from the WC R16 tonight to share when he surfaces.",
+      "item": "**Party venue crunch:** You've got multiple irons in the fire for the 1 August party (~20 guests) \u2014 The Crown, Wenlock Arms, Plaquemine Lock, and Bellanger all in play. The credit card deadline at Bellanger and The Regent means today is the day to consolidate and make a call.",
       "daysShown": 1,
-      "lastChanged": "2026-07-05"
+      "lastChanged": "2026-07-06"
     },
     {
-      "item": "**Ad Net Zero onboarding** \u2014 Elle Chartres is OOO until 14 July; Danielle Wilson is the contract point of contact, and Lorraine Barker holds the HR threads. Good week to make sure nothing is stalled while the office is in summer-Friday mode.",
+      "item": "**GlobeLab AI post timing:** The no-podcast week is actually the perfect incubation window for this idea. Let it breathe until midweek, then draft it Thursday or Friday \u2014 by then you'll know if England are through to the quarters and the cultural moment might even lend itself to the \"human control\" angle you want to strike.",
       "daysShown": 1,
-      "lastChanged": "2026-07-05"
+      "lastChanged": "2026-07-06"
     }
   ],
-  "lastSentDate": "2026-07-05",
+  "lastSentDate": "2026-07-06",
   "last_model_upgrade": null
 }
