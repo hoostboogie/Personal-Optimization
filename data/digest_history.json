@@ -79,6 +79,11 @@
       "text": "It is only when we are no longer fearful that we begin to create.",
       "author": "J.M.W. Turner*",
       "date": "2026-07-06"
+    },
+    {
+      "text": "The most common form of despair is not being who you are.",
+      "author": "S\u00f8ren Kierkegaard*",
+      "date": "2026-07-07"
     }
   ],
   "jokes": [
@@ -349,6 +354,10 @@
     {
       "summary": "The EU has committed to dedicating 10% of its budget to supporting actions and investments that address biodiversity protection and restoration in 2026 and 2027, and to doubling funding for external b",
       "date": "2026-07-05"
+    },
+    {
+      "summary": "The UK Parliament's cross-party Environmental Audit Committee visited South London this week to understand the first-hand experiences of communities living in areas",
+      "date": "2026-07-07"
     }
   ],
   "newConcepts": [
@@ -463,25 +472,29 @@
     {
       "term": "Life Cycle Assessment (LCA)",
       "date": "2026-07-06"
+    },
+    {
+      "term": "MIQ \u2014 Machine Intelligence Quotient",
+      "date": "2026-07-07"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**New role onboarding:** With Elle Chartres OOO until 14 July and the BYOD policy still unsigned, use this first week to get the admin baseline clean \u2014 contracts confirmed, policies signed, and intro reading done. The Ad Net Zero / CIMA call today is a good anchoring rhythm.",
+      "item": "**Cedara onboarding / contacts build.** The 16:00 admin dashboard session is part of a longer cadence (~7 sessions, every 1.5 weeks). Keep the scope tight today \u2014 get the structure right first, populate later. The warm-intro TSV and Fund Considerations xlsx are your two data anchors.",
       "daysShown": 1,
-      "lastChanged": "2026-07-06"
+      "lastChanged": "2026-07-07"
     },
     {
-      "item": "**Party venue crunch:** You've got multiple irons in the fire for the 1 August party (~20 guests) \u2014 The Crown, Wenlock Arms, Plaquemine Lock, and Bellanger all in play. The credit card deadline at Bellanger and The Regent means today is the day to consolidate and make a call.",
+      "item": "**No podcast week \u2014 intentional.** You noted this as a deliberate disconnect. Lean in: music on commutes and workouts, genuine presence at Wimbledon today, conversations over content. Use any quiet moments to actually reflect rather than fill them.",
       "daysShown": 1,
-      "lastChanged": "2026-07-06"
+      "lastChanged": "2026-07-07"
     },
     {
-      "item": "**GlobeLab AI post timing:** The no-podcast week is actually the perfect incubation window for this idea. Let it breathe until midweek, then draft it Thursday or Friday \u2014 by then you'll know if England are through to the quarters and the cultural moment might even lend itself to the \"human control\" angle you want to strike.",
+      "item": "**Props To You login code received.** Looks like you requested a magic link \u2014 if that was intentional and you needed something from the platform, worth checking while it's front of mind.",
       "daysShown": 1,
-      "lastChanged": "2026-07-06"
+      "lastChanged": "2026-07-07"
     }
   ],
-  "lastSentDate": "2026-07-06",
+  "lastSentDate": "2026-07-07",
   "last_model_upgrade": null
 }
