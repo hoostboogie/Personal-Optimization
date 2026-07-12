@@ -171,6 +171,10 @@
     {
       "text": "I tried to read a book about the ocean. I got totally lost at C.\n\n---\nSaturday, 11 July 2026",
       "date": "2026-07-11"
+    },
+    {
+      "text": "I entered a pun contest. I submitted ten entries hoping one would win. No pun in ten did.",
+      "date": "2026-07-12"
     }
   ],
   "funFacts": [
@@ -269,6 +273,10 @@
     {
       "text": "The hard-boiled egg you had for breakfast is older than you think it is \u2014 eggs are legally allowed to be sold in the US up to 45 days after being washed and packed, meaning a \"fresh\" egg at the superm",
       "date": "2026-07-11"
+    },
+    {
+      "text": "Wimbledon's Centre Court roof \u2014 the retractable one installed in 2009 \u2014 weighs approximately 3,000 tonnes, yet can close in around 10 minutes. It covers roughly 5,200 square metres and is made of a tr",
+      "date": "2026-07-12"
     }
   ],
   "envNews": [
@@ -375,6 +383,10 @@
     {
       "summary": "Arsenal aren't the only ones building for next season \u2014 on the broader sustainability front, 2025 marked the first full year in which wind and solar provided more EU electricity than fossil fuels, a m",
       "date": "2026-07-11"
+    },
+    {
+      "summary": "Linda Noskova's Wimbledon win came with a small footnote of significance: she is the youngest women's champion at Wimbledon since Petra Kvitova in 2011 \u2014 and closer to the green beat, the All England ",
+      "date": "2026-07-12"
     }
   ],
   "newConcepts": [
@@ -501,25 +513,29 @@
     {
       "term": "AMOC Bistability (Atlantic Meridional Overturning Circulation Bistability)",
       "date": "2026-07-11"
+    },
+    {
+      "term": "Just Transition",
+      "date": "2026-07-12"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Props To You & the Oyster IP clause.** Before you sign anything with Oyster, the Confidentiality & IP agreement needs to confirm your side project isn't swept up. If you're doing any GlobeLab AI sketching or Props To You work this weekend, keep it clearly on personal time and personal devices \u2014 that paper trail matters if it's ever questioned.",
+      "item": "**Wimbledon men's final today** \u2014 even if you caught the 2am World Cup match, don't sleep on Sinner vs Zverev this afternoon. This is your living room's moment to shine.",
       "daysShown": 1,
-      "lastChanged": "2026-07-11"
+      "lastChanged": "2026-07-12"
     },
     {
-      "item": "**GlobeLab AI window.** The longer you wait to put the idea out there, the less \"heard it here first\" lands. A rough LinkedIn note this weekend \u2014 honest, human, not overproduced \u2014 is better than a polished deck in a month when someone else has already posted it.",
+      "item": "**Steph's engagement celebration dinner on 18 July is 6 days away.** The restaurant enquiry has had no reply for 8 days \u2014 chase today so you're not scrambling mid-week.",
       "daysShown": 1,
-      "lastChanged": "2026-07-11"
+      "lastChanged": "2026-07-12"
     },
     {
-      "item": "**August 1st party is getting close.** You've got multiple venues in the air simultaneously \u2014 Crown, Bellanger, Wenlock, Plaquemine Lock, Chapel Market Tavern. You need one confirmed answer by end of next week or you risk losing all of them. Triage today: which is the actual preference? Lead with that.",
+      "item": "**August 1st party planning is heating up.** Multiple venue threads still live (Chapel Market Tavern, The Crown, Bellanger, Plaquemine Lock) \u2014 you need a confirmed venue soon if you're expecting ~20 people. This week is the window to close it.",
       "daysShown": 1,
-      "lastChanged": "2026-07-11"
+      "lastChanged": "2026-07-12"
     }
   ],
-  "lastSentDate": "2026-07-11",
+  "lastSentDate": "2026-07-12",
   "last_model_upgrade": null
 }
