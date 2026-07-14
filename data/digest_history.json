@@ -387,6 +387,10 @@
     {
       "summary": "Linda Noskova's Wimbledon win came with a small footnote of significance: she is the youngest women's champion at Wimbledon since Petra Kvitova in 2011 \u2014 and closer to the green beat, the All England ",
       "date": "2026-07-12"
+    },
+    {
+      "summary": "England saw off an immense challenge from Mexico in what commentators are calling one of the best games",
+      "date": "2026-07-14"
     }
   ],
   "newConcepts": [
@@ -521,25 +525,29 @@
     {
       "term": "Avoided Emissions Accounting",
       "date": "2026-07-13"
+    },
+    {
+      "term": "AgentOps (AI Agent Operations)",
+      "date": "2026-07-14"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Sat 18 July brunch/dinner is six days out.** Both the brunch and the engagement dinner threads are open \u2014 confirm both before the week gets away from you, especially since this is a small celebration.",
+      "item": "**Saturday 18 July is coming fast.** Between the engagement celebration dinner and a brunch, it's a full day \u2014 worth confirming both venues have all the right details before the weekend.",
       "daysShown": 1,
-      "lastChanged": "2026-07-13"
+      "lastChanged": "2026-07-14"
     },
     {
-      "item": "**ANZ onboarding momentum.** You emailed Rachel Schnorr your ANZ address and said you're glad to be on board \u2014 but you haven't heard back yet. Keep the energy up; if the weekly call is today at 2pm, that's your natural first touchpoint with the wider team.",
+      "item": "**August 1st party planning is overdue for a decision.** The Chapel Market Tavern hasn't replied in 13 days; Bellanger hasn't confirmed in 7. With ~20 guests and less than 3 weeks out, you need a venue locked this week \u2014 pick one and apply pressure today.",
       "daysShown": 1,
-      "lastChanged": "2026-07-13"
+      "lastChanged": "2026-07-14"
     },
     {
-      "item": "**1 Aug party planning is getting tight.** You're still waiting on replies from Chapel Market Tavern, Bellanger, and Plaquemine Lock. With ~20 guests and three weeks to go, now is the week to nail down the venue \u2014 consolidate or make a call.",
+      "item": "**Your content block this afternoon is genuinely rare time.** Between the GlobeLab LinkedIn post, the Substack launch question, and the AI futures journal piece \u2014 that's three distinct outputs. Pick the one that's most *you* right now and go deep on just that one. The others will benefit from it.",
       "daysShown": 1,
-      "lastChanged": "2026-07-13"
+      "lastChanged": "2026-07-14"
     }
   ],
-  "lastSentDate": "2026-07-13",
+  "lastSentDate": "2026-07-14",
   "last_model_upgrade": null
 }
