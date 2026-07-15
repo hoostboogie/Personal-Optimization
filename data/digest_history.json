@@ -89,6 +89,11 @@
       "text": "Luck is what happens when preparation meets opportunity.",
       "author": "Seneca*",
       "date": "2026-07-09"
+    },
+    {
+      "text": "The man who moves a mountain begins by carrying away small stones.",
+      "author": "Confucius*",
+      "date": "2026-07-15"
     }
   ],
   "jokes": [
@@ -529,25 +534,29 @@
     {
       "term": "AgentOps (AI Agent Operations)",
       "date": "2026-07-14"
+    },
+    {
+      "term": "Shoppable CTV (Connected TV Commerce)",
+      "date": "2026-07-15"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Saturday 18 July is coming fast.** Between the engagement celebration dinner and a brunch, it's a full day \u2014 worth confirming both venues have all the right details before the weekend.",
+      "item": "**August 1 party** \u2014 CMT invoice has landed but you haven't had a full confirmation on the space/terms from Karina and Nat. The Bellanger pre-order also needs chasing. These are converging fast.",
       "daysShown": 1,
-      "lastChanged": "2026-07-14"
+      "lastChanged": "2026-07-15"
     },
     {
-      "item": "**August 1st party planning is overdue for a decision.** The Chapel Market Tavern hasn't replied in 13 days; Bellanger hasn't confirmed in 7. With ~20 guests and less than 3 weeks out, you need a venue locked this week \u2014 pick one and apply pressure today.",
+      "item": "**Fixed term contract** \u2014 the Adobe Acrobat Sign reminder is sitting in your inbox unsigned. With the W-2c correction also in flight, your Cedara admin pile is quietly growing. Clear both before EOW.",
       "daysShown": 1,
-      "lastChanged": "2026-07-14"
+      "lastChanged": "2026-07-15"
     },
     {
-      "item": "**Your content block this afternoon is genuinely rare time.** Between the GlobeLab LinkedIn post, the Substack launch question, and the AI futures journal piece \u2014 that's three distinct outputs. Pick the one that's most *you* right now and go deep on just that one. The others will benefit from it.",
+      "item": "**Saturday 18 July brunch + dinner** \u2014 engagement celebration weekend is 3 days away. You've got two separate bookings (brunch venue + dinner venue) and neither has confirmed back definitively. Chase both today while you have a quiet morning window.",
       "daysShown": 1,
-      "lastChanged": "2026-07-14"
+      "lastChanged": "2026-07-15"
     }
   ],
-  "lastSentDate": "2026-07-14",
+  "lastSentDate": "2026-07-15",
   "last_model_upgrade": null
 }
