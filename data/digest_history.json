@@ -94,6 +94,11 @@
       "text": "The man who moves a mountain begins by carrying away small stones.",
       "author": "Confucius*",
       "date": "2026-07-15"
+    },
+    {
+      "text": "The universe is under no obligation to make sense to you.",
+      "author": "Neil deGrasse Tyson*",
+      "date": "2026-07-16"
     }
   ],
   "jokes": [
@@ -180,6 +185,10 @@
     {
       "text": "I entered a pun contest. I submitted ten entries hoping one would win. No pun in ten did.",
       "date": "2026-07-12"
+    },
+    {
+      "text": "I tried to come up with a joke about contracts. But I couldn't get the terms right.\n\n---\nThursday, 16 July 2026",
+      "date": "2026-07-16"
     }
   ],
   "funFacts": [
@@ -282,6 +291,10 @@
     {
       "text": "Wimbledon's Centre Court roof \u2014 the retractable one installed in 2009 \u2014 weighs approximately 3,000 tonnes, yet can close in around 10 minutes. It covers roughly 5,200 square metres and is made of a tr",
       "date": "2026-07-12"
+    },
+    {
+      "text": "The very first GPS satellite was launched in 1978, but the system wasn't declared fully operational until 1995 \u2014 meaning the technology existed for 17 years before it was \"ready.\" Your phone now gets ",
+      "date": "2026-07-16"
     }
   ],
   "envNews": [
@@ -396,6 +409,10 @@
     {
       "summary": "England saw off an immense challenge from Mexico in what commentators are calling one of the best games",
       "date": "2026-07-14"
+    },
+    {
+      "summary": "Dame Sarah Mullally was installed as the 106th Archbishop of Canterbury during a ceremony at Canterbury Cathedral \u2014 and on the environmental front, the UK Parliament's Work and Pensions Committee this",
+      "date": "2026-07-16"
     }
   ],
   "newConcepts": [
@@ -538,25 +555,29 @@
     {
       "term": "Shoppable CTV (Connected TV Commerce)",
       "date": "2026-07-15"
+    },
+    {
+      "term": "DPI Ratio (Distributions to Paid-In Capital)",
+      "date": "2026-07-16"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**August 1 party** \u2014 CMT invoice has landed but you haven't had a full confirmation on the space/terms from Karina and Nat. The Bellanger pre-order also needs chasing. These are converging fast.",
+      "item": "**Contract signature is time-sensitive.** The Adobe Acrobat Sign reminder for your Cedara fixed-term contract has been sitting since yesterday \u2014 get this done before or after the GP run this morning.",
       "daysShown": 1,
-      "lastChanged": "2026-07-15"
+      "lastChanged": "2026-07-16"
     },
     {
-      "item": "**Fixed term contract** \u2014 the Adobe Acrobat Sign reminder is sitting in your inbox unsigned. With the W-2c correction also in flight, your Cedara admin pile is quietly growing. Clear both before EOW.",
+      "item": "**Saturday is big.** Brunch celebration and engagement dinner both land on the 18th \u2014 two separate venues, both need logistics confirmed today or tomorrow at the latest.",
       "daysShown": 1,
-      "lastChanged": "2026-07-15"
+      "lastChanged": "2026-07-16"
     },
     {
-      "item": "**Saturday 18 July brunch + dinner** \u2014 engagement celebration weekend is 3 days away. You've got two separate bookings (brunch venue + dinner venue) and neither has confirmed back definitively. Chase both today while you have a quiet morning window.",
+      "item": "**Glen W is back for three weeks.** Matt C's friend is in town \u2014 if there are any group plans to coordinate around his visit, this week is the time to get something in the diary before the schedule fills up.",
       "daysShown": 1,
-      "lastChanged": "2026-07-15"
+      "lastChanged": "2026-07-16"
     }
   ],
-  "lastSentDate": "2026-07-15",
+  "lastSentDate": "2026-07-16",
   "last_model_upgrade": null
 }
