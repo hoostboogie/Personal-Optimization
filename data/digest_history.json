@@ -99,6 +99,11 @@
       "text": "The universe is under no obligation to make sense to you.",
       "author": "Neil deGrasse Tyson*",
       "date": "2026-07-16"
+    },
+    {
+      "text": "Doubt is not a pleasant condition, but certainty is absurd.",
+      "author": "Voltaire*",
+      "date": "2026-07-17"
     }
   ],
   "jokes": [
@@ -189,6 +194,10 @@
     {
       "text": "I tried to come up with a joke about contracts. But I couldn't get the terms right.\n\n---\nThursday, 16 July 2026",
       "date": "2026-07-16"
+    },
+    {
+      "text": "I tried to organise my weekend \u2014 but it had other plans.\n\n---\nFriday, 17 July 2026",
+      "date": "2026-07-17"
     }
   ],
   "funFacts": [
@@ -295,6 +304,10 @@
     {
       "text": "The very first GPS satellite was launched in 1978, but the system wasn't declared fully operational until 1995 \u2014 meaning the technology existed for 17 years before it was \"ready.\" Your phone now gets ",
       "date": "2026-07-16"
+    },
+    {
+      "text": "The Lamb Inn \u2014 a classic English coaching inn name \u2014 has good historical reasons for that name: in medieval England, the lamb was a symbol of hospitality and welcome displayed outside inns specificall",
+      "date": "2026-07-17"
     }
   ],
   "envNews": [
@@ -413,6 +426,10 @@
     {
       "summary": "Dame Sarah Mullally was installed as the 106th Archbishop of Canterbury during a ceremony at Canterbury Cathedral \u2014 and on the environmental front, the UK Parliament's Work and Pensions Committee this",
       "date": "2026-07-16"
+    },
+    {
+      "summary": "Arsenal have confirmed a deal struck with Besiktas for Trossard \u2014 but on the environmental front: Wimbledon 2026 wrapped its grass-court fortnight with Linda Noskova and Jannik Sinner as champions, an",
+      "date": "2026-07-17"
     }
   ],
   "newConcepts": [
@@ -559,25 +576,29 @@
     {
       "term": "DPI Ratio (Distributions to Paid-In Capital)",
       "date": "2026-07-16"
+    },
+    {
+      "term": "Satisficing",
+      "date": "2026-07-17"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Contract signature is time-sensitive.** The Adobe Acrobat Sign reminder for your Cedara fixed-term contract has been sitting since yesterday \u2014 get this done before or after the GP run this morning.",
+      "item": "**ANZ trade deadline work.** With the MLB trade deadline on August 3 as your mental model for urgency \u2014 your ANZ funder pipeline has its own version of that crunch. Keep the warm-intro asks moving this week even if today's formal review slides.",
       "daysShown": 1,
-      "lastChanged": "2026-07-16"
+      "lastChanged": "2026-07-17"
     },
     {
-      "item": "**Saturday is big.** Brunch celebration and engagement dinner both land on the 18th \u2014 two separate venues, both need logistics confirmed today or tomorrow at the latest.",
+      "item": "**Saliba injury watch.** Saliba limped off during a France World Cup match \u2014 keep an eye on the severity ahead of Arsenal's pre-season. If he's out for any meaningful stretch, it reshapes the summer priorities significantly.",
       "daysShown": 1,
-      "lastChanged": "2026-07-16"
+      "lastChanged": "2026-07-17"
     },
     {
-      "item": "**Glen W is back for three weeks.** Matt C's friend is in town \u2014 if there are any group plans to coordinate around his visit, this week is the time to get something in the diary before the schedule fills up.",
+      "item": "**Tomorrow is a big one.** Saturday 18 July \u2014 you have both a brunch and an engagement dinner booked. Make sure both venues have confirmed (see follow-ups above), and enjoy it: this is the celebration.",
       "daysShown": 1,
-      "lastChanged": "2026-07-16"
+      "lastChanged": "2026-07-17"
     }
   ],
-  "lastSentDate": "2026-07-16",
+  "lastSentDate": "2026-07-17",
   "last_model_upgrade": null
 }
