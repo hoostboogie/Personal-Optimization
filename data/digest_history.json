@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "text": "The first era of corporate sustainability is collapsing under its own contradictions.",
-      "author": "IMD Business School",
-      "date": "2026-05-18"
-    },
-    {
       "text": "I am because we are.",
       "author": "Ubuntu proverb*",
       "date": "2026-05-22"
@@ -108,22 +103,6 @@
   ],
   "jokes": [
     {
-      "text": "I told my wife she was drawing her eyebrows too high. She looked surprised.\n\n---\n\nMonday, 18 May 2026",
-      "date": "2026-05-18"
-    },
-    {
-      "text": "I'm reading a book about anti-gravity. It's impossible to put down.\n\n---\n\nMonday, 18 May 2026",
-      "date": "2026-05-18"
-    },
-    {
-      "text": "I have a fear of speed bumps. But I'm slowly getting over it.\n\n---\nMonday, 18 May 2026",
-      "date": "2026-05-18"
-    },
-    {
-      "text": "I told my suitcase there will be no holiday this year. Now I'm dealing with emotional baggage.\n\n---\nMonday, 18 May 2026",
-      "date": "2026-05-18"
-    },
-    {
       "text": "I used to hate facial hair, but then it grew on me.\n\n---\nTuesday, 19 May 2026",
       "date": "2026-05-19"
     },
@@ -198,25 +177,13 @@
     {
       "text": "I tried to organise my weekend \u2014 but it had other plans.\n\n---\nFriday, 17 July 2026",
       "date": "2026-07-17"
+    },
+    {
+      "text": "I went to a restaurant and asked for something that would impress my girlfriend. They handed me the bill.\n\n---\nSaturday, 18 July 2026",
+      "date": "2026-07-18"
     }
   ],
   "funFacts": [
-    {
-      "text": "The shortest war in recorded history lasted 38 to 45 minutes. It was fought between Britain and Zanzibar on 27 August 1896, ending when the Sultanate surrendered after the Royal Navy shelled the palac",
-      "date": "2026-05-18"
-    },
-    {
-      "text": "Octopuses have three hearts: two pump blood to the gills, while a third pumps it to the rest of the body. When they swim, the heart that delivers blood to the body stops beating \u2014 which is why octopus",
-      "date": "2026-05-18"
-    },
-    {
-      "text": "Honey never spoils. Archaeologists have found 3,000-year-old honey in Egyptian tombs that was still perfectly edible \u2014 its low moisture content and acidic pH create an inhospitable environment for bac",
-      "date": "2026-05-18"
-    },
-    {
-      "text": "A group of flamingos is called a \"flamboyance.\" The word comes from the Spanish *flamenco*, meaning flame \u2014 fitting given their bright pink plumage.",
-      "date": "2026-05-18"
-    },
     {
       "text": "The Vatican City has the highest crime rate per capita in the world \u2014 mostly petty theft by tourists. With only about 800 residents and millions of visitors annually, even a handful of pickpocket inci",
       "date": "2026-05-19"
@@ -308,21 +275,13 @@
     {
       "text": "The Lamb Inn \u2014 a classic English coaching inn name \u2014 has good historical reasons for that name: in medieval England, the lamb was a symbol of hospitality and welcome displayed outside inns specificall",
       "date": "2026-07-17"
+    },
+    {
+      "text": "The Cotswolds village name \"Bourton-on-the-Water\" isn't just charming \u2014 the River Windrush running through it is so shallow in summer that the average depth through the village centre is less than 30c",
+      "date": "2026-07-18"
     }
   ],
   "envNews": [
-    {
-      "summary": "Jannik Sinner became the first Italian man to win the Rome tennis tournament in 50 years, completing a Career Golden Masters \u2014 and notably, Rome's Foro Italico has been powered by 100% renewable energ",
-      "date": "2026-05-18"
-    },
-    {
-      "summary": "Arsenal Women have written another historic chapter after becoming the first-ever winners of the FIFA Women's Champions Cup \u2014 not strictly environmental, but given you're an Arsenal fan, I'm bending t",
-      "date": "2026-05-18"
-    },
-    {
-      "summary": "Texas A&M secured their second NCAA women's tennis title \u2014 but closer to home, the Italian Open wrapped up its greenest edition yet, with Sinner's victory highlighting Rome's commitment to sustainable",
-      "date": "2026-05-18"
-    },
     {
       "summary": "From labor shortages to environmental impacts, farmers are looking to AI to help revolutionize agriculture. One California startup, Farm-ng, is tapping into AI and robotics to perform tasks including ",
       "date": "2026-05-19"
@@ -430,21 +389,13 @@
     {
       "summary": "Arsenal have confirmed a deal struck with Besiktas for Trossard \u2014 but on the environmental front: Wimbledon 2026 wrapped its grass-court fortnight with Linda Noskova and Jannik Sinner as champions, an",
       "date": "2026-07-17"
+    },
+    {
+      "summary": "A new study challenges the idea that thawing permafrost functions only as a carbon source: when frozen soils thaw and rivers receive ancient organic carbon, geological rock-weathering processes occurr",
+      "date": "2026-07-18"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Double Materiality Assessment (DMA)",
-      "date": "2026-05-18"
-    },
-    {
-      "term": "Sustainability Science",
-      "date": "2026-05-18"
-    },
-    {
-      "term": "Soft Systems Methodology (SSM)",
-      "date": "2026-05-18"
-    },
     {
       "term": "Agentic AI",
       "date": "2026-05-19"
@@ -580,25 +531,29 @@
     {
       "term": "Satisficing",
       "date": "2026-07-17"
+    },
+    {
+      "term": "Permafrost Carbon Feedback (PCF)",
+      "date": "2026-07-18"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**ANZ trade deadline work.** With the MLB trade deadline on August 3 as your mental model for urgency \u2014 your ANZ funder pipeline has its own version of that crunch. Keep the warm-intro asks moving this week even if today's formal review slides.",
+      "item": "**GlobeLab AI LinkedIn post** \u2014 the window for \"heard it here first\" credibility on AI ideas is narrow. Even a rough draft or a saved note today keeps the momentum alive; you don't need to publish today to make progress.",
       "daysShown": 1,
-      "lastChanged": "2026-07-17"
+      "lastChanged": "2026-07-18"
     },
     {
-      "item": "**Saliba injury watch.** Saliba limped off during a France World Cup match \u2014 keep an eye on the severity ahead of Arsenal's pre-season. If he's out for any meaningful stretch, it reshapes the summer priorities significantly.",
+      "item": "**Engagement dinner tonight** \u2014 based on the follow-up threads, you have a 6:30pm dinner for two booked at a restaurant tonight for what's marked as a \"small engagement celebration.\" Make sure you've had confirmation back from the venue \u2014 the email was sent 14 days ago and you may not have heard back.",
       "daysShown": 1,
-      "lastChanged": "2026-07-17"
+      "lastChanged": "2026-07-18"
     },
     {
-      "item": "**Tomorrow is a big one.** Saturday 18 July \u2014 you have both a brunch and an engagement dinner booked. Make sure both venues have confirmed (see follow-ups above), and enjoy it: this is the celebration.",
+      "item": "**Supabase dashboard session** \u2014 today's 16:00 block is Session 1 of 7 for the admin dashboard build in Claude Code. Having both the warm-intro map TSV and Fund Considerations xlsx open before you start will save friction.",
       "daysShown": 1,
-      "lastChanged": "2026-07-17"
+      "lastChanged": "2026-07-18"
     }
   ],
-  "lastSentDate": "2026-07-17",
+  "lastSentDate": "2026-07-18",
   "last_model_upgrade": null
 }
