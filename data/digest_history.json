@@ -99,13 +99,14 @@
       "text": "Doubt is not a pleasant condition, but certainty is absurd.",
       "author": "Voltaire*",
       "date": "2026-07-17"
+    },
+    {
+      "text": "Tell me, what is it you plan to do with your one wild and precious life?",
+      "author": "Mary Oliver*",
+      "date": "2026-07-19"
     }
   ],
   "jokes": [
-    {
-      "text": "I used to hate facial hair, but then it grew on me.\n\n---\nTuesday, 19 May 2026",
-      "date": "2026-05-19"
-    },
     {
       "text": "I asked my date to meet me at the gym, but she never showed. I guess the two of us aren't going to work out.\n\n---\nWednesday, 20 May 2026",
       "date": "2026-05-20"
@@ -181,13 +182,13 @@
     {
       "text": "I went to a restaurant and asked for something that would impress my girlfriend. They handed me the bill.\n\n---\nSaturday, 18 July 2026",
       "date": "2026-07-18"
+    },
+    {
+      "text": "I told someone I was reading a book about anti-gravity. They asked if it was good. I said I couldn't put it down.\n\n---\nSunday, 19 July 2026",
+      "date": "2026-07-19"
     }
   ],
   "funFacts": [
-    {
-      "text": "The Vatican City has the highest crime rate per capita in the world \u2014 mostly petty theft by tourists. With only about 800 residents and millions of visitors annually, even a handful of pickpocket inci",
-      "date": "2026-05-19"
-    },
     {
       "text": "The inventor of the Pringles can, Fredric Baur, was so proud of his creation that he requested part of his ashes be buried in one. His family honoured the wish when he died in 2008.",
       "date": "2026-05-20"
@@ -279,13 +280,13 @@
     {
       "text": "The Cotswolds village name \"Bourton-on-the-Water\" isn't just charming \u2014 the River Windrush running through it is so shallow in summer that the average depth through the village centre is less than 30c",
       "date": "2026-07-18"
+    },
+    {
+      "text": "The FIFA World Cup Final tonight is being played at MetLife Stadium in East Rutherford, New Jersey \u2014 the same venue that hosted Super Bowl XLVIII in 2014. It's one of only a handful of stadiums in the",
+      "date": "2026-07-19"
     }
   ],
   "envNews": [
-    {
-      "summary": "From labor shortages to environmental impacts, farmers are looking to AI to help revolutionize agriculture. One California startup, Farm-ng, is tapping into AI and robotics to perform tasks including ",
-      "date": "2026-05-19"
-    },
     {
       "summary": "Sustainability is becoming a genuine business metric in adtech: \"Carbon footprint, ethical AI use, brand safety\u2026 they're converging into what some call Responsible Media.\" The insight? High-emission a",
       "date": "2026-05-20"
@@ -393,13 +394,13 @@
     {
       "summary": "A new study challenges the idea that thawing permafrost functions only as a carbon source: when frozen soils thaw and rivers receive ancient organic carbon, geological rock-weathering processes occurr",
       "date": "2026-07-18"
+    },
+    {
+      "summary": "Czech tennis dominance is on the rise \u2014 but on the green front: the UK Parliament's House of Lords has been actively debating cohabitation rights and airport expansion this week, with members specific",
+      "date": "2026-07-19"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Agentic AI",
-      "date": "2026-05-19"
-    },
     {
       "term": "Data Clean Room",
       "date": "2026-05-20"
@@ -535,25 +536,29 @@
     {
       "term": "Permafrost Carbon Feedback (PCF)",
       "date": "2026-07-18"
+    },
+    {
+      "term": "Insetting (vs. Offsetting)",
+      "date": "2026-07-19"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**GlobeLab AI LinkedIn post** \u2014 the window for \"heard it here first\" credibility on AI ideas is narrow. Even a rough draft or a saved note today keeps the momentum alive; you don't need to publish today to make progress.",
+      "item": "**Supabase project paused** \u2014 Your DevPropsToYou project has been paused after 7 days of inactivity on the free tier. If it's still needed, log in and restore it before data is dropped.",
       "daysShown": 1,
-      "lastChanged": "2026-07-18"
+      "lastChanged": "2026-07-19"
     },
     {
-      "item": "**Engagement dinner tonight** \u2014 based on the follow-up threads, you have a 6:30pm dinner for two booked at a restaurant tonight for what's marked as a \"small engagement celebration.\" Make sure you've had confirmation back from the venue \u2014 the email was sent 14 days ago and you may not have heard back.",
+      "item": "**August 1 dinner at Bellanger** \u2014 You've organised a group with a set menu pre-ordered; no venue confirmation has come back yet. With less than two weeks to go, chase this firmly.",
       "daysShown": 1,
-      "lastChanged": "2026-07-18"
+      "lastChanged": "2026-07-19"
     },
     {
-      "item": "**Supabase dashboard session** \u2014 today's 16:00 block is Session 1 of 7 for the admin dashboard build in Claude Code. Having both the warm-intro map TSV and Fund Considerations xlsx open before you start will save friction.",
+      "item": "**Saliba injury concern** \u2014 Arsenal are now expected to intensify their search for a new centre-back amid real concern that William Saliba is facing a lengthy spell out. If confirmed, that's a big deal for the coming season \u2014 keep an eye on updates this week.",
       "daysShown": 1,
-      "lastChanged": "2026-07-18"
+      "lastChanged": "2026-07-19"
     }
   ],
-  "lastSentDate": "2026-07-18",
+  "lastSentDate": "2026-07-19",
   "last_model_upgrade": null
 }
