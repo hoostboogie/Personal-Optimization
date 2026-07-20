@@ -108,10 +108,6 @@
   ],
   "jokes": [
     {
-      "text": "I asked my date to meet me at the gym, but she never showed. I guess the two of us aren't going to work out.\n\n---\nWednesday, 20 May 2026",
-      "date": "2026-05-20"
-    },
-    {
       "text": "I told my doctor I broke my arm in two places. He told me to stop going to those places.\n\n---\nThursday, 21 May 2026",
       "date": "2026-05-21"
     },
@@ -186,13 +182,13 @@
     {
       "text": "I told someone I was reading a book about anti-gravity. They asked if it was good. I said I couldn't put it down.\n\n---\nSunday, 19 July 2026",
       "date": "2026-07-19"
+    },
+    {
+      "text": "I told my calendar I needed a day off. It said every single day was already booked \u2014 by me.\n\n---\nMonday, 20 July 2026",
+      "date": "2026-07-20"
     }
   ],
   "funFacts": [
-    {
-      "text": "The inventor of the Pringles can, Fredric Baur, was so proud of his creation that he requested part of his ashes be buried in one. His family honoured the wish when he died in 2008.",
-      "date": "2026-05-20"
-    },
     {
       "text": "The shortest commercial flight in the world connects two Scottish islands (Westray to Papa Westray) and takes about 90 seconds \u2014 barely enough time to unbuckle your seatbelt.",
       "date": "2026-05-21"
@@ -284,13 +280,13 @@
     {
       "text": "The FIFA World Cup Final tonight is being played at MetLife Stadium in East Rutherford, New Jersey \u2014 the same venue that hosted Super Bowl XLVIII in 2014. It's one of only a handful of stadiums in the",
       "date": "2026-07-19"
+    },
+    {
+      "text": "The Teva sandal \u2014 invented in 1984 by a Grand Canyon river guide named Mark Thatcher \u2014 was originally made from a watchband and a piece of webbing. He needed something that wouldn't wash away in the C",
+      "date": "2026-07-20"
     }
   ],
   "envNews": [
-    {
-      "summary": "Sustainability is becoming a genuine business metric in adtech: \"Carbon footprint, ethical AI use, brand safety\u2026 they're converging into what some call Responsible Media.\" The insight? High-emission a",
-      "date": "2026-05-20"
-    },
     {
       "summary": "Arsenal's 1-0 win helped keep spirits high, but here's something greener: Arsenal Women have written another historic chapter after becoming the first-ever winners of the FIFA Women's Champions Cup. N",
       "date": "2026-05-21"
@@ -398,13 +394,13 @@
     {
       "summary": "Czech tennis dominance is on the rise \u2014 but on the green front: the UK Parliament's House of Lords has been actively debating cohabitation rights and airport expansion this week, with members specific",
       "date": "2026-07-19"
+    },
+    {
+      "summary": "Carbon accounting in 2026 has evolved from a voluntary sustainability initiative to a mandatory business requirement, with the ISSA 5000 sustainability assurance standard gaining widespread adoption \u2014",
+      "date": "2026-07-20"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Data Clean Room",
-      "date": "2026-05-20"
-    },
     {
       "term": "Reverse Termination Fee (RTF)",
       "date": "2026-05-21"
@@ -540,25 +536,29 @@
     {
       "term": "Insetting (vs. Offsetting)",
       "date": "2026-07-19"
+    },
+    {
+      "term": "Carbon Handprint",
+      "date": "2026-07-20"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Supabase project paused** \u2014 Your DevPropsToYou project has been paused after 7 days of inactivity on the free tier. If it's still needed, log in and restore it before data is dropped.",
+      "item": "**Props To You / Kooks pipeline**: The Mike Guimond email is a signal the Kooks group is growing \u2014 good moment to think about how Props To You stays connected to that community as it scales.",
       "daysShown": 1,
-      "lastChanged": "2026-07-19"
+      "lastChanged": "2026-07-20"
     },
     {
-      "item": "**August 1 dinner at Bellanger** \u2014 You've organised a group with a set menu pre-ordered; no venue confirmation has come back yet. With less than two weeks to go, chase this firmly.",
+      "item": "**World Cup Final \u2014 Spain vs. Argentina tonight**: It's happening at MetLife Stadium in East Rutherford, NJ \u2014 right in Ted and Teddy's backyard. Worth a message to the family before kick-off.",
       "daysShown": 1,
-      "lastChanged": "2026-07-19"
+      "lastChanged": "2026-07-20"
     },
     {
-      "item": "**Saliba injury concern** \u2014 Arsenal are now expected to intensify their search for a new centre-back amid real concern that William Saliba is facing a lengthy spell out. If confirmed, that's a big deal for the coming season \u2014 keep an eye on updates this week.",
+      "item": "**Cedara / Ad Net Zero balance**: You're at ANZ one day a week \u2014 the CIMA weekly call today is a good touchpoint to stay visible and demonstrate value before Q3 planning conversations kick in.",
       "daysShown": 1,
-      "lastChanged": "2026-07-19"
+      "lastChanged": "2026-07-20"
     }
   ],
-  "lastSentDate": "2026-07-19",
+  "lastSentDate": "2026-07-20",
   "last_model_upgrade": null
 }
