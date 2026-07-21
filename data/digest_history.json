@@ -104,13 +104,14 @@
       "text": "Tell me, what is it you plan to do with your one wild and precious life?",
       "author": "Mary Oliver*",
       "date": "2026-07-19"
+    },
+    {
+      "text": "All changes, even the most longed for, have their melancholy; for what we leave behind us is a part of ourselves.",
+      "author": "Anatole France*",
+      "date": "2026-07-21"
     }
   ],
   "jokes": [
-    {
-      "text": "I told my doctor I broke my arm in two places. He told me to stop going to those places.\n\n---\nThursday, 21 May 2026",
-      "date": "2026-05-21"
-    },
     {
       "text": "I'm reading a horror story in Braille. Something bad is about to happen \u2014 I can feel it.\n\n---\nFriday, 22 May 2026",
       "date": "2026-05-22"
@@ -186,13 +187,13 @@
     {
       "text": "I told my calendar I needed a day off. It said every single day was already booked \u2014 by me.\n\n---\nMonday, 20 July 2026",
       "date": "2026-07-20"
+    },
+    {
+      "text": "I told someone I was learning about neurosymbolic AI. They asked if it was complicated. I said it depends on how you look at it \u2014 which is, unfortunately, also the answer.\n\n---\nTuesday, 21 July 2026",
+      "date": "2026-07-21"
     }
   ],
   "funFacts": [
-    {
-      "text": "The shortest commercial flight in the world connects two Scottish islands (Westray to Papa Westray) and takes about 90 seconds \u2014 barely enough time to unbuckle your seatbelt.",
-      "date": "2026-05-21"
-    },
     {
       "text": "Stan Wawrinka requested his final Roland Garros appearance this year, making it his farewell to the tournament where he won his first major in 2015. He'll be 41 in March 2027.",
       "date": "2026-05-22"
@@ -284,13 +285,13 @@
     {
       "text": "The Teva sandal \u2014 invented in 1984 by a Grand Canyon river guide named Mark Thatcher \u2014 was originally made from a watchband and a piece of webbing. He needed something that wouldn't wash away in the C",
       "date": "2026-07-20"
+    },
+    {
+      "text": "The city of Islington \u2014 where you live \u2014 sits on what was once a significant dairy-farming belt for London. In the 18th century, Islington's fields supplied fresh milk to the city daily, which is part",
+      "date": "2026-07-21"
     }
   ],
   "envNews": [
-    {
-      "summary": "Arsenal's 1-0 win helped keep spirits high, but here's something greener: Arsenal Women have written another historic chapter after becoming the first-ever winners of the FIFA Women's Champions Cup. N",
-      "date": "2026-05-21"
-    },
     {
       "summary": "NASA's Psyche spacecraft is doing a Mars flyby today as it continues its journey to study a rare metal-rich asteroid \u2014 missions like this help us understand how planets form and could inform future su",
       "date": "2026-05-22"
@@ -398,13 +399,13 @@
     {
       "summary": "Carbon accounting in 2026 has evolved from a voluntary sustainability initiative to a mandatory business requirement, with the ISSA 5000 sustainability assurance standard gaining widespread adoption \u2014",
       "date": "2026-07-20"
+    },
+    {
+      "summary": "Spain's victory at the 2026 FIFA World Cup final came with a quiet sustainability footnote: Mikel Merino, Martin Zubimendi and David Raya \u2014 all Arsenal players \u2014 are now world champions after Spain be",
+      "date": "2026-07-21"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Reverse Termination Fee (RTF)",
-      "date": "2026-05-21"
-    },
     {
       "term": "Ubuntu",
       "date": "2026-05-22"
@@ -540,25 +541,29 @@
     {
       "term": "Carbon Handprint",
       "date": "2026-07-20"
+    },
+    {
+      "term": "Neurosymbolic AI (Hybrid Reasoning)",
+      "date": "2026-07-21"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Props To You / Kooks pipeline**: The Mike Guimond email is a signal the Kooks group is growing \u2014 good moment to think about how Props To You stays connected to that community as it scales.",
+      "item": "**Props To You / personal:** You had \"reach out to Claire\" on the calendar \u2014 treat the 10am reminder as a hard trigger, not a soft suggestion. Social admin has a way of slipping.",
       "daysShown": 1,
-      "lastChanged": "2026-07-20"
+      "lastChanged": "2026-07-21"
     },
     {
-      "item": "**World Cup Final \u2014 Spain vs. Argentina tonight**: It's happening at MetLife Stadium in East Rutherford, NJ \u2014 right in Ted and Teddy's backyard. Worth a message to the family before kick-off.",
+      "item": "**Cedara pipeline:** Carbon accounting has moved from voluntary to mandatory for many clients \u2014 keep an eye on what Burnham's new government signals on UK climate policy commitments in the coming days; could create near-term opportunities.",
       "daysShown": 1,
-      "lastChanged": "2026-07-20"
+      "lastChanged": "2026-07-21"
     },
     {
-      "item": "**Cedara / Ad Net Zero balance**: You're at ANZ one day a week \u2014 the CIMA weekly call today is a good touchpoint to stay visible and demonstrate value before Q3 planning conversations kick in.",
+      "item": "**Arsenal pre-season:** The 2026/27 season is approaching \u2014 fixtures have been announced with three 8pm kick-offs in the first five games. Keep an eye on whether Nico Williams or the Bouaddi pursuit closes before the window.",
       "daysShown": 1,
-      "lastChanged": "2026-07-20"
+      "lastChanged": "2026-07-21"
     }
   ],
-  "lastSentDate": "2026-07-20",
+  "lastSentDate": "2026-07-21",
   "last_model_upgrade": null
 }
