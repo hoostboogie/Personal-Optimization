@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "text": "I am because we are.",
-      "author": "Ubuntu proverb*",
-      "date": "2026-05-22"
-    },
-    {
       "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
       "author": "James Baldwin*",
       "date": "2026-06-03"
@@ -109,13 +104,14 @@
       "text": "All changes, even the most longed for, have their melancholy; for what we leave behind us is a part of ourselves.",
       "author": "Anatole France*",
       "date": "2026-07-21"
+    },
+    {
+      "text": "We don't see things as they are, we see them as we are.",
+      "author": "Ana\u00efs Nin*",
+      "date": "2026-07-22"
     }
   ],
   "jokes": [
-    {
-      "text": "I'm reading a horror story in Braille. Something bad is about to happen \u2014 I can feel it.\n\n---\nFriday, 22 May 2026",
-      "date": "2026-05-22"
-    },
     {
       "text": "I tried to write a joke about sustainability, but all my good material was recycled.\n\n---\nWednesday, 03 June 2026",
       "date": "2026-06-03"
@@ -191,13 +187,13 @@
     {
       "text": "I told someone I was learning about neurosymbolic AI. They asked if it was complicated. I said it depends on how you look at it \u2014 which is, unfortunately, also the answer.\n\n---\nTuesday, 21 July 2026",
       "date": "2026-07-21"
+    },
+    {
+      "text": "I told someone I was writing a thoughtpiece about AI. They asked if it was long. I said it depends \u2014 am I counting the words, or the existential crises?\n\n---\nWednesday, 22 July 2026",
+      "date": "2026-07-22"
     }
   ],
   "funFacts": [
-    {
-      "text": "Stan Wawrinka requested his final Roland Garros appearance this year, making it his farewell to the tournament where he won his first major in 2015. He'll be 41 in March 2027.",
-      "date": "2026-05-22"
-    },
     {
       "text": "The electric eel isn't actually an eel \u2014 it's more closely related to carp and catfish. It can generate electric shocks of up to 860 volts, making it the most powerful bioelectric generator of any kno",
       "date": "2026-06-03"
@@ -289,13 +285,13 @@
     {
       "text": "The city of Islington \u2014 where you live \u2014 sits on what was once a significant dairy-farming belt for London. In the 18th century, Islington's fields supplied fresh milk to the city daily, which is part",
       "date": "2026-07-21"
+    },
+    {
+      "text": "The lemon tree \u2014 which you're about to wire \u2014 is one of the few fruit trees that can bloom and fruit simultaneously year-round. A single lemon tree can carry flowers, unripe green fruit, and fully yel",
+      "date": "2026-07-22"
     }
   ],
   "envNews": [
-    {
-      "summary": "NASA's Psyche spacecraft is doing a Mars flyby today as it continues its journey to study a rare metal-rich asteroid \u2014 missions like this help us understand how planets form and could inform future su",
-      "date": "2026-05-22"
-    },
     {
       "summary": "New York and six other states sued over the Trump administration's deal to end an offshore wind project \u2014 a sign that state-level climate advocacy is alive and punching, even when federal policy backt",
       "date": "2026-06-03"
@@ -403,13 +399,13 @@
     {
       "summary": "Spain's victory at the 2026 FIFA World Cup final came with a quiet sustainability footnote: Mikel Merino, Martin Zubimendi and David Raya \u2014 all Arsenal players \u2014 are now world champions after Spain be",
       "date": "2026-07-21"
+    },
+    {
+      "summary": "Spain's FIFA World Cup victory \u2014 won without a single fossil fuel sponsor on their kit \u2014 came with a quiet sustainability note: Arsenal finished the World Cup with seven medal winners after Spain's tr",
+      "date": "2026-07-22"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Ubuntu",
-      "date": "2026-05-22"
-    },
     {
       "term": "Attention Metrics (Attention-Based Media Buying)",
       "date": "2026-06-03"
@@ -545,25 +541,29 @@
     {
       "term": "Neurosymbolic AI (Hybrid Reasoning)",
       "date": "2026-07-21"
+    },
+    {
+      "term": "Curation Layer (Programmatic Curation)",
+      "date": "2026-07-22"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Props To You / personal:** You had \"reach out to Claire\" on the calendar \u2014 treat the 10am reminder as a hard trigger, not a soft suggestion. Social admin has a way of slipping.",
+      "item": "**Birthday party planning crunch** \u2014 Sat 1 Aug is ~10 days out and The Regent is waiting on you. If Glen W is back for 3 weeks and Quin may be around today, this might be a good day to nail down the headcount and confirm the booking.",
       "daysShown": 1,
-      "lastChanged": "2026-07-21"
+      "lastChanged": "2026-07-22"
     },
     {
-      "item": "**Cedara pipeline:** Carbon accounting has moved from voluntary to mandatory for many clients \u2014 keep an eye on what Burnham's new government signals on UK climate policy commitments in the coming days; could create near-term opportunities.",
+      "item": "**Pre-season starts now** \u2014 Arsenal are back at London Colney. Window is open, Nico Williams interest is live, and the first PL match is ~33 days away. Good time to renew your emotional investment cautiously.",
       "daysShown": 1,
-      "lastChanged": "2026-07-21"
+      "lastChanged": "2026-07-22"
     },
     {
-      "item": "**Arsenal pre-season:** The 2026/27 season is approaching \u2014 fixtures have been announced with three 8pm kick-offs in the first five games. Keep an eye on whether Nico Williams or the Bouaddi pursuit closes before the window.",
+      "item": "**Content momentum** \u2014 you've got three distinct ideas in today's 14:30 block. Don't try to draft all three today. Pick one to publish or share as a rough draft, and timestamp the others in a note. The GlobeLab LinkedIn post is the fastest to ship.",
       "daysShown": 1,
-      "lastChanged": "2026-07-21"
+      "lastChanged": "2026-07-22"
     }
   ],
-  "lastSentDate": "2026-07-21",
+  "lastSentDate": "2026-07-22",
   "last_model_upgrade": null
 }
