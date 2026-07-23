@@ -109,6 +109,11 @@
       "text": "We don't see things as they are, we see them as we are.",
       "author": "Ana\u00efs Nin*",
       "date": "2026-07-22"
+    },
+    {
+      "text": "The question is not what you look at, but what you see.",
+      "author": "Henry David Thoreau*",
+      "date": "2026-07-23"
     }
   ],
   "jokes": [
@@ -191,6 +196,10 @@
     {
       "text": "I told someone I was writing a thoughtpiece about AI. They asked if it was long. I said it depends \u2014 am I counting the words, or the existential crises?\n\n---\nWednesday, 22 July 2026",
       "date": "2026-07-22"
+    },
+    {
+      "text": "I told someone I was looking into getting a UK driver's licence. They said, \"How hard can it be?\" I said I'd let them know \u2014 once I figure out which side of the form to fill in.\n\n---\nThursday, 23 July",
+      "date": "2026-07-23"
     }
   ],
   "funFacts": [
@@ -289,6 +298,10 @@
     {
       "text": "The lemon tree \u2014 which you're about to wire \u2014 is one of the few fruit trees that can bloom and fruit simultaneously year-round. A single lemon tree can carry flowers, unripe green fruit, and fully yel",
       "date": "2026-07-22"
+    },
+    {
+      "text": "The word \"Thursday\" comes from the Old Norse *\u00de\u00f3rsdagr* \u2014 Thor's Day \u2014 making today, technically, the day dedicated to the hammer-wielding god of thunder. Given you're photographing trees and research",
+      "date": "2026-07-23"
     }
   ],
   "envNews": [
@@ -403,6 +416,10 @@
     {
       "summary": "Spain's FIFA World Cup victory \u2014 won without a single fossil fuel sponsor on their kit \u2014 came with a quiet sustainability note: Arsenal finished the World Cup with seven medal winners after Spain's tr",
       "date": "2026-07-22"
+    },
+    {
+      "summary": "Aryna Sabalenka leads the 2026 WTA Tour with three titles \u2014 but the real green note today: the UK's House of Lords wrapped its final sitting week before recess examining the Social Housing Bill and Co",
+      "date": "2026-07-23"
     }
   ],
   "newConcepts": [
@@ -545,25 +562,29 @@
     {
       "term": "Curation Layer (Programmatic Curation)",
       "date": "2026-07-22"
+    },
+    {
+      "term": "NAV Lending (Net Asset Value Lending)",
+      "date": "2026-07-23"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Birthday party planning crunch** \u2014 Sat 1 Aug is ~10 days out and The Regent is waiting on you. If Glen W is back for 3 weeks and Quin may be around today, this might be a good day to nail down the headcount and confirm the booking.",
+      "item": "**Pre-season starts now** \u2014 Arsenal are back at London Colney, 33 days from the new campaign. The transfer window has been frustrating (Rogers to Chelsea stings), but Arteta will have a plan. Keep an eye on who comes in before deadline day.",
       "daysShown": 1,
-      "lastChanged": "2026-07-22"
+      "lastChanged": "2026-07-23"
     },
     {
-      "item": "**Pre-season starts now** \u2014 Arsenal are back at London Colney. Window is open, Nico Williams interest is live, and the first PL match is ~33 days away. Good time to renew your emotional investment cautiously.",
+      "item": "**Driver's licence research (10:00)** \u2014 if you're serious about driving in the UK, this is the kind of task that expands if you don't time-box it. Treat the 10am slot like a meeting: open browser, get one clear answer on your NJ-to-UK eligibility, close the tab.",
       "daysShown": 1,
-      "lastChanged": "2026-07-22"
+      "lastChanged": "2026-07-23"
     },
     {
-      "item": "**Content momentum** \u2014 you've got three distinct ideas in today's 14:30 block. Don't try to draft all three today. Pick one to publish or share as a rough draft, and timestamp the others in a note. The GlobeLab LinkedIn post is the fastest to ship.",
+      "item": "**Contract signing** \u2014 the Adobe Acrobat Sign reminder is in the email section but worth calling out here too: a fixed-term contract sitting unsigned has a short shelf life. Make this a morning priority.",
       "daysShown": 1,
-      "lastChanged": "2026-07-22"
+      "lastChanged": "2026-07-23"
     }
   ],
-  "lastSentDate": "2026-07-22",
+  "lastSentDate": "2026-07-23",
   "last_model_upgrade": null
 }
