@@ -204,6 +204,10 @@
     {
       "text": "I tried to plan a relaxing Cotswolds weekend. Ended up with a twelve-point itinerary, a quarterly photo series, and a LinkedIn draft due at noon.\n\n---\nFriday, 24 July 2026",
       "date": "2026-07-24"
+    },
+    {
+      "text": "I tried to relax in the countryside. Turned out I'd brought a twelve-point itinerary, a boot full of terracotta, and a quarterly photo obligation. Close enough.\n\n---\nSaturday, 25 July 2026",
+      "date": "2026-07-25"
     }
   ],
   "funFacts": [
@@ -310,6 +314,10 @@
     {
       "text": "The Cotswolds' distinctive honey-coloured stone \u2014 oolitic limestone \u2014 was formed roughly 165 million years ago during the Jurassic period from tiny spheres of calcium carbonate that accumulated on a s",
       "date": "2026-07-24"
+    },
+    {
+      "text": "The Cotswolds village of Chipping Campden \u2014 right near where you're staying tonight \u2014 has been almost entirely unchanged architecturally since the 17th century. Its famous High Street was used as a wo",
+      "date": "2026-07-25"
     }
   ],
   "envNews": [
@@ -432,6 +440,10 @@
     {
       "summary": "The WTA's Washington tournament this week is drawing attention to a quieter sustainability story: some big names have pulled out of the WTA 500 in Washington, but the event itself is being used as a p",
       "date": "2026-07-24"
+    },
+    {
+      "summary": "The UK has agreed to rejoin the EU's Erasmus+ student mobility fund in 2027 \u2014 hailed in London as a meaningful step towards greater EU-UK cooperation, with broader post-Brexit environmental and climat",
+      "date": "2026-07-25"
     }
   ],
   "newConcepts": [
@@ -582,25 +594,29 @@
     {
       "term": "Negative Capability",
       "date": "2026-07-24"
+    },
+    {
+      "term": "Ocean Heat Content (OHC) as a Climate Forcing Metric",
+      "date": "2026-07-25"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "Pre-season is underway at London Colney \u2014 keep an eye on the Saliba back injury situation. If he's out for an extended stretch, it changes Arsenal's defensive calculus for the early season significantly.",
+      "item": "**Arsenal's transfer window is moving fast:** Tzolis signed, Guimaraes terms agreed, Balogun attracting interest from clubs. Worth keeping an eye on how the squad shape looks heading into pre-season \u2014 Cedara's season-ticket value only goes up when the Gunners are title-contending.",
       "daysShown": 1,
-      "lastChanged": "2026-07-24"
+      "lastChanged": "2026-07-25"
     },
     {
-      "item": "The Cedara carbon accounting space is moving fast \u2014 with mandatory carbon reporting now mainstream in 2026, your positioning work and the ANZ funder pipeline are well-timed. Use the Cotswolds downtime to think about one clear narrative thread for the next fundraising conversation.",
+      "item": "**Cotswolds logistics:** Terracotta pots in the boot and a potentially unpredictable July afternoon \u2014 plan the packing order and confirm hotel check-in time so the day flows without a scramble.",
       "daysShown": 1,
-      "lastChanged": "2026-07-24"
+      "lastChanged": "2026-07-25"
     },
     {
-      "item": "The GlobeLab AI post has been sitting in your 12:00 calendar slot for a while \u2014 even a half-baked LinkedIn prompt that says \"heard it here first\" has value if you timestamp it now. The window before it's \"too established\" is exactly the window you're currently in.",
+      "item": "**Trade deadline Aug 3:** Yankees are reportedly in position to make big moves. With Fried healthy, Gerrit Cole healthy, and top prospect George Lombard Jr. on a multi-game hit streak \u2014 the Bombers look primed for a second-half run heading into the stretch.",
       "daysShown": 1,
-      "lastChanged": "2026-07-24"
+      "lastChanged": "2026-07-25"
     }
   ],
-  "lastSentDate": "2026-07-24",
+  "lastSentDate": "2026-07-25",
   "last_model_upgrade": null
 }
