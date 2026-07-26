@@ -208,6 +208,10 @@
     {
       "text": "I tried to relax in the countryside. Turned out I'd brought a twelve-point itinerary, a boot full of terracotta, and a quarterly photo obligation. Close enough.\n\n---\nSaturday, 25 July 2026",
       "date": "2026-07-25"
+    },
+    {
+      "text": "I booked a quiet weekend in the countryside to escape my to-do list. Turns out my to-do list had already checked in.\n\n---\nSunday, 26 July 2026",
+      "date": "2026-07-26"
     }
   ],
   "funFacts": [
@@ -318,6 +322,10 @@
     {
       "text": "The Cotswolds village of Chipping Campden \u2014 right near where you're staying tonight \u2014 has been almost entirely unchanged architecturally since the 17th century. Its famous High Street was used as a wo",
       "date": "2026-07-25"
+    },
+    {
+      "text": "The Cotswolds village of Bourton-on-the-Water is sometimes called \"the Venice of the Cotswolds\" \u2014 but here's the genuinely strange bit: the River Windrush running through it is so shallow you can padd",
+      "date": "2026-07-26"
     }
   ],
   "envNews": [
@@ -444,6 +452,10 @@
     {
       "summary": "The UK has agreed to rejoin the EU's Erasmus+ student mobility fund in 2027 \u2014 hailed in London as a meaningful step towards greater EU-UK cooperation, with broader post-Brexit environmental and climat",
       "date": "2026-07-25"
+    },
+    {
+      "summary": "Forward contract values in the voluntary carbon market rose 58% year-on-year to $5.8 billion, signalling strong appetite to secure future removals \u2014 and nature-based solutions attracted a record $9 bi",
+      "date": "2026-07-26"
     }
   ],
   "newConcepts": [
@@ -598,25 +610,29 @@
     {
       "term": "Ocean Heat Content (OHC) as a Climate Forcing Metric",
       "date": "2026-07-25"
+    },
+    {
+      "term": "Core Carbon Principles (CCP) Labelling",
+      "date": "2026-07-26"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Arsenal's transfer window is moving fast:** Tzolis signed, Guimaraes terms agreed, Balogun attracting interest from clubs. Worth keeping an eye on how the squad shape looks heading into pre-season \u2014 Cedara's season-ticket value only goes up when the Gunners are title-contending.",
+      "item": "**Cedara + ANZ scanner:** The biweekly 09:00 nudge is a good forcing function \u2014 the framing of a Claude-powered media-sustainability scanner is genuinely differentiated. Even a one-pager this week would move it from idea to artefact.",
       "daysShown": 1,
-      "lastChanged": "2026-07-25"
+      "lastChanged": "2026-07-26"
     },
     {
-      "item": "**Cotswolds logistics:** Terracotta pots in the boot and a potentially unpredictable July afternoon \u2014 plan the packing order and confirm hotel check-in time so the day flows without a scramble.",
+      "item": "**GlobeLab post timing:** You've got three LinkedIn/Substack concepts in the hopper and genuine momentum. The \"heard it here first\" timestamp logic is strongest when you actually publish \u2014 sitting on it too long erodes that edge.",
       "daysShown": 1,
-      "lastChanged": "2026-07-25"
+      "lastChanged": "2026-07-26"
     },
     {
-      "item": "**Trade deadline Aug 3:** Yankees are reportedly in position to make big moves. With Fried healthy, Gerrit Cole healthy, and top prospect George Lombard Jr. on a multi-game hit streak \u2014 the Bombers look primed for a second-half run heading into the stretch.",
+      "item": "**Props To You / side projects:** With Glen back for three weeks and social life about to pick up, carve out at least one morning this week for the writing you want to get done before life fills the calendar.",
       "daysShown": 1,
-      "lastChanged": "2026-07-25"
+      "lastChanged": "2026-07-26"
     }
   ],
-  "lastSentDate": "2026-07-25",
+  "lastSentDate": "2026-07-26",
   "last_model_upgrade": null
 }
