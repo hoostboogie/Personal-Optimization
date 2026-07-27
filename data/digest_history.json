@@ -114,6 +114,11 @@
       "text": "The question is not what you look at, but what you see.",
       "author": "Henry David Thoreau*",
       "date": "2026-07-23"
+    },
+    {
+      "text": "Act as if what you do makes a difference. It does.",
+      "author": "William James*",
+      "date": "2026-07-27"
     }
   ],
   "jokes": [
@@ -212,6 +217,10 @@
     {
       "text": "I booked a quiet weekend in the countryside to escape my to-do list. Turns out my to-do list had already checked in.\n\n---\nSunday, 26 July 2026",
       "date": "2026-07-26"
+    },
+    {
+      "text": "I tried to write a joke about Mondays. It kept pushing itself to Thursday.\n\n---\nMonday, 27 July 2026",
+      "date": "2026-07-27"
     }
   ],
   "funFacts": [
@@ -326,6 +335,10 @@
     {
       "text": "The Cotswolds village of Bourton-on-the-Water is sometimes called \"the Venice of the Cotswolds\" \u2014 but here's the genuinely strange bit: the River Windrush running through it is so shallow you can padd",
       "date": "2026-07-26"
+    },
+    {
+      "text": "The MK Dons \u2014 Arsenal's pre-season opponents yesterday \u2014 take their unusual name from a genuinely strange piece of football history: \"MK\" stands for Milton Keynes, a planned city built in the 1960s de",
+      "date": "2026-07-27"
     }
   ],
   "envNews": [
@@ -456,6 +469,10 @@
     {
       "summary": "Forward contract values in the voluntary carbon market rose 58% year-on-year to $5.8 billion, signalling strong appetite to secure future removals \u2014 and nature-based solutions attracted a record $9 bi",
       "date": "2026-07-26"
+    },
+    {
+      "summary": "A major technical update to the Science Based Targets for Nature framework \u2014 covering land, freshwater, and ocean commitments \u2014 is due in mid-2026, expanding science-based guidance well beyond carbon ",
+      "date": "2026-07-27"
     }
   ],
   "newConcepts": [
@@ -614,25 +631,29 @@
     {
       "term": "Core Carbon Principles (CCP) Labelling",
       "date": "2026-07-26"
+    },
+    {
+      "term": "Product Carbon Footprint (PCF)",
+      "date": "2026-07-27"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Cedara + ANZ scanner:** The biweekly 09:00 nudge is a good forcing function \u2014 the framing of a Claude-powered media-sustainability scanner is genuinely differentiated. Even a one-pager this week would move it from idea to artefact.",
+      "item": "**Props To You / writing pipeline** \u2014 the 14:00 LinkedIn slot is a good forcing function. If the MW video post goes out today, treat that as the creative win for the day and protect the rest of the afternoon for Cedara work.",
       "daysShown": 1,
-      "lastChanged": "2026-07-26"
+      "lastChanged": "2026-07-27"
     },
     {
-      "item": "**GlobeLab post timing:** You've got three LinkedIn/Substack concepts in the hopper and genuine momentum. The \"heard it here first\" timestamp logic is strongest when you actually publish \u2014 sitting on it too long erodes that edge.",
+      "item": "**Pre-season is live** \u2014 Arsenal beat MK Dons in their opener and the Vinicius Junior saga is heating up fast. The transfer window shuts before the season starts \u2014 worth keeping an eye on how the squad shapes up over the next few weeks.",
       "daysShown": 1,
-      "lastChanged": "2026-07-26"
+      "lastChanged": "2026-07-27"
     },
     {
-      "item": "**Props To You / side projects:** With Glen back for three weeks and social life about to pick up, carve out at least one morning this week for the writing you want to get done before life fills the calendar.",
+      "item": "**US mail forwarding ending** \u2014 if you haven't already updated key contacts (banks, subscriptions, family logistics) with your London address, that USPS notice is your signal. Ted and the family in NJ can also help catch anything that slips through.",
       "daysShown": 1,
-      "lastChanged": "2026-07-26"
+      "lastChanged": "2026-07-27"
     }
   ],
-  "lastSentDate": "2026-07-26",
+  "lastSentDate": "2026-07-27",
   "last_model_upgrade": null
 }
