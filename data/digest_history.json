@@ -221,6 +221,10 @@
     {
       "text": "I tried to write a joke about Mondays. It kept pushing itself to Thursday.\n\n---\nMonday, 27 July 2026",
       "date": "2026-07-27"
+    },
+    {
+      "text": "I tried to explain carbon insetting to someone at a dinner party. They nodded politely for six minutes and then asked if I wanted more bread.\n\n---\nTuesday, 28 July 2026",
+      "date": "2026-07-28"
     }
   ],
   "funFacts": [
@@ -339,6 +343,10 @@
     {
       "text": "The MK Dons \u2014 Arsenal's pre-season opponents yesterday \u2014 take their unusual name from a genuinely strange piece of football history: \"MK\" stands for Milton Keynes, a planned city built in the 1960s de",
       "date": "2026-07-27"
+    },
+    {
+      "text": "Novak Djokovic has now hinted that his retirement \"may come quick,\" according to a recent interview \u2014 which means we may be watching the final chapter of the most decorated men's singles career in ten",
+      "date": "2026-07-28"
     }
   ],
   "envNews": [
@@ -473,6 +481,10 @@
     {
       "summary": "A major technical update to the Science Based Targets for Nature framework \u2014 covering land, freshwater, and ocean commitments \u2014 is due in mid-2026, expanding science-based guidance well beyond carbon ",
       "date": "2026-07-27"
+    },
+    {
+      "summary": "Predictive maintenance powered by next-generation ML is moving from mere anomaly detection to root-cause analyses, reducing industrial downtime by up to 40% \u2014 a quiet but meaningful efficiency gain th",
+      "date": "2026-07-28"
     }
   ],
   "newConcepts": [
@@ -635,25 +647,29 @@
     {
       "term": "Product Carbon Footprint (PCF)",
       "date": "2026-07-27"
+    },
+    {
+      "term": "Explainable AI (XAI)",
+      "date": "2026-07-28"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Props To You / writing pipeline** \u2014 the 14:00 LinkedIn slot is a good forcing function. If the MW video post goes out today, treat that as the creative win for the day and protect the rest of the afternoon for Cedara work.",
+      "item": "**Climate Week NYC (September):** The 2026 midterms are shaping up to be a significant political moment \u2014 and Climate Week NYC is less than 60 days out, per the Alec Turnbull/Sonam Velani email. A good Cedara moment to plan around.",
       "daysShown": 1,
-      "lastChanged": "2026-07-27"
+      "lastChanged": "2026-07-28"
     },
     {
-      "item": "**Pre-season is live** \u2014 Arsenal beat MK Dons in their opener and the Vinicius Junior saga is heating up fast. The transfer window shuts before the season starts \u2014 worth keeping an eye on how the squad shapes up over the next few weeks.",
+      "item": "**Arsenal transfer window:** The Barcola and Guimar\u00e3es pursuits are both live and moving fast \u2014 worth keeping an eye on today given how quickly summer windows move in late July.",
       "daysShown": 1,
-      "lastChanged": "2026-07-27"
+      "lastChanged": "2026-07-28"
     },
     {
-      "item": "**US mail forwarding ending** \u2014 if you haven't already updated key contacts (banks, subscriptions, family logistics) with your London address, that USPS notice is your signal. Ted and the family in NJ can also help catch anything that slips through.",
+      "item": "**Props To You / Dev:** Nicholas's code snippet and the Supabase pause warning both landed today \u2014 worth a 10-minute block to handle both before the project loses state.",
       "daysShown": 1,
-      "lastChanged": "2026-07-27"
+      "lastChanged": "2026-07-28"
     }
   ],
-  "lastSentDate": "2026-07-27",
+  "lastSentDate": "2026-07-28",
   "last_model_upgrade": null
 }
