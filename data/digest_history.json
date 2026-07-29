@@ -119,6 +119,11 @@
       "text": "Act as if what you do makes a difference. It does.",
       "author": "William James*",
       "date": "2026-07-27"
+    },
+    {
+      "text": "A year from now you may wish you had started today.",
+      "author": "Karen Lamb*",
+      "date": "2026-07-29"
     }
   ],
   "jokes": [
@@ -225,6 +230,10 @@
     {
       "text": "I tried to explain carbon insetting to someone at a dinner party. They nodded politely for six minutes and then asked if I wanted more bread.\n\n---\nTuesday, 28 July 2026",
       "date": "2026-07-28"
+    },
+    {
+      "text": "I tried to organise a blood donation. Turns out the whole thing was a bit draining.\n\n---\nWednesday, 29 July 2026",
+      "date": "2026-07-29"
     }
   ],
   "funFacts": [
@@ -347,6 +356,10 @@
     {
       "text": "Novak Djokovic has now hinted that his retirement \"may come quick,\" according to a recent interview \u2014 which means we may be watching the final chapter of the most decorated men's singles career in ten",
       "date": "2026-07-28"
+    },
+    {
+      "text": "The cotinus \u2014 the smoke bush you're bagging this morning \u2014 gets its name not from its leaves but from its flower stalks: after blooming, the stalks elongate into feathery, smoke-like plumes of fine ha",
+      "date": "2026-07-29"
     }
   ],
   "envNews": [
@@ -485,6 +498,10 @@
     {
       "summary": "Predictive maintenance powered by next-generation ML is moving from mere anomaly detection to root-cause analyses, reducing industrial downtime by up to 40% \u2014 a quiet but meaningful efficiency gain th",
       "date": "2026-07-28"
+    },
+    {
+      "summary": "The UK's voluntary carbon market is seeing renewed institutional confidence: in 2026, the industry is shifting from searching for \"the\" single solution toward building diversified, accountable data an",
+      "date": "2026-07-29"
     }
   ],
   "newConcepts": [
@@ -651,25 +668,29 @@
     {
       "term": "Explainable AI (XAI)",
       "date": "2026-07-28"
+    },
+    {
+      "term": "Identity Graph (First-Party)",
+      "date": "2026-07-29"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Climate Week NYC (September):** The 2026 midterms are shaping up to be a significant political moment \u2014 and Climate Week NYC is less than 60 days out, per the Alec Turnbull/Sonam Velani email. A good Cedara moment to plan around.",
+      "item": "**Props To You / Supabase:** Your DevPropsToYou Supabase project has been auto-paused due to inactivity on the free tier \u2014 if you need it live for today's dashboard build session, wake it up before 16:00 or factor in a migration/rebuild.",
       "daysShown": 1,
-      "lastChanged": "2026-07-28"
+      "lastChanged": "2026-07-29"
     },
     {
-      "item": "**Arsenal transfer window:** The Barcola and Guimar\u00e3es pursuits are both live and moving fast \u2014 worth keeping an eye on today given how quickly summer windows move in late July.",
+      "item": "**Climate Week NYC is <60 days away:** You've been in touch with Greenplaces and others around it \u2014 worth sketching out which events to target while the early-bird list is still thin.",
       "daysShown": 1,
-      "lastChanged": "2026-07-28"
+      "lastChanged": "2026-07-29"
     },
     {
-      "item": "**Props To You / Dev:** Nicholas's code snippet and the Supabase pause warning both landed today \u2014 worth a 10-minute block to handle both before the project loses state.",
+      "item": "**Trade deadline is August 3:** Yankees are 2.5 games back of Tampa \u2014 if you want to follow the deadline action (and have something to talk about with Ted), now's the week to tune in.",
       "daysShown": 1,
-      "lastChanged": "2026-07-28"
+      "lastChanged": "2026-07-29"
     }
   ],
-  "lastSentDate": "2026-07-28",
+  "lastSentDate": "2026-07-29",
   "last_model_upgrade": null
 }
