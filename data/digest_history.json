@@ -234,6 +234,10 @@
     {
       "text": "I tried to organise a blood donation. Turns out the whole thing was a bit draining.\n\n---\nWednesday, 29 July 2026",
       "date": "2026-07-29"
+    },
+    {
+      "text": "I tried to come up with a concept for a new app. My AI assistant loved the idea and said it was already building it.\n\n---\nThursday, 30 July 2026",
+      "date": "2026-07-30"
     }
   ],
   "funFacts": [
@@ -360,6 +364,10 @@
     {
       "text": "The cotinus \u2014 the smoke bush you're bagging this morning \u2014 gets its name not from its leaves but from its flower stalks: after blooming, the stalks elongate into feathery, smoke-like plumes of fine ha",
       "date": "2026-07-29"
+    },
+    {
+      "text": "Bees make decisions collectively \u2014 when a swarm is choosing a new hive location, scout bees perform \"waggle dances\" to advocate for their preferred site. The colony essentially holds a democratic vote",
+      "date": "2026-07-30"
     }
   ],
   "envNews": [
@@ -502,6 +510,10 @@
     {
       "summary": "The UK's voluntary carbon market is seeing renewed institutional confidence: in 2026, the industry is shifting from searching for \"the\" single solution toward building diversified, accountable data an",
       "date": "2026-07-29"
+    },
+    {
+      "summary": "M&A accelerated sharply in Q2 2026, with transactions of $100M+ rising 88% in value year over year \u2014 and within that surge, the next wave of opportunity is increasingly centred on data centres, power,",
+      "date": "2026-07-30"
     }
   ],
   "newConcepts": [
@@ -672,25 +684,29 @@
     {
       "term": "Identity Graph (First-Party)",
       "date": "2026-07-29"
+    },
+    {
+      "term": "Continuation Fund",
+      "date": "2026-07-30"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Props To You / Supabase:** Your DevPropsToYou Supabase project has been auto-paused due to inactivity on the free tier \u2014 if you need it live for today's dashboard build session, wake it up before 16:00 or factor in a migration/rebuild.",
+      "item": "**Steph's birthday dinner**: Hard stop at 17:30 is a real one \u2014 don't let the ANZ party run you over. You've got somewhere more important to be.",
       "daysShown": 1,
-      "lastChanged": "2026-07-29"
+      "lastChanged": "2026-07-30"
     },
     {
-      "item": "**Climate Week NYC is <60 days away:** You've been in touch with Greenplaces and others around it \u2014 worth sketching out which events to target while the early-bird list is still thin.",
+      "item": "**Trade deadline context for tonight**: Yankees' MLB trade deadline is August 3rd \u2014 if it comes up over dinner or at the party with any Americans, the Yankees have been eyeing big deadline moves, with prospect Lombard putting himself in the conversation for a call-up.",
       "daysShown": 1,
-      "lastChanged": "2026-07-29"
+      "lastChanged": "2026-07-30"
     },
     {
-      "item": "**Trade deadline is August 3:** Yankees are 2.5 games back of Tampa \u2014 if you want to follow the deadline action (and have something to talk about with Ted), now's the week to tune in.",
+      "item": "**Contract signing**: The Adobe Acrobat Sign reminder is a fixed-term contract in your name \u2014 don't let this slip past today given the ANZ party and Steph's birthday dinner both eating into the afternoon/evening.",
       "daysShown": 1,
-      "lastChanged": "2026-07-29"
+      "lastChanged": "2026-07-30"
     }
   ],
-  "lastSentDate": "2026-07-29",
+  "lastSentDate": "2026-07-30",
   "last_model_upgrade": null
 }
