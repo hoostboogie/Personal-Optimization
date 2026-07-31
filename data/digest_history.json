@@ -238,6 +238,10 @@
     {
       "text": "I tried to come up with a concept for a new app. My AI assistant loved the idea and said it was already building it.\n\n---\nThursday, 30 July 2026",
       "date": "2026-07-30"
+    },
+    {
+      "text": "I asked my Friday to be more productive. It said it was already fully booked \u2014 doing nothing at pace.\n\n---\n*Friday, 31 July 2026*",
+      "date": "2026-07-31"
     }
   ],
   "funFacts": [
@@ -368,6 +372,10 @@
     {
       "text": "Bees make decisions collectively \u2014 when a swarm is choosing a new hive location, scout bees perform \"waggle dances\" to advocate for their preferred site. The colony essentially holds a democratic vote",
       "date": "2026-07-30"
+    },
+    {
+      "text": "July 31 is the only date that ends both July and, in a non-leap year, the first seven months of the year with exactly 212 days elapsed \u2014 but here's the stranger bit: in the entire Gregorian calendar, ",
+      "date": "2026-07-31"
     }
   ],
   "envNews": [
@@ -514,6 +522,10 @@
     {
       "summary": "M&A accelerated sharply in Q2 2026, with transactions of $100M+ rising 88% in value year over year \u2014 and within that surge, the next wave of opportunity is increasingly centred on data centres, power,",
       "date": "2026-07-30"
+    },
+    {
+      "summary": "Ukraine and the US signed an agreement for Ukraine to send combat drones to the US for military testing and evaluation \u2014 but the better green note this week: the voluntary carbon market is showing ren",
+      "date": "2026-07-31"
     }
   ],
   "newConcepts": [
@@ -688,25 +700,29 @@
     {
       "term": "Continuation Fund",
       "date": "2026-07-30"
+    },
+    {
+      "term": "Chesterton's Fence",
+      "date": "2026-07-31"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Steph's birthday dinner**: Hard stop at 17:30 is a real one \u2014 don't let the ANZ party run you over. You've got somewhere more important to be.",
+      "item": "**August starts tomorrow**: Last day of July today. If there are any month-end Cedara items \u2014 reporting, pipeline updates, anything that resets on the 1st \u2014 close them out before the Kooks gig tonight.",
       "daysShown": 1,
-      "lastChanged": "2026-07-30"
+      "lastChanged": "2026-07-31"
     },
     {
-      "item": "**Trade deadline context for tonight**: Yankees' MLB trade deadline is August 3rd \u2014 if it comes up over dinner or at the party with any Americans, the Yankees have been eyeing big deadline moves, with prospect Lombard putting himself in the conversation for a call-up.",
+      "item": "**ANZ trade deadline equivalent**: The MLB deadline is Monday, Aug 3 \u2014 if you've been thinking of it as a useful framing for your own ANZ funder pipeline urgency (\"who do we need to move on before the summer quiets?\"), now's the week.",
       "daysShown": 1,
-      "lastChanged": "2026-07-30"
+      "lastChanged": "2026-07-31"
     },
     {
-      "item": "**Contract signing**: The Adobe Acrobat Sign reminder is a fixed-term contract in your name \u2014 don't let this slip past today given the ANZ party and Steph's birthday dinner both eating into the afternoon/evening.",
+      "item": "**Props To You**: There's a magic link / sign-in email from Props To You in your inbox (1d ago) \u2014 if you've been meaning to log in and complete something, now's the moment before the weekend swallows it.",
       "daysShown": 1,
-      "lastChanged": "2026-07-30"
+      "lastChanged": "2026-07-31"
     }
   ],
-  "lastSentDate": "2026-07-30",
+  "lastSentDate": "2026-07-31",
   "last_model_upgrade": null
 }
