@@ -242,6 +242,10 @@
     {
       "text": "I asked my Friday to be more productive. It said it was already fully booked \u2014 doing nothing at pace.\n\n---\n*Friday, 31 July 2026*",
       "date": "2026-07-31"
+    },
+    {
+      "text": "I tried to take a day off from being productive. It went well \u2014 I'd scheduled it in three weeks ago and had a four-point checklist ready.\n\n---\nSaturday, 01 August 2026",
+      "date": "2026-08-01"
     }
   ],
   "funFacts": [
@@ -376,6 +380,10 @@
     {
       "text": "July 31 is the only date that ends both July and, in a non-leap year, the first seven months of the year with exactly 212 days elapsed \u2014 but here's the stranger bit: in the entire Gregorian calendar, ",
       "date": "2026-07-31"
+    },
+    {
+      "text": "The first day of August marks the ancient Celtic harvest festival of Lughnasadh \u2014 one of the four Gaelic seasonal festivals \u2014 which was traditionally celebrated with athletic competitions, horse racin",
+      "date": "2026-08-01"
     }
   ],
   "envNews": [
@@ -526,6 +534,10 @@
     {
       "summary": "Ukraine and the US signed an agreement for Ukraine to send combat drones to the US for military testing and evaluation \u2014 but the better green note this week: the voluntary carbon market is showing ren",
       "date": "2026-07-31"
+    },
+    {
+      "summary": "The share of humanity facing at least 90 days a year of strong heat stress has climbed from 55% to 70% since the 1970s \u2014 which underlines why the news matters: a 2026 Globa\u00efa study using the Universal",
+      "date": "2026-08-01"
     }
   ],
   "newConcepts": [
@@ -704,25 +716,29 @@
     {
       "term": "Chesterton's Fence",
       "date": "2026-07-31"
+    },
+    {
+      "term": "Wet-Bulb Globe Temperature (WBGT)",
+      "date": "2026-08-01"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**August starts tomorrow**: Last day of July today. If there are any month-end Cedara items \u2014 reporting, pipeline updates, anything that resets on the 1st \u2014 close them out before the Kooks gig tonight.",
+      "item": "**Yankees trade deadline is Monday (Aug 3):** With Judge out since May 31 and Bellinger injured, the next 48 hours of Yankee moves will matter. Keep half an eye on it for family chat with Ted and Teddy.",
       "daysShown": 1,
-      "lastChanged": "2026-07-31"
+      "lastChanged": "2026-08-01"
     },
     {
-      "item": "**ANZ trade deadline equivalent**: The MLB deadline is Monday, Aug 3 \u2014 if you've been thinking of it as a useful framing for your own ANZ funder pipeline urgency (\"who do we need to move on before the summer quiets?\"), now's the week.",
+      "item": "**Community Shield is two weeks away (16 Aug, Cardiff):** Arsenal vs Man City \u2014 Arsenal qualified as 2025\u201326 Premier League champions, City as FA Cup winners. Worth keeping an eye on whether you want to watch with anyone. The transfer window is also swinging hard \u2014 Bruno Guimaraes saga is moving fast.",
       "daysShown": 1,
-      "lastChanged": "2026-07-31"
+      "lastChanged": "2026-08-01"
     },
     {
-      "item": "**Props To You**: There's a magic link / sign-in email from Props To You in your inbox (1d ago) \u2014 if you've been meaning to log in and complete something, now's the moment before the weekend swallows it.",
+      "item": "**August = second half of the year, month one:** Good moment to revisit any personal or Cedara goals you set for the year. The cotinus check this morning is a useful metaphor \u2014 some things recover slowly, and that's fine, as long as you're logging it.",
       "daysShown": 1,
-      "lastChanged": "2026-07-31"
+      "lastChanged": "2026-08-01"
     }
   ],
-  "lastSentDate": "2026-07-31",
+  "lastSentDate": "2026-08-01",
   "last_model_upgrade": null
 }
