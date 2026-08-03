@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
-      "author": "James Baldwin*",
-      "date": "2026-06-03"
-    },
-    {
       "text": "The world always seems brighter when you've just made something that wasn't there before.",
       "author": "Neil Gaiman*",
       "date": "2026-06-04"
@@ -124,13 +119,14 @@
       "text": "A year from now you may wish you had started today.",
       "author": "Karen Lamb*",
       "date": "2026-07-29"
+    },
+    {
+      "text": "A surplus of effort could overcome a deficit of confidence.",
+      "author": "Sonia Sotomayor*",
+      "date": "2026-08-03"
     }
   ],
   "jokes": [
-    {
-      "text": "I tried to write a joke about sustainability, but all my good material was recycled.\n\n---\nWednesday, 03 June 2026",
-      "date": "2026-06-03"
-    },
     {
       "text": "I tried to come up with a joke about time \u2014 but I didn't want to waste yours.\n\n---\nThursday, 04 June 2026",
       "date": "2026-06-04"
@@ -250,13 +246,13 @@
     {
       "text": "I tried to book an expedition to the world's largest cave. The form asked about my fitness level. I wrote \"enthusiastic.\" They said that wasn't a hike.\n\n---\nSunday, 02 August 2026",
       "date": "2026-08-02"
+    },
+    {
+      "text": "I started keeping a journal about my finances. Day one: \"spent too much.\" Day two: \"see day one.\"\n\n---\nMonday, 03 August 2026",
+      "date": "2026-08-03"
     }
   ],
   "funFacts": [
-    {
-      "text": "The electric eel isn't actually an eel \u2014 it's more closely related to carp and catfish. It can generate electric shocks of up to 860 volts, making it the most powerful bioelectric generator of any kno",
-      "date": "2026-06-03"
-    },
     {
       "text": "Competitive tennis balls have a lifespan of just 7\u20139 games in professional play before they're swapped out \u2014 meaning a single French Open final can go through upwards of 50 balls. Used balls are typic",
       "date": "2026-06-04"
@@ -392,13 +388,13 @@
     {
       "text": "Hang Son Doong \u2014 the cave you and Mike are plotting to visit \u2014 contains its own weather system. The cave is large enough to generate localised cloud and mist inside it, and has its own jungle: a colla",
       "date": "2026-08-02"
+    },
+    {
+      "text": "Terra Rossa \u2014 the name of your dinner spot tonight \u2014 is Italian for \"red earth,\" and it's also a geological term for the distinctive iron-rich red soil found across the Mediterranean, formed by the we",
+      "date": "2026-08-03"
     }
   ],
   "envNews": [
-    {
-      "summary": "New York and six other states sued over the Trump administration's deal to end an offshore wind project \u2014 a sign that state-level climate advocacy is alive and punching, even when federal policy backt",
-      "date": "2026-06-03"
-    },
     {
       "summary": "The 2026 French Open has brought significant global attention to Roland-Garros \u2014 but the real green story this week: the UN formally endorsed a landmark climate ruling earlier this week, with the best",
       "date": "2026-06-04"
@@ -550,13 +546,13 @@
     {
       "summary": "A global survey across G20 states finds that 72% of respondents believe the most serious forms of environmental harm should be criminalised \u2014 a remarkable level of public consensus that is actively ac",
       "date": "2026-08-02"
+    },
+    {
+      "summary": "The new GHG Protocol Land Sector & Removals guidance introduces the concept of \"property carbon potential,\" while the OECD has moved to standardise the measurement of natural resources in national acc",
+      "date": "2026-08-03"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Attention Metrics (Attention-Based Media Buying)",
-      "date": "2026-06-03"
-    },
     {
       "term": "Contingent Value Right (CVR)",
       "date": "2026-06-04"
@@ -736,25 +732,29 @@
     {
       "term": "Ecocide Law",
       "date": "2026-08-02"
+    },
+    {
+      "term": "Embodied Carbon Accounting",
+      "date": "2026-08-03"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Community Shield in 2 weeks (16 Aug, Cardiff):** Arsenal vs. Man City \u2014 the opener for the 26/27 season. If you want to go, now's the time to sort tickets and logistics with Steph.",
+      "item": "**Community Shield in 13 days.** Arsenal vs. Man City at the Millennium Stadium in Cardiff on 16 August \u2014 the Vini Jr. and Guimar\u00e3es transfer sagas could look very different by then. Keep an eye on window deadline dates.",
       "daysShown": 1,
-      "lastChanged": "2026-08-02"
+      "lastChanged": "2026-08-03"
     },
     {
-      "item": "**Hang Son Doong 2028 window:** The fitness application is the real gate \u2014 today's session with Mike is genuinely productive groundwork, not just daydreaming. If the evidence is thin, a Hang En or Tu Lan booking this autumn is a smart, cheap hedge.",
+      "item": "**The GlobeLab AI post / Substack launch** is sitting on your 14:30 agenda but has broader momentum implications \u2014 if you want to \"timestamp\" the idea (as you put it), today is as good a day as any. The DC Open final resumes at 5pm BST if you need a creative break mid-afternoon.",
       "daysShown": 1,
-      "lastChanged": "2026-08-02"
+      "lastChanged": "2026-08-03"
     },
     {
-      "item": "**Yankees trade deadline is Monday (Aug 3, 6pm ET):** With Judge, Bellinger, and Stanton all out or uncertain, Cashman is active in the market \u2014 worth a quick check-in with Ted and Teddy given how much this affects the playoff picture.",
+      "item": "**NextEra Energy shareholder vote** \u2014 don't let this one slip off the desk. As someone who's divested from fossil fuels and tracks clean energy closely, this one actually matters to your values, not just your portfolio.",
       "daysShown": 1,
-      "lastChanged": "2026-08-02"
+      "lastChanged": "2026-08-03"
     }
   ],
-  "lastSentDate": "2026-08-02",
+  "lastSentDate": "2026-08-03",
   "last_model_upgrade": null
 }
