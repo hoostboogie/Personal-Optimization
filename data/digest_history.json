@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "text": "The world always seems brighter when you've just made something that wasn't there before.",
-      "author": "Neil Gaiman*",
-      "date": "2026-06-04"
-    },
-    {
       "text": "In the middle of every difficulty lies opportunity.",
       "author": "Albert Einstein*",
       "date": "2026-06-06"
@@ -124,13 +119,14 @@
       "text": "A surplus of effort could overcome a deficit of confidence.",
       "author": "Sonia Sotomayor*",
       "date": "2026-08-03"
+    },
+    {
+      "text": "The cure for boredom is curiosity. There is no cure for curiosity.",
+      "author": "Dorothy Parker* (sharp, dry, and definitely not on a motivational poster)",
+      "date": "2026-08-04"
     }
   ],
   "jokes": [
-    {
-      "text": "I tried to come up with a joke about time \u2014 but I didn't want to waste yours.\n\n---\nThursday, 04 June 2026",
-      "date": "2026-06-04"
-    },
     {
       "text": "I used to be indecisive. Now I'm not so sure.\n\n---\nSaturday, 06 June 2026",
       "date": "2026-06-06"
@@ -250,13 +246,13 @@
     {
       "text": "I started keeping a journal about my finances. Day one: \"spent too much.\" Day two: \"see day one.\"\n\n---\nMonday, 03 August 2026",
       "date": "2026-08-03"
+    },
+    {
+      "text": "I tried to write a book about clocks. It was very time-consuming \u2014 but I didn't want to waste a minute on it.\n\n---\nTuesday, 04 August 2026",
+      "date": "2026-08-04"
     }
   ],
   "funFacts": [
-    {
-      "text": "Competitive tennis balls have a lifespan of just 7\u20139 games in professional play before they're swapped out \u2014 meaning a single French Open final can go through upwards of 50 balls. Used balls are typic",
-      "date": "2026-06-04"
-    },
     {
       "text": "A day on Venus is longer than a year on Venus \u2014 it takes about 243 Earth days to rotate once on its axis, but only 225 Earth days to complete a full orbit around the sun. It also spins backwards relat",
       "date": "2026-06-06"
@@ -392,13 +388,13 @@
     {
       "text": "Terra Rossa \u2014 the name of your dinner spot tonight \u2014 is Italian for \"red earth,\" and it's also a geological term for the distinctive iron-rich red soil found across the Mediterranean, formed by the we",
       "date": "2026-08-03"
+    },
+    {
+      "text": "The St. Louis Cardinals \u2014 today's Yankees opponents \u2014 play in a city that sits at almost exactly the geographic centre of the contiguous United States, which is why it was historically called the \"Gat",
+      "date": "2026-08-04"
     }
   ],
   "envNews": [
-    {
-      "summary": "The 2026 French Open has brought significant global attention to Roland-Garros \u2014 but the real green story this week: the UN formally endorsed a landmark climate ruling earlier this week, with the best",
-      "date": "2026-06-04"
-    },
     {
       "summary": "Arsenal are reportedly willing to break their transfer record again \u2014 but more importantly on the green side: the UK climate industry's",
       "date": "2026-06-05"
@@ -550,13 +546,13 @@
     {
       "summary": "The new GHG Protocol Land Sector & Removals guidance introduces the concept of \"property carbon potential,\" while the OECD has moved to standardise the measurement of natural resources in national acc",
       "date": "2026-08-03"
+    },
+    {
+      "summary": "The UK's Science Based Targets for Nature framework update \u2014 covering land, freshwater, and ocean systems \u2014 has moved from guidance to implementation this quarter, with the first cohort of companies f",
+      "date": "2026-08-04"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Contingent Value Right (CVR)",
-      "date": "2026-06-04"
-    },
     {
       "term": "Epistemic Humility",
       "date": "2026-06-05"
@@ -736,25 +732,29 @@
     {
       "term": "Embodied Carbon Accounting",
       "date": "2026-08-03"
+    },
+    {
+      "term": "Multimodal Machine Learning",
+      "date": "2026-08-04"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Community Shield in 13 days.** Arsenal vs. Man City at the Millennium Stadium in Cardiff on 16 August \u2014 the Vini Jr. and Guimar\u00e3es transfer sagas could look very different by then. Keep an eye on window deadline dates.",
+      "item": "**Vinicius saga is moving fast** \u2014 Arsenal's summer could look very different by the weekend. Bruno Guimar\u00e3es arrival reportedly imminent; the Community Shield vs. Man City on August 16 is shaping up as a proper season-opener statement game. Keep an eye on the next 48 hours.",
       "daysShown": 1,
-      "lastChanged": "2026-08-03"
+      "lastChanged": "2026-08-04"
     },
     {
-      "item": "**The GlobeLab AI post / Substack launch** is sitting on your 14:30 agenda but has broader momentum implications \u2014 if you want to \"timestamp\" the idea (as you put it), today is as good a day as any. The DC Open final resumes at 5pm BST if you need a creative break mid-afternoon.",
+      "item": "**Blood test results are in** \u2014 don't let that sit. Five minutes today to open the attachment and read it properly. If anything needs discussing, book the GP slot now while the NHS window is open.",
       "daysShown": 1,
-      "lastChanged": "2026-08-03"
+      "lastChanged": "2026-08-04"
     },
     {
-      "item": "**NextEra Energy shareholder vote** \u2014 don't let this one slip off the desk. As someone who's divested from fossil fuels and tracks clean energy closely, this one actually matters to your values, not just your portfolio.",
+      "item": "**No podcast week: day 2** \u2014 you're meant to be reflective this week, not just consuming. Pick a moment today \u2014 commute, lunch, evening walk \u2014 and actually let your thoughts wander without filling the silence. The intention was to be present, not just quiet.",
       "daysShown": 1,
-      "lastChanged": "2026-08-03"
+      "lastChanged": "2026-08-04"
     }
   ],
-  "lastSentDate": "2026-08-03",
+  "lastSentDate": "2026-08-04",
   "last_model_upgrade": null
 }
