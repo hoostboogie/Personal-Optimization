@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "text": "In the middle of every difficulty lies opportunity.",
-      "author": "Albert Einstein*",
-      "date": "2026-06-06"
-    },
-    {
       "text": "If I lost this final, I maybe would have never won a Slam.",
       "author": "Alexander Zverev, Roland-Garros trophy ceremony, 7 June 2026* (fresh off the press, not a LinkedIn graphic in sight)",
       "date": "2026-06-08"
@@ -133,10 +128,6 @@
   ],
   "jokes": [
     {
-      "text": "I used to be indecisive. Now I'm not so sure.\n\n---\nSaturday, 06 June 2026",
-      "date": "2026-06-06"
-    },
-    {
       "text": "I signed up for a gardening club. The membership fees were steep, but the perks really grew on me.\n\n---\nSunday, 07 June 2026",
       "date": "2026-06-07"
     },
@@ -259,13 +250,13 @@
     {
       "text": "I asked my to-do list if it ever gets shorter. It said it was working on it \u2014 but first it needed to add a few more things.\n\n---\nWednesday, 05 August 2026",
       "date": "2026-08-05"
+    },
+    {
+      "text": "I tried to write a list of things to do today. It was going well \u2014 until the list added itself to the list.\n\n---\nThursday, 06 August 2026",
+      "date": "2026-08-06"
     }
   ],
   "funFacts": [
-    {
-      "text": "A day on Venus is longer than a year on Venus \u2014 it takes about 243 Earth days to rotate once on its axis, but only 225 Earth days to complete a full orbit around the sun. It also spins backwards relat",
-      "date": "2026-06-06"
-    },
     {
       "text": "The French Open's Roland-Garros clay courts are made with a very specific recipe: crushed red brick (from Champagne, naturally) layered over limestone, cinder, and white limestone gravel \u2014 the distinc",
       "date": "2026-06-07"
@@ -405,13 +396,13 @@
     {
       "text": "London's famous \"Big Smoke\" nickname predates cars entirely \u2014 it came from the coal fires burning in Victorian homes and factories, which combined with the Thames fog to create a dense, yellowish smog",
       "date": "2026-08-05"
+    },
+    {
+      "text": "The English city of Coventry \u2014 whose football club Arsenal open their Premier League 2026\u201327 season against \u2014 holds an unusual record: it was the most heavily bombed British city *outside* London duri",
+      "date": "2026-08-06"
     }
   ],
   "envNews": [
-    {
-      "summary": "In 2025, wind and solar energy provided 30% of EU electricity, surpassing fossil power (29%) for the first time, and generating more power than fossil sources in 14 of 27 EU countries \u2014 a milestone co",
-      "date": "2026-06-06"
-    },
     {
       "summary": "The introduction of the EU's CBAM has created a meaningful incentive for other countries to adopt carbon pricing \u2014 researchers have found that countries worldwide have increased their use of carbon pr",
       "date": "2026-06-07"
@@ -563,13 +554,13 @@
     {
       "summary": "Democratic Socialists of America leaders have seen the 2026 primaries bring wins beyond what they dared to hope for \u2014 and on the green front specifically, the voluntary carbon market is showing renewe",
       "date": "2026-08-05"
+    },
+    {
+      "summary": "The Cincinnati Open \u2014 one of the flagship hardcourt events ahead of the US Open \u2014 is drawing attention to quiet sustainability upgrades across the North American tennis swing, with several ATP and WTA",
+      "date": "2026-08-06"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Planetary Energy Imbalance (PEI)",
-      "date": "2026-06-06"
-    },
     {
       "term": "Carbon Border Adjustment Mechanism (CBAM)",
       "date": "2026-06-07"
@@ -749,25 +740,29 @@
     {
       "term": "Attention Metrics (as a Bidding Signal):",
       "date": "2026-08-05"
+    },
+    {
+      "term": "Reverse Termination Fee (RTF)",
+      "date": "2026-08-06"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**No-podcast week intention:** You're mid-week one \u2014 music on the move, present in conversations, news via reading and chat. Tonight's finances talk is a good live example of the principle: fully in it, no distraction.",
+      "item": "**Nile nights tomorrow with Steph** \u2014 calendar accepted, looking good. A nice cap to a full week: lunch celebration, TAB/m Thursday, then a Friday evening out together.",
       "daysShown": 1,
-      "lastChanged": "2026-08-05"
+      "lastChanged": "2026-08-06"
     },
     {
-      "item": "**Community Shield, 16 August, Cardiff:** Arsenal vs. Man City at the Millennium Stadium in Cardiff \u2014 first time that venue hosts the Shield since 2006. Less than two weeks out. Worth thinking about whether you and Steph want to make the trip to Wales for it.",
+      "item": "**Community Shield is 16 August** \u2014 Arsenal vs. Man City in Cardiff. It'll be the first time the Millennium Stadium has hosted the Community Shield since 2006. Ten days out \u2014 worth making a plan to watch.",
       "daysShown": 1,
-      "lastChanged": "2026-08-05"
+      "lastChanged": "2026-08-06"
     },
     {
-      "item": "**Blood donation + blood results combo:** Your GP results arrived yesterday \u2014 skim them before heading to the 10am slot. If anything flags, you can reschedule the donation; NHS guidelines are clear that you should be in good health on the day.",
+      "item": "**No-podcast week intention check** \u2014 the calendar note is explicit: reflect on how things have been going. The Ad Net Zero H1 lunch today is actually a perfect natural inflection point \u2014 half the year done, a team around you, a good moment to take stock of what's working at Cedara and ANZ alike.",
       "daysShown": 1,
-      "lastChanged": "2026-08-05"
+      "lastChanged": "2026-08-06"
     }
   ],
-  "lastSentDate": "2026-08-05",
+  "lastSentDate": "2026-08-06",
   "last_model_upgrade": null
 }
