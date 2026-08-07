@@ -124,13 +124,14 @@
       "text": "The secret of getting ahead is getting started.",
       "author": "Mark Twain* (no framed print required)",
       "date": "2026-08-05"
+    },
+    {
+      "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+      "author": "James Baldwin* (the kind of line that earns its keep)",
+      "date": "2026-08-07"
     }
   ],
   "jokes": [
-    {
-      "text": "I signed up for a gardening club. The membership fees were steep, but the perks really grew on me.\n\n---\nSunday, 07 June 2026",
-      "date": "2026-06-07"
-    },
     {
       "text": "I tried to organise a surprise party for my calendar. It didn't work \u2014 it already knew all the dates.\n\n---\nTuesday, 09 June 2026",
       "date": "2026-06-09"
@@ -254,13 +255,13 @@
     {
       "text": "I tried to write a list of things to do today. It was going well \u2014 until the list added itself to the list.\n\n---\nThursday, 06 August 2026",
       "date": "2026-08-06"
+    },
+    {
+      "text": "I tried to take a mental health day. My brain said it needed more notice \u2014 preferably in writing, with a risk assessment attached.\n\n---\nFriday, 07 August 2026",
+      "date": "2026-08-07"
     }
   ],
   "funFacts": [
-    {
-      "text": "The French Open's Roland-Garros clay courts are made with a very specific recipe: crushed red brick (from Champagne, naturally) layered over limestone, cinder, and white limestone gravel \u2014 the distinc",
-      "date": "2026-06-07"
-    },
     {
       "text": "Mirra Andreeva, at 19, is the youngest woman to lift the Coupe Suzanne Lenglen since Monica Seles in 1992 \u2014 meaning it took 34 years for anyone younger to claim that title. Tennis generations are long",
       "date": "2026-06-09"
@@ -400,13 +401,13 @@
     {
       "text": "The English city of Coventry \u2014 whose football club Arsenal open their Premier League 2026\u201327 season against \u2014 holds an unusual record: it was the most heavily bombed British city *outside* London duri",
       "date": "2026-08-06"
+    },
+    {
+      "text": "August 7th is the date in 1888 that the first revolving door was patented \u2014 by Theophilus Van Kannel in Philadelphia. He invented it not primarily for energy efficiency, but because he hated the socia",
+      "date": "2026-08-07"
     }
   ],
   "envNews": [
-    {
-      "summary": "The introduction of the EU's CBAM has created a meaningful incentive for other countries to adopt carbon pricing \u2014 researchers have found that countries worldwide have increased their use of carbon pr",
-      "date": "2026-06-07"
-    },
     {
       "summary": "The HSBC Championships at Queen's Club \u2014 a combined WTA and ATP 500 event \u2014 is underway in London through 21 June, and the tennis world is buzzing after four British players, including Katie Boulter, ",
       "date": "2026-06-08"
@@ -558,13 +559,13 @@
     {
       "summary": "The Cincinnati Open \u2014 one of the flagship hardcourt events ahead of the US Open \u2014 is drawing attention to quiet sustainability upgrades across the North American tennis swing, with several ATP and WTA",
       "date": "2026-08-06"
+    },
+    {
+      "summary": "A major technical update to the Science Based Targets for Nature framework \u2014 covering land, freshwater, and ocean systems \u2014 has been adopted by a growing number of corporates ahead of the 2026 complia",
+      "date": "2026-08-07"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Carbon Border Adjustment Mechanism (CBAM)",
-      "date": "2026-06-07"
-    },
     {
       "term": "Science-Based Targets initiative (SBTi)",
       "date": "2026-06-08"
@@ -744,25 +745,29 @@
     {
       "term": "Reverse Termination Fee (RTF)",
       "date": "2026-08-06"
+    },
+    {
+      "term": "Double-Loop Learning",
+      "date": "2026-08-07"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Nile nights tomorrow with Steph** \u2014 calendar accepted, looking good. A nice cap to a full week: lunch celebration, TAB/m Thursday, then a Friday evening out together.",
+      "item": "**Financial planning chat** is on today's to-do but not time-blocked. If it's with someone external, ping them to confirm; if it's self-directed, give it a proper 30-minute slot rather than letting it drift into \"will do it this weekend.\"",
       "daysShown": 1,
-      "lastChanged": "2026-08-06"
+      "lastChanged": "2026-08-07"
     },
     {
-      "item": "**Community Shield is 16 August** \u2014 Arsenal vs. Man City in Cardiff. It'll be the first time the Millennium Stadium has hosted the Community Shield since 2006. Ten days out \u2014 worth making a plan to watch.",
+      "item": "**Community Shield in 9 days** \u2014 Arsenal vs. Man City, 16 August at the Millennium Stadium in Cardiff. First time the Shield is at that venue since 2006. Worth getting tickets/plans sorted if you and Steph want to make a trip of it.",
       "daysShown": 1,
-      "lastChanged": "2026-08-06"
+      "lastChanged": "2026-08-07"
     },
     {
-      "item": "**No-podcast week intention check** \u2014 the calendar note is explicit: reflect on how things have been going. The Ad Net Zero H1 lunch today is actually a perfect natural inflection point \u2014 half the year done, a team around you, a good moment to take stock of what's working at Cedara and ANZ alike.",
+      "item": "**Props To You propagation season** \u2014 with soil solarizing on today's list, think ahead to what you want to propagate this autumn. The dracaena (dracyrys) and corner shelf are also on the list \u2014 good day to consolidate the plant corner.",
       "daysShown": 1,
-      "lastChanged": "2026-08-06"
+      "lastChanged": "2026-08-07"
     }
   ],
-  "lastSentDate": "2026-08-06",
+  "lastSentDate": "2026-08-07",
   "last_model_upgrade": null
 }
