@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "text": "If I lost this final, I maybe would have never won a Slam.",
-      "author": "Alexander Zverev, Roland-Garros trophy ceremony, 7 June 2026* (fresh off the press, not a LinkedIn graphic in sight)",
-      "date": "2026-06-08"
-    },
-    {
       "text": "Freedom comes next.",
       "author": "Alexander Zverev, Roland-Garros, June 2026* (said after winning his first Grand Slam \u2014 earned, not recycled)",
       "date": "2026-06-09"
@@ -259,6 +254,10 @@
     {
       "text": "I tried to take a mental health day. My brain said it needed more notice \u2014 preferably in writing, with a risk assessment attached.\n\n---\nFriday, 07 August 2026",
       "date": "2026-08-07"
+    },
+    {
+      "text": "I told someone I was taking a week off podcasts. They said, \"What will you listen to?\" I said, \"My thoughts.\" Long pause. \"\u2026maybe just music.\"\n\n---\nSaturday, 08 August 2026",
+      "date": "2026-08-08"
     }
   ],
   "funFacts": [
@@ -405,13 +404,13 @@
     {
       "text": "August 7th is the date in 1888 that the first revolving door was patented \u2014 by Theophilus Van Kannel in Philadelphia. He invented it not primarily for energy efficiency, but because he hated the socia",
       "date": "2026-08-07"
+    },
+    {
+      "text": "The Millennium Stadium in Cardiff \u2014 where Arsenal face Man City in the Community Shield on 16 August \u2014 was the first stadium in the UK to feature a fully retractable roof. It opened in 1999, and the r",
+      "date": "2026-08-08"
     }
   ],
   "envNews": [
-    {
-      "summary": "The HSBC Championships at Queen's Club \u2014 a combined WTA and ATP 500 event \u2014 is underway in London through 21 June, and the tennis world is buzzing after four British players, including Katie Boulter, ",
-      "date": "2026-06-08"
-    },
     {
       "summary": "Russian teenager Mirra Andreeva won the women's singles trophy at Roland-Garros on Saturday \u2014 and the tournament itself made sustainability headlines: Roland-Garros's clay courts are one of the few ma",
       "date": "2026-06-09"
@@ -563,13 +562,13 @@
     {
       "summary": "A major technical update to the Science Based Targets for Nature framework \u2014 covering land, freshwater, and ocean systems \u2014 has been adopted by a growing number of corporates ahead of the 2026 complia",
       "date": "2026-08-07"
+    },
+    {
+      "summary": "From 2015\u20132024, humans added 11.2 billion tons of carbon to the atmosphere annually \u2014 but the ocean absorbed 29% and the land biosphere 21% of it. The positive note: the 2025 Global Carbon Budget (pub",
+      "date": "2026-08-08"
     }
   ],
   "newConcepts": [
-    {
-      "term": "Science-Based Targets initiative (SBTi)",
-      "date": "2026-06-08"
-    },
     {
       "term": "Retrieval-Augmented Generation (RAG)",
       "date": "2026-06-09"
@@ -749,25 +748,29 @@
     {
       "term": "Double-Loop Learning",
       "date": "2026-08-07"
+    },
+    {
+      "term": "Carbon Sink Saturation",
+      "date": "2026-08-08"
     }
   ],
   "keepInMindHistory": [
     {
-      "item": "**Financial planning chat** is on today's to-do but not time-blocked. If it's with someone external, ping them to confirm; if it's self-directed, give it a proper 30-minute slot rather than letting it drift into \"will do it this weekend.\"",
+      "item": "**GlobeLab AI post** \u2014 you've set aside noon today for this, but the key unresolved question from your own notes is how \"baked\" it needs to be before publishing. The answer is probably: less than you think. Rough and honest beats polished and late for a \"heard it here first\" play.",
       "daysShown": 1,
-      "lastChanged": "2026-08-07"
+      "lastChanged": "2026-08-08"
     },
     {
-      "item": "**Community Shield in 9 days** \u2014 Arsenal vs. Man City, 16 August at the Millennium Stadium in Cardiff. First time the Shield is at that venue since 2006. Worth getting tickets/plans sorted if you and Steph want to make a trip of it.",
+      "item": "**Blood donation** \u2014 the calendar has a question mark on it; if today doesn't work logistically (especially with the boat at 15:30), the NHS lets you book ahead. Don't let it fall off the radar entirely.",
       "daysShown": 1,
-      "lastChanged": "2026-08-07"
+      "lastChanged": "2026-08-08"
     },
     {
-      "item": "**Props To You propagation season** \u2014 with soil solarizing on today's list, think ahead to what you want to propagate this autumn. The dracaena (dracyrys) and corner shelf are also on the list \u2014 good day to consolidate the plant corner.",
+      "item": "**Community Shield is 8 days away (16 Aug, Cardiff)** \u2014 Arsenal vs. Man City, first silverware opportunity of the 2026/27 season. Worth sorting how you're watching it, especially if it clashes with any Steph plans that weekend.",
       "daysShown": 1,
-      "lastChanged": "2026-08-07"
+      "lastChanged": "2026-08-08"
     }
   ],
-  "lastSentDate": "2026-08-07",
+  "lastSentDate": "2026-08-08",
   "last_model_upgrade": null
 }
